@@ -214,7 +214,8 @@ nav{position:fixed;top:3px;left:0;right:0;z-index:900;height:60px;background:rgb
 .about-grid{display:grid;grid-template-columns:1fr 1.4fr;gap:56px;align-items:start}
 @keyframes bobble{0%,100%{transform:translateY(0)}50%{transform:translateY(10px)}}
 @keyframes fade-pulse{0%,100%{opacity:.5}50%{opacity:1}}
-.scroll-hint{position:absolute;bottom:28px;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:6px;cursor:pointer;text-decoration:none}
+.scroll-hint{position:fixed;bottom:88px;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:6px;cursor:pointer;text-decoration:none;z-index:900;transition:opacity .4s,visibility .4s}
+.scroll-hint.hidden{opacity:0;visibility:hidden;pointer-events:none}
 .scroll-hint span{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--orange);animation:fade-pulse 2s ease-in-out infinite}
 .scroll-hint svg{animation:bobble 1.4s ease-in-out infinite;color:var(--orange)}
 .about-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:32px;position:relative;overflow:hidden}
@@ -843,6 +844,8 @@ footer{background:#080808;border-top:1px solid rgba(255,255,255,.04);padding:32p
 // ─── SCROLL PROGRESS ───
 window.addEventListener('scroll',()=>{
   document.getElementById('prog').style.width=(window.scrollY/(document.body.scrollHeight-window.innerHeight)*100)+'%';
+  const hint=document.querySelector('.scroll-hint');
+  if(hint) hint.classList.toggle('hidden', window.scrollY > 80);
 });
 
 // ─── FADE IN ───
