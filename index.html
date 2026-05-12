@@ -698,9 +698,15 @@ footer{background:#080808;border-top:1px solid rgba(255,255,255,.04);padding:32p
             </div>
           </div>
 
-          <div class="field">
-            <label>E-mail <span style="font-weight:400;color:var(--gray2)">(opcional)</span></label>
-            <input type="email" id="sim-email" placeholder="seuemail@gmail.com">
+          <div class="field-row">
+            <div class="field">
+              <label>E-mail <span style="font-weight:400;color:var(--gray2)">(opcional)</span></label>
+              <input type="email" id="sim-email" placeholder="seuemail@gmail.com">
+            </div>
+            <div class="field">
+              <label>CPF</label>
+              <input type="text" id="sim-cpf" placeholder="000.000.000-00" oninput="maskCPF(this)" maxlength="14">
+            </div>
           </div>
 
           <div class="field">
@@ -1097,6 +1103,13 @@ function maskDate(input){
   else if(v.length>2) v=v.slice(0,2)+'/'+v.slice(2);
   input.value=v;
 }
+function maskCPF(input){
+  let v=input.value.replace(/\D/g,'').slice(0,11);
+  if(v.length>9) v=v.slice(0,3)+'.'+v.slice(3,6)+'.'+v.slice(6,9)+'-'+v.slice(9);
+  else if(v.length>6) v=v.slice(0,3)+'.'+v.slice(3,6)+'.'+v.slice(6);
+  else if(v.length>3) v=v.slice(0,3)+'.'+v.slice(3);
+  input.value=v;
+}
 function formatMoney(input){
   let v=input.value.replace(/\D/g,'');
   input.value=v?'R$ '+parseInt(v,10).toLocaleString('pt-BR'):'';
@@ -1128,6 +1141,7 @@ function sendSimToWA(){
   const nome=g('sim-nome').value||'(não informado)';
   const cel=g('sim-cel').value||'(não informado)';
   const nasc=g('sim-nasc').value||'(não informado)';
+  const cpf=g('sim-cpf').value||'(não informado)';
   const email=g('sim-email').value||'(não informado)';
   const prazo=tog('grp-prazo');
   const restricao=tog('grp-restricao');
@@ -1148,6 +1162,7 @@ function sendSimToWA(){
     '👤 *Nome:* '+nome,
     '📱 *Celular:* '+cel,
     '🎂 *Nascimento:* '+nasc,
+    '🪪 *CPF:* '+cpf,
     '📧 *E-mail:* '+email,
     '',
     '⏰ *Quando quer comprar:* '+prazo,
