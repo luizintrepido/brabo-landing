@@ -113,9 +113,9 @@ nav{position:fixed;top:3px;left:0;right:0;z-index:900;height:60px;background:rgb
 .car-card{background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden;transition:border-color .2s,transform .2s;display:flex;flex-direction:column}
 .car-card:hover{border-color:rgba(255,106,0,.4);transform:translateY(-3px)}
 .car-card.hidden{display:none}
-.car-img-wrap{position:relative;overflow:hidden}
-.car-img-wrap img{width:100%;aspect-ratio:16/10;object-fit:cover;filter:brightness(.85);transition:filter .3s,transform .4s;display:block}
-.car-card:hover .car-img-wrap img{filter:brightness(1);transform:scale(1.04)}
+.car-img-wrap{position:relative;overflow:hidden;background:#111;aspect-ratio:4/3}
+.car-img-wrap img{width:100%;height:100%;object-fit:contain;filter:brightness(.95);transition:filter .3s,transform .3s;display:block;position:absolute;inset:0}
+.car-card:hover .car-img-wrap img{filter:brightness(1);transform:scale(1.03)}
 .car-badge{position:absolute;top:10px;left:10px;background:var(--orange);color:#000;font-family:'Bebas Neue',sans-serif;font-size:13px;letter-spacing:.5px;padding:3px 10px;border-radius:4px}
 .car-badge.badge-green{background:var(--green)}
 .car-body{padding:16px;flex:1;display:flex;flex-direction:column;gap:6px}
@@ -822,28 +822,25 @@ function _tipoToCat(tipo) {
 }
 
 function _imgUrl(v) {
-  // fotos é array de file_ids do Google Drive
-  const fotos = v.fotos || v.photos || [];
+  const fotos = v.fotos_drive || v.fotos || v.photos || [];
   if (fotos.length > 0) {
     const id = typeof fotos[0] === 'string' ? fotos[0] : (fotos[0].id || fotos[0].file_id || '');
     if (id) return `https://lh3.googleusercontent.com/d/${id}=s800`;
   }
-  // fallback: campo img direto
   if (v.img) return v.img;
-  // imagem de preparação do repo
   return `${CATALOGO_BASE}/em-preparacao.jpg`;
 }
 
 function _buildCard(v, idx) {
   const delay = idx % 3 === 1 ? ' d1' : idx % 3 === 2 ? ' d2' : '';
-  const slug = v.slug || v.id;
-  const linkCatalogo = `${CATALOGO_BASE}/carros/${slug}`;
+  const linkCatalogo = v.url_original || `${CATALOGO_BASE}/carros/${v.slug || v.id}`;
   const nomeCarro = `${v.marca} ${v.modelo}${v.ano ? ' '+v.ano : ''}`;
   const kmFmt = v.km ? Number(v.km).toLocaleString('pt-BR')+' km' : null;
   const detalhe = [v.ano, kmFmt].filter(Boolean).join(' · ');
   const precoFmt = v.preco ? 'R$ '+Number(v.preco).toLocaleString('pt-BR') : 'Consulte';
   const parc = v.preco ? `ou a partir de ${_parcela(v.preco)}/mês*` : '';
   const imgSrc = _imgUrl(v);
+  const waNum = v.whatsapp || '5513996040166';
   const waMsg = encodeURIComponent(`Oi Luiz, tenho interesse no ${nomeCarro} por ${precoFmt}! Pode me dar mais informações? ${linkCatalogo}`);
 
   return `
@@ -861,7 +858,7 @@ function _buildCard(v, idx) {
       ${parc ? `<div class="car-price-note">${parc}</div>` : ''}
       <div class="car-btns">
         <a href="${linkCatalogo}" target="_blank" rel="noopener" class="btn btn-outline btn-sm">🔗 Ver detalhes</a>
-        <a href="https://wa.me/5513996040166?text=${waMsg}" target="_blank" class="btn btn-wa-full btn-sm">💬 Tenho interesse</a>
+        <a href="https://wa.me/${waNum}?text=${waMsg}" target="_blank" class="btn btn-wa-full btn-sm">💬 Tenho interesse</a>
       </div>
     </div>
   </div>`;
