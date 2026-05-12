@@ -251,6 +251,34 @@ footer{background:#080808;border-top:1px solid rgba(255,255,255,.04);padding:32p
 
 /* ── LIGHTBOX ── */
 .lb{display:none;position:fixed;inset:0;background:rgba(0,0,0,.92);z-index:9998;align-items:center;justify-content:center}
+
+/* ── MODAL CARRO ── */
+#car-modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:9997;align-items:center;justify-content:center;padding:16px;backdrop-filter:blur(6px)}
+#car-modal.open{display:flex}
+.cm-box{background:#161616;border:1px solid rgba(255,106,0,.2);border-radius:14px;max-width:900px;width:100%;max-height:92vh;overflow-y:auto;display:grid;grid-template-columns:1fr 1fr;position:relative}
+.cm-gallery{background:#111;border-radius:14px 0 0 14px;position:relative;min-height:320px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.cm-gallery img{width:100%;height:100%;object-fit:contain;max-height:480px}
+.cm-nav{position:absolute;top:50%;transform:translateY(-50%);background:rgba(0,0,0,.55);border:none;color:#fff;font-size:22px;width:38px;height:38px;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .2s}
+.cm-nav:hover{background:rgba(255,106,0,.7)}
+.cm-prev{left:8px}.cm-next{right:8px}
+.cm-dots{position:absolute;bottom:10px;left:50%;transform:translateX(-50%);display:flex;gap:5px}
+.cm-dot{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.35);cursor:pointer;transition:background .2s}
+.cm-dot.active{background:var(--orange)}
+.cm-info{padding:28px 28px 24px;display:flex;flex-direction:column;gap:10px;overflow-y:auto}
+.cm-close{position:absolute;top:14px;right:16px;background:rgba(255,255,255,.07);border:none;color:#fff;font-size:20px;width:34px;height:34px;border-radius:50%;cursor:pointer;z-index:2;display:flex;align-items:center;justify-content:center}
+.cm-close:hover{background:rgba(255,106,0,.4)}
+.cm-badge{font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--orange);font-family:'Barlow Condensed',sans-serif}
+.cm-name{font-family:'Bebas Neue',sans-serif;font-size:30px;line-height:1;color:#f5f5f5;letter-spacing:.5px}
+.cm-versao{font-size:13px;color:#777}
+.cm-specs{display:grid;grid-template-columns:1fr 1fr;gap:6px 16px;margin:4px 0}
+.cm-spec{font-size:13px;color:#999}.cm-spec strong{color:#ddd;display:block;font-size:14px}
+.cm-price{font-family:'Bebas Neue',sans-serif;font-size:38px;color:var(--orange);letter-spacing:1px;line-height:1}
+.cm-parc{font-size:12px;color:#666;margin-top:-4px}
+.cm-btns{display:flex;flex-direction:column;gap:10px;margin-top:8px}
+.cm-link{text-align:center;font-size:12px;color:#555;margin-top:4px}
+.cm-link a{color:var(--orange);text-decoration:none}
+.cm-link a:hover{text-decoration:underline}
+@media(max-width:640px){.cm-box{grid-template-columns:1fr}.cm-gallery{border-radius:14px 14px 0 0;min-height:220px}.cm-gallery img{max-height:240px}}
 .lb.on{display:flex}
 .lb img{max-width:90vw;max-height:88vh;border-radius:8px;object-fit:contain}
 .lb-x{position:absolute;top:16px;right:24px;font-size:38px;color:#fff;cursor:pointer;background:none;border:none;opacity:.7;transition:opacity .2s}
@@ -478,6 +506,29 @@ footer{background:#080808;border-top:1px solid rgba(255,255,255,.04);padding:32p
 <div class="lb" id="lb" onclick="closeLb()">
   <button class="lb-x" onclick="closeLb()">×</button>
   <img id="lb-img" src="" alt="">
+</div>
+
+<!-- MODAL DETALHES DO CARRO -->
+<div id="car-modal" onclick="e=>e.target===this&&closeCar()">
+  <div class="cm-box">
+    <button class="cm-close" onclick="closeCar()">×</button>
+    <div class="cm-gallery">
+      <img id="cm-img" src="" alt="">
+      <button class="cm-nav cm-prev" onclick="cmNav(-1)">‹</button>
+      <button class="cm-nav cm-next" onclick="cmNav(1)">›</button>
+      <div class="cm-dots" id="cm-dots"></div>
+    </div>
+    <div class="cm-info">
+      <div class="cm-badge" id="cm-badge"></div>
+      <div class="cm-name" id="cm-name"></div>
+      <div class="cm-versao" id="cm-versao"></div>
+      <div class="cm-specs" id="cm-specs"></div>
+      <div class="cm-price" id="cm-price"></div>
+      <div class="cm-parc" id="cm-parc"></div>
+      <div class="cm-btns" id="cm-btns"></div>
+      <div class="cm-link">Ver estoque completo no <a href="https://luizintrepido.github.io/catalogo-brabo/" target="_blank">Catálogo Brabo →</a></div>
+    </div>
+  </div>
 </div>
 
 <!-- JORNADA -->
@@ -797,6 +848,76 @@ document.querySelectorAll('.fi').forEach(el=>io.observe(el));
 // ─── LIGHTBOX ───
 function openLb(el){document.getElementById('lb-img').src=el.querySelector('img').src;document.getElementById('lb').classList.add('on');}
 function closeLb(){document.getElementById('lb').classList.remove('on');}
+
+// ─── MODAL CARRO ───
+let _cmFotos = [];
+let _cmIdx   = 0;
+let _cmCar   = null;
+
+function openCar(v) {
+  _cmCar   = v;
+  _cmFotos = (v.fotos_drive || []).map(id => `https://lh3.googleusercontent.com/d/${id}=s800`);
+  if (!_cmFotos.length) _cmFotos = [`${CATALOGO_BASE}/em-preparacao.jpg`];
+  _cmIdx = 0;
+
+  // Preenche dados
+  document.getElementById('cm-badge').textContent  = v.loja || 'Seminovo';
+  document.getElementById('cm-name').textContent   = `${v.marca} ${v.modelo}`;
+  document.getElementById('cm-versao').textContent = v.versao || '';
+
+  const specs = [
+    {l:'Ano', v: v.ano || '—'},
+    {l:'KM',  v: v.km  ? Number(v.km).toLocaleString('pt-BR')+' km' : '—'},
+    {l:'Câmbio', v: v.cambio || '—'},
+    {l:'Combustível', v: v.combustivel || '—'},
+    {l:'Cor', v: v.cor || '—'},
+    {l:'Loja', v: v.loja || '—'},
+  ];
+  document.getElementById('cm-specs').innerHTML = specs.map(s =>
+    `<div class="cm-spec"><strong>${s.v}</strong>${s.l}</div>`).join('');
+
+  const precoFmt = v.preco ? 'R$ '+Number(v.preco).toLocaleString('pt-BR') : 'Consulte';
+  document.getElementById('cm-price').textContent = precoFmt;
+  document.getElementById('cm-parc').textContent  = v.preco ? `ou ${_parcela(v.preco)}/mês em 60x*` : '';
+
+  const waNum = v.whatsapp || '5513991575019';
+  const waMsg = encodeURIComponent(`Oi Luiz, tenho interesse no ${v.marca} ${v.modelo} ${v.ano||''} por ${precoFmt}! Pode me dar mais informações?`);
+  document.getElementById('cm-btns').innerHTML = `
+    <a href="https://wa.me/${waNum}?text=${waMsg}" target="_blank" class="btn btn-wa-full btn-md">💬 Tenho interesse</a>
+    <a href="#simulador" onclick="closeCar()" class="btn btn-outline btn-md" style="text-align:center">📊 Simular financiamento</a>`;
+
+  _cmRender();
+  document.getElementById('car-modal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function _cmRender() {
+  document.getElementById('cm-img').src = _cmFotos[_cmIdx];
+  const dots = document.getElementById('cm-dots');
+  if (_cmFotos.length > 1) {
+    dots.innerHTML = _cmFotos.map((_, i) =>
+      `<div class="cm-dot${i===_cmIdx?' active':''}" onclick="cmGo(${i})"></div>`).join('');
+  } else {
+    dots.innerHTML = '';
+  }
+}
+
+function cmNav(dir) {
+  _cmIdx = (_cmIdx + dir + _cmFotos.length) % _cmFotos.length;
+  _cmRender();
+}
+
+function cmGo(i) { _cmIdx = i; _cmRender(); }
+
+function closeCar() {
+  document.getElementById('car-modal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+document.getElementById('car-modal').addEventListener('click', function(e) {
+  if (e.target === this) closeCar();
+});
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeCar(); });
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeLb();});
 
 // ─── STOCK DINÂMICO — catalogo-brabo ───
@@ -843,8 +964,9 @@ function _buildCard(v, idx) {
   const waNum = v.whatsapp || '5513991575019';
   const waMsg = encodeURIComponent(`Oi Luiz, tenho interesse no ${nomeCarro} por ${precoFmt}! Pode me dar mais informações? ${linkCatalogo}`);
 
+  const carJson = JSON.stringify(v).replace(/'/g,"&#39;").replace(/"/g,'&quot;');
   return `
-  <div class="car-card fi${delay}" data-cat="${_tipoToCat(v.tipo)}">
+  <div class="car-card fi${delay}" data-cat="${_tipoToCat(v.tipo)}" onclick="_openCardCar(this)" style="cursor:pointer">
     <div class="car-img-wrap">
       <img src="${imgSrc}" alt="${v.marca} ${v.modelo}" loading="lazy"
            onerror="this.src='${CATALOGO_BASE}/em-preparacao.jpg'">
@@ -857,10 +979,11 @@ function _buildCard(v, idx) {
       <div class="car-price">${precoFmt}</div>
       ${parc ? `<div class="car-price-note">${parc}</div>` : ''}
       <div class="car-btns">
-        <a href="${linkCatalogo}" target="_blank" rel="noopener" class="btn btn-outline btn-sm">🔗 Ver detalhes</a>
-        <a href="https://wa.me/${waNum}?text=${waMsg}" target="_blank" class="btn btn-wa-full btn-sm">💬 Tenho interesse</a>
+        <button class="btn btn-outline btn-sm" onclick="event.stopPropagation();_openCardCar(this.closest('.car-card'))">🔍 Ver detalhes</button>
+        <a href="https://wa.me/${waNum}?text=${waMsg}" target="_blank" class="btn btn-wa-full btn-sm" onclick="event.stopPropagation()">💬 Tenho interesse</a>
       </div>
     </div>
+    <script type="application/json" class="car-data">${JSON.stringify(v)}</script>
   </div>`;
 }
 
@@ -901,6 +1024,13 @@ async function loadStock() {
       <a href="https://wa.me/5513991575019" style="color:#FF6A00">Fale com o Luiz</a> para ver os carros disponíveis.
     </div>`;
   }
+}
+
+function _openCardCar(card) {
+  try {
+    const json = card.querySelector('script.car-data').textContent;
+    openCar(JSON.parse(json));
+  } catch(e) { console.error(e); }
 }
 
 document.getElementById('stock-filters').addEventListener('click', e => {
