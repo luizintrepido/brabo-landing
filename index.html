@@ -1,0 +1,1061 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>O Brabo das Vendas | Compre seu carro do jeito certo</title>
+<meta name="description" content="Simule seu financiamento, veja o estoque e fale com o Brabo. Grupo Reauto Veículos, 41 anos de mercado, 6 lojas na Baixada Santista.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@500;600;700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --orange:#FF6A00;
+  --orange-light:#ff8533;
+  --gold:#D4AF37;
+  --black:#0a0a0a;
+  --black2:#111;
+  --card:#161616;
+  --card2:#1c1c1c;
+  --border:rgba(255,106,0,.13);
+  --white:#f5f5f5;
+  --gray:#999;
+  --gray2:#666;
+  --green:#25D366;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--black);color:var(--white);font-family:'Barlow',sans-serif;font-size:16px;line-height:1.6;overflow-x:hidden}
+
+/* ── PROGRESS ── */
+#prog{position:fixed;top:0;left:0;height:3px;width:0;background:var(--orange);z-index:9999;transition:width .1s}
+
+/* ── NAV ── */
+nav{position:fixed;top:3px;left:0;right:0;z-index:900;height:60px;background:rgba(10,10,10,.95);border-bottom:1px solid var(--border);backdrop-filter:blur(14px);display:flex;align-items:center;justify-content:space-between;padding:0 24px;gap:16px}
+.nav-logo{font-family:'Bebas Neue',sans-serif;font-size:19px;letter-spacing:1px;color:var(--white);flex-shrink:0}
+.nav-logo span{color:var(--orange)}
+.nav-links{display:flex;gap:18px;list-style:none;align-items:center;margin-left:auto}
+.nav-links a{color:var(--gray);text-decoration:none;font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;transition:color .2s;white-space:nowrap}
+.nav-links a:hover{color:var(--orange)}
+.nav-pill{background:var(--orange);color:#000!important;padding:7px 16px;border-radius:4px;font-weight:700!important}
+.nav-wa{background:var(--green)!important;color:#000!important;padding:7px 16px;border-radius:4px}
+
+/* ── UTILS ── */
+.wrap{max-width:1100px;margin:0 auto;padding:0 24px}
+.wrap-sm{max-width:760px;margin:0 auto;padding:0 24px}
+.sec{padding:80px 24px}
+.tag{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--orange);display:block;margin-bottom:12px}
+.h1{font-family:'Bebas Neue',sans-serif;font-size:clamp(42px,7vw,88px);line-height:.95;letter-spacing:.5px}
+.h2{font-family:'Bebas Neue',sans-serif;font-size:clamp(34px,4.5vw,62px);line-height:1}
+.h2 em{font-style:normal;color:var(--orange)}
+.h3{font-family:'Barlow Condensed',sans-serif;font-size:22px;font-weight:700;text-transform:uppercase;letter-spacing:.5px}
+.lead{font-size:17px;color:var(--gray);line-height:1.8}
+.bar{width:48px;height:3px;background:var(--orange);margin:18px 0 28px}
+
+/* ── BUTTONS ── */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-family:'Barlow Condensed',sans-serif;font-weight:700;letter-spacing:.8px;text-transform:uppercase;border-radius:5px;text-decoration:none;transition:all .2s;cursor:pointer;border:none;white-space:nowrap}
+.btn-lg{font-size:18px;padding:16px 34px}
+.btn-md{font-size:16px;padding:13px 26px}
+.btn-sm{font-size:14px;padding:10px 20px}
+.btn-orange{background:var(--orange);color:#000}.btn-orange:hover{background:var(--orange-light);transform:translateY(-2px)}
+.btn-outline{border:2px solid rgba(255,106,0,.45);color:var(--white);background:transparent}.btn-outline:hover{border-color:var(--orange);color:var(--orange)}
+.btn-wa-full{background:var(--green);color:#000}.btn-wa-full:hover{background:#20ba57;transform:translateY(-2px)}
+.btn-catalog{border:2px solid var(--orange);color:var(--orange);background:transparent;font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:1.5px;padding:15px 36px}.btn-catalog:hover{background:var(--orange);color:#000;transform:translateY(-2px)}
+
+/* ── TRUST STRIP ── */
+.strip{width:100vw;margin-left:calc(-50vw + 50%);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:14px 0;overflow:hidden}
+.strip-track{display:flex;gap:40px;animation:scroll-l 24s linear infinite;width:max-content}
+.strip-item{display:flex;align-items:center;gap:8px;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--gray);white-space:nowrap}
+.strip-dot{width:5px;height:5px;border-radius:50%;background:var(--orange);flex-shrink:0}
+@keyframes scroll-l{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* ── HERO ── */
+.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:100px 24px 56px;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 80% 60% at 50% 40%,rgba(255,106,0,.07) 0%,transparent 70%);pointer-events:none}
+.hero-eye{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--orange);display:flex;align-items:center;gap:10px;margin-bottom:20px}
+.hero-eye::before,.hero-eye::after{content:'';width:32px;height:1px;background:var(--orange);opacity:.5}
+.hero .h1 span{color:var(--orange);display:block}
+.hero .lead{max-width:500px;margin:18px auto 36px}
+.hero-btns{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-bottom:52px}
+
+/* ── JORNADA VISUAL ── */
+.journey{background:var(--black2);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.journey-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;position:relative}
+.journey-step{background:var(--card);padding:36px 24px;text-align:center;position:relative;overflow:hidden;transition:background .2s}
+.journey-step:hover{background:var(--card2)}
+.journey-step::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--orange);transform:scaleX(0);transition:transform .3s;transform-origin:left}
+.journey-step:hover::before{transform:scaleX(1)}
+.journey-step:first-child{border-radius:8px 0 0 8px}
+.journey-step:last-child{border-radius:0 8px 8px 0}
+.j-num{font-family:'Bebas Neue',sans-serif;font-size:48px;color:rgba(255,106,0,.1);line-height:1;position:absolute;top:12px;right:16px}
+.j-ico{font-size:32px;margin-bottom:14px;display:block}
+.j-title{font-family:'Barlow Condensed',sans-serif;font-size:18px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--white);margin-bottom:8px}
+.j-desc{font-size:13px;color:var(--gray);line-height:1.6}
+
+/* ── STATS ── */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;margin:0 0 72px}
+.stat{background:var(--card);padding:32px 20px;text-align:center;position:relative;overflow:hidden;transition:background .2s}
+.stat::after{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--orange);transform:scaleX(0);transition:transform .3s}
+.stat:hover::after{transform:scaleX(1)}
+.stat:hover{background:var(--card2)}
+.stat:first-child{border-radius:8px 0 0 8px}
+.stat:last-child{border-radius:0 8px 8px 0}
+.stat-n{font-family:'Bebas Neue',sans-serif;font-size:52px;line-height:1;color:var(--orange);display:block;margin-bottom:5px}
+.stat-l{font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--gray)}
+
+/* ── ESTOQUE ── */
+.stock-section{background:var(--black2);border-top:1px solid var(--border)}
+.stock-header{text-align:center;margin-bottom:36px}
+.stock-filters{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-bottom:32px}
+.filter-btn{background:var(--card);border:1px solid var(--border);color:var(--gray);font-family:'Barlow Condensed',sans-serif;font-size:14px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;padding:9px 20px;border-radius:100px;cursor:pointer;transition:all .2s}
+.filter-btn.active,.filter-btn:hover{background:var(--orange);border-color:var(--orange);color:#000}
+.car-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:36px}
+.car-card{background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden;transition:border-color .2s,transform .2s;display:flex;flex-direction:column}
+.car-card:hover{border-color:rgba(255,106,0,.4);transform:translateY(-3px)}
+.car-card.hidden{display:none}
+.car-img-wrap{position:relative;overflow:hidden}
+.car-img-wrap img{width:100%;aspect-ratio:16/10;object-fit:cover;filter:brightness(.85);transition:filter .3s,transform .4s;display:block}
+.car-card:hover .car-img-wrap img{filter:brightness(1);transform:scale(1.04)}
+.car-badge{position:absolute;top:10px;left:10px;background:var(--orange);color:#000;font-family:'Bebas Neue',sans-serif;font-size:13px;letter-spacing:.5px;padding:3px 10px;border-radius:4px}
+.car-badge.badge-green{background:var(--green)}
+.car-body{padding:16px;flex:1;display:flex;flex-direction:column;gap:6px}
+.car-name{font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--white)}
+.car-detail{font-size:12px;color:var(--gray);text-transform:uppercase;letter-spacing:.5px}
+.car-price{font-family:'Bebas Neue',sans-serif;font-size:26px;color:var(--orange);margin-top:4px}
+.car-price-note{font-size:11px;color:var(--gray2);margin-top:-4px}
+.car-btns{display:flex;gap:8px;margin-top:12px}
+.car-btns .btn{flex:1;font-size:12px;padding:9px 10px}
+.stock-cta{text-align:center;padding-top:8px}
+.stock-cta-note{font-size:12px;color:var(--gray2);margin-top:10px}
+
+/* ── SIMULADOR ── */
+.sim-section{background:var(--black)}
+.sim-wrap{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}
+.sim-form{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:36px;position:relative;overflow:hidden}
+.sim-form::before{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--orange),var(--gold))}
+.field{margin-bottom:20px}
+.field label{display:block;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--gray);margin-bottom:8px}
+.field input,.field select{width:100%;background:var(--black2);border:1px solid rgba(255,255,255,.08);color:var(--white);font-family:'Barlow',sans-serif;font-size:16px;padding:12px 16px;border-radius:6px;outline:none;transition:border-color .2s;-webkit-appearance:none}
+.field input:focus,.field select:focus{border-color:var(--orange)}
+.field input::placeholder{color:var(--gray2)}
+.field select option{background:var(--black2)}
+.field-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.sim-result{background:var(--black2);border:1px solid var(--border);border-radius:8px;padding:20px;margin-top:8px;display:none}
+.sim-result.show{display:block}
+.sim-result-label{font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--gray);margin-bottom:6px}
+.sim-result-value{font-family:'Bebas Neue',sans-serif;font-size:42px;color:var(--orange);line-height:1}
+.sim-result-note{font-size:12px;color:var(--gray2);margin-top:6px}
+.sim-result-breakdown{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}
+.sim-mini{background:var(--card);border-radius:6px;padding:12px;text-align:center}
+.sim-mini-n{font-family:'Bebas Neue',sans-serif;font-size:22px;color:var(--white);display:block;line-height:1}
+.sim-mini-l{font-size:10px;color:var(--gray);text-transform:uppercase;letter-spacing:.5px;margin-top:3px}
+.sim-info{padding:8px 0}
+.sim-info .h2{margin-bottom:16px}
+.sim-info .lead{margin-bottom:24px}
+.sim-check{display:flex;flex-direction:column;gap:12px}
+.sim-check-item{display:flex;align-items:flex-start;gap:12px;padding:14px 16px;background:var(--card);border-radius:6px;border-left:3px solid rgba(255,106,0,.3);transition:border-color .2s}
+.sim-check-item:hover{border-color:var(--orange)}
+.sim-check-icon{font-size:18px;flex-shrink:0;margin-top:2px}
+.sim-check-text strong{color:var(--white);display:block;font-size:14px;margin-bottom:2px}
+.sim-check-text span{font-size:13px;color:var(--gray)}
+
+/* ── GALERIA ── */
+.gallery-section{padding:80px 0;background:var(--black2);border-top:1px solid var(--border);overflow:hidden}
+.gallery-header{text-align:center;margin-bottom:40px;padding:0 24px}
+.masonry{column-count:4;column-gap:8px;padding:0 24px;max-width:1200px;margin:0 auto 36px}
+.mi{break-inside:avoid;margin-bottom:8px;position:relative;border-radius:6px;overflow:hidden;cursor:pointer}
+.mi img{width:100%;display:block;border-radius:6px;transition:transform .4s, opacity 0.5s ease;filter:brightness(.82)}
+.mi:hover img{transform:scale(1.05);filter:brightness(1)}
+.mi-ov{position:absolute;inset:0;background:linear-gradient(to top,rgba(255,106,0,.5) 0%,transparent 55%);opacity:0;transition:opacity .3s;display:flex;align-items:flex-end;padding:12px;border-radius:6px}
+.mi:hover .mi-ov{opacity:1}
+.mi-tag{font-family:'Bebas Neue',sans-serif;font-size:14px;letter-spacing:1px;color:#fff}
+.gallery-badge{text-align:center}
+.gallery-badge-inner{display:inline-flex;align-items:center;gap:8px;background:rgba(255,106,0,.08);border:1px solid rgba(255,106,0,.22);border-radius:100px;padding:8px 20px;font-size:13px;font-weight:700;color:var(--orange);letter-spacing:.5px}
+.gscroll{display:none;overflow-x:auto;gap:10px;padding:0 24px 4px;scrollbar-width:none}
+.gscroll::-webkit-scrollbar{display:none}
+.gsi{flex-shrink:0;width:220px;border-radius:8px;overflow:hidden}
+.gsi img{width:100%;display:block;filter:brightness(.85)}
+
+/* ── COMO FUNCIONA ── */
+.steps-wrap{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.steps{display:flex;flex-direction:column;position:relative}
+.steps::before{content:'';position:absolute;left:26px;top:52px;bottom:52px;width:1px;background:linear-gradient(to bottom,var(--orange),transparent)}
+.step{display:flex;gap:20px;padding:24px 0}
+.step-n{width:52px;height:52px;border-radius:50%;background:var(--card);border:2px solid var(--orange);display:flex;align-items:center;justify-content:center;font-family:'Bebas Neue',sans-serif;font-size:20px;color:var(--orange);flex-shrink:0;position:relative;z-index:1}
+.step-b h3{font-family:'Barlow Condensed',sans-serif;font-size:18px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--white);margin-top:12px;margin-bottom:5px}
+.step-b p{font-size:14px;color:var(--gray);line-height:1.7}
+
+/* ── DEPOIMENTOS ── */
+.proof-bg{background:var(--black2);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.proof-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.proof-card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:24px 20px;transition:border-color .2s}
+.proof-card:hover{border-color:rgba(255,106,0,.3)}
+.stars{color:var(--orange);font-size:12px;letter-spacing:2px;margin-bottom:10px}
+.proof-q{font-size:40px;color:var(--orange);opacity:.15;font-family:Georgia,serif;line-height:1;margin-bottom:4px}
+.proof-txt{font-size:14px;color:var(--white);line-height:1.75;margin-bottom:16px;font-style:italic}
+.proof-by{display:flex;gap:10px;align-items:center;border-top:1px solid var(--border);padding-top:12px}
+.proof-av{width:36px;height:36px;border-radius:50%;background:var(--orange);color:#000;display:flex;align-items:center;justify-content:center;font-family:'Bebas Neue',sans-serif;font-size:16px;flex-shrink:0}
+.proof-name{font-weight:700;font-size:13px;color:var(--white)}
+.proof-role{font-size:11px;color:var(--gray)}
+
+/* ── FAQ ── */
+.faq-list{display:flex;flex-direction:column;gap:8px;max-width:760px;margin:0 auto}
+.faq-item{background:var(--card);border:1px solid var(--border);border-radius:8px;overflow:hidden;transition:border-color .2s}
+.faq-item:hover{border-color:rgba(255,106,0,.25)}
+.faq-q{padding:18px 20px;font-family:'Barlow Condensed',sans-serif;font-size:17px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--white);cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px}
+.faq-q::after{content:'+';font-family:'Bebas Neue',sans-serif;font-size:24px;color:var(--orange);flex-shrink:0;transition:transform .2s}
+.faq-item.open .faq-q::after{transform:rotate(45deg)}
+.faq-a{padding:0 20px;max-height:0;overflow:hidden;transition:max-height .3s ease,padding .2s}
+.faq-item.open .faq-a{max-height:200px;padding:0 20px 18px}
+.faq-a p{font-size:14px;color:var(--gray);line-height:1.7}
+
+/* ── SOBRE ── */
+.about-grid{display:grid;grid-template-columns:1fr 1.4fr;gap:56px;align-items:start}
+.about-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:32px;position:relative;overflow:hidden}
+.about-card::before{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--orange),var(--gold))}
+.about-card h3{font-family:'Bebas Neue',sans-serif;font-size:28px;color:var(--white);margin-bottom:4px}
+.about-card .sub{font-size:11px;color:var(--orange);font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:22px}
+.mini-stats{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.mini-s{background:var(--black2);border-radius:7px;padding:13px;text-align:center}
+.mini-n{font-family:'Bebas Neue',sans-serif;font-size:28px;color:var(--orange);display:block;line-height:1}
+.mini-l{font-size:10px;color:var(--gray);text-transform:uppercase;letter-spacing:.5px;margin-top:3px}
+.about-body{font-size:15px;color:var(--gray);line-height:1.9}
+.about-body p{margin-bottom:14px}
+.about-body strong{color:var(--white)}
+.badges{display:flex;flex-wrap:wrap;gap:7px;margin-top:22px}
+.badge{background:var(--card);border:1px solid var(--border);padding:5px 13px;border-radius:100px;font-size:12px;font-weight:600;color:var(--gray);display:flex;align-items:center;gap:5px}
+.badge em{color:var(--orange);font-style:normal}
+
+/* ── URGENCY ── */
+.urgency{background:rgba(255,106,0,.08);border-top:1px solid rgba(255,106,0,.2);border-bottom:1px solid rgba(255,106,0,.2);padding:16px 24px;display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap}
+.urgency p{font-family:'Barlow Condensed',sans-serif;font-size:18px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:var(--orange)}
+
+/* ── FINAL CTA ── */
+.final-cta{text-align:center;padding:100px 24px;background:radial-gradient(ellipse 60% 50% at 50% 50%,rgba(255,106,0,.07) 0%,transparent 70%);border-top:1px solid var(--border)}
+.final-cta .h2{max-width:660px;margin:0 auto 14px}
+.final-cta .lead{max-width:440px;margin:0 auto 36px}
+
+/* ── FOOTER ── */
+footer{background:#080808;border-top:1px solid rgba(255,255,255,.04);padding:32px 24px;text-align:center}
+.foot-logo{font-family:'Bebas Neue',sans-serif;font-size:22px;color:var(--white);margin-bottom:5px}
+.foot-logo span{color:var(--orange)}
+.foot-sub{font-size:12px;color:var(--gray2);margin-bottom:14px}
+.foot-links{display:flex;justify-content:center;gap:20px;flex-wrap:wrap;margin-bottom:14px}
+.foot-links a{color:var(--gray2);text-decoration:none;font-size:12px;transition:color .2s}
+.foot-links a:hover{color:var(--orange)}
+.foot-copy{font-size:11px;color:var(--gray2)}
+
+/* ── FLOAT WA ── */
+.float-wa{position:fixed;bottom:24px;right:24px;z-index:888;width:56px;height:56px;background:var(--green);border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 18px rgba(37,211,102,.42);text-decoration:none;transition:transform .2s,box-shadow .2s}
+.float-wa:hover{transform:scale(1.1);box-shadow:0 6px 26px rgba(37,211,102,.6)}
+
+/* ── LIGHTBOX ── */
+.lb{display:none;position:fixed;inset:0;background:rgba(0,0,0,.92);z-index:9998;align-items:center;justify-content:center}
+.lb.on{display:flex}
+.lb img{max-width:90vw;max-height:88vh;border-radius:8px;object-fit:contain}
+.lb-x{position:absolute;top:16px;right:24px;font-size:38px;color:#fff;cursor:pointer;background:none;border:none;opacity:.7;transition:opacity .2s}
+.lb-x:hover{opacity:1}
+
+/* ── SECTION DIVIDER WITH WA ── */
+.wa-mid{text-align:center;padding:32px 24px;background:var(--card);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.wa-mid p{font-size:15px;color:var(--gray);margin-bottom:14px}
+
+/* ── ANIMATE ── */
+.fi{opacity:0;transform:translateY(20px);transition:opacity .55s,transform .55s}
+.fi.d1{transition-delay:.1s}.fi.d2{transition-delay:.2s}.fi.d3{transition-delay:.3s}
+.fi.vis{opacity:1;transform:none}
+
+/* ── RESPONSIVE ── */
+@media(max-width:960px){
+  .stats,.journey-grid{grid-template-columns:repeat(2,1fr)}
+  .journey-step:first-child{border-radius:8px 0 0 0}
+  .journey-step:last-child{border-radius:0 0 8px 0}
+  .stat:first-child{border-radius:8px 0 0 0}
+  .stat:last-child{border-radius:0 0 8px 0}
+  .car-grid{grid-template-columns:repeat(2,1fr)}
+  .sim-wrap{grid-template-columns:1fr}
+  .steps-wrap{grid-template-columns:1fr}
+  .proof-grid{grid-template-columns:1fr}
+  .about-grid{grid-template-columns:1fr}
+  .nav-links{display:none}
+  .masonry{column-count:2}
+  .steps::before{display:none}
+}
+@media(max-width:560px){
+  .car-grid{grid-template-columns:1fr}
+  .masonry{display:none}
+  .gscroll{display:flex}
+  .hero-btns{flex-direction:column;align-items:stretch}
+  .btn-lg{font-size:16px;padding:15px 24px}
+  .stats{grid-template-columns:1fr 1fr}
+  .journey-grid{grid-template-columns:1fr 1fr}
+  .field-row{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<div id="prog"></div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">O <span>BRABO</span> DAS VENDAS</div>
+  <ul class="nav-links">
+    <li><a href="#estoque">Estoque</a></li>
+    <li><a href="#simulador">Simular</a></li>
+    <li><a href="#entregas">Entregas</a></li>
+    <li><a href="#faq">Dúvidas</a></li>
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#simulador" class="nav-pill">Simular grátis</a></li>
+    <li><a href="https://wa.me/5513996040166?text=Oi+Luiz%2C+vim+pelo+site+e+quero+comprar+um+carro!" target="_blank" class="nav-wa">💬 WhatsApp</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-eye">Grupo Reauto Veículos · 41 anos · 6 lojas</div>
+  <h1 class="h1 fi">Compre seu carro<span>do jeito certo.</span></h1>
+  <p class="lead fi d1">Simule o financiamento, veja o estoque e fale comigo agora.<br>Mais de <strong style="color:var(--white)">100 mil pessoas</strong> já confiam no Brabo pra essa decisão.</p>
+  <div class="hero-btns fi d2">
+    <a href="#simulador" class="btn btn-orange btn-lg">📊 Simular financiamento</a>
+    <a href="#estoque" class="btn btn-outline btn-lg">🚗 Ver estoque</a>
+    <a href="https://wa.me/5513996040166?text=Oi+Luiz%2C+vim+pelo+site+e+quero+comprar+um+carro!" target="_blank" class="btn btn-wa-full btn-lg">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Falar agora
+    </a>
+  </div>
+  <div class="strip fi d3">
+    <div class="strip-track">
+      <div class="strip-item"><div class="strip-dot"></div>+100 mil seguidores</div>
+      <div class="strip-item"><div class="strip-dot"></div>Grupo Reauto Veículos</div>
+      <div class="strip-item"><div class="strip-dot"></div>41 anos de mercado</div>
+      <div class="strip-item"><div class="strip-dot"></div>6 lojas Baixada Santista</div>
+      <div class="strip-item"><div class="strip-dot"></div>+1.000 carros/ano</div>
+      <div class="strip-item"><div class="strip-dot"></div>130+ em estoque</div>
+      <div class="strip-item"><div class="strip-dot"></div>Financiamento aprovado</div>
+      <div class="strip-item"><div class="strip-dot"></div>Aceita troca</div>
+      <div class="strip-item"><div class="strip-dot"></div>+100 mil seguidores</div>
+      <div class="strip-item"><div class="strip-dot"></div>Grupo Reauto Veículos</div>
+      <div class="strip-item"><div class="strip-dot"></div>41 anos de mercado</div>
+      <div class="strip-item"><div class="strip-dot"></div>6 lojas Baixada Santista</div>
+      <div class="strip-item"><div class="strip-dot"></div>+1.000 carros/ano</div>
+      <div class="strip-item"><div class="strip-dot"></div>130+ em estoque</div>
+      <div class="strip-item"><div class="strip-dot"></div>Financiamento aprovado</div>
+      <div class="strip-item"><div class="strip-dot"></div>Aceita troca</div>
+    </div>
+  </div>
+</section>
+
+<!-- JORNADA -->
+<section class="journey sec">
+  <div class="wrap">
+    <div style="text-align:center;margin-bottom:36px" class="fi">
+      <span class="tag">Jornada de compra</span>
+      <h2 class="h2">Você está a <em>4 passos</em> do seu carro.</h2>
+    </div>
+    <div class="journey-grid fi">
+      <div class="journey-step">
+        <div class="j-num">1</div>
+        <span class="j-ico">🔍</span>
+        <div class="j-title">Escolha o carro</div>
+        <p class="j-desc">Veja o estoque completo, filtre por tipo e valor. Mais de 130 opções disponíveis agora.</p>
+      </div>
+      <div class="journey-step">
+        <div class="j-num">2</div>
+        <span class="j-ico">📊</span>
+        <div class="j-title">Simule o financiamento</div>
+        <p class="j-desc">Calcule sua parcela em segundos. Entrada, prazo, condição. Sem compromisso.</p>
+      </div>
+      <div class="journey-step">
+        <div class="j-num">3</div>
+        <span class="j-ico">💬</span>
+        <div class="j-title">Fale com o Brabo</div>
+        <p class="j-desc">Me manda a simulação pelo WhatsApp. Analiso sua proposta e acho a melhor condição pra você.</p>
+      </div>
+      <div class="journey-step">
+        <div class="j-num">4</div>
+        <span class="j-ico">🔑</span>
+        <div class="j-title">Receba o carro</div>
+        <p class="j-desc">Documentação ok, carro conferido. Chave na mão. Com suporte antes, durante e depois.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<div style="padding:0 24px 68px">
+  <div class="wrap" style="padding:0">
+    <div class="stats">
+      <div class="stat fi"><span class="stat-n">100K+</span><span class="stat-l">Seguidores</span></div>
+      <div class="stat fi d1"><span class="stat-n">41</span><span class="stat-l">Anos Grupo Reauto</span></div>
+      <div class="stat fi d2"><span class="stat-n">6</span><span class="stat-l">Lojas ativas</span></div>
+      <div class="stat fi d3"><span class="stat-n">1.000+</span><span class="stat-l">Carros/ano</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- ESTOQUE -->
+<!-- INSTRUÇÃO: Substitua os src das imagens e os dados dos carros pelo seu estoque real -->
+<section class="stock-section sec" id="estoque">
+  <div class="wrap">
+    <div class="stock-header fi">
+      <span class="tag">Estoque disponível</span>
+      <h2 class="h2"><span id="stock-count">...</span> carros. <em>Um é o seu.</em></h2>
+      <p class="lead" style="margin-top:10px">Todos verificados, documentação em ordem. Clique no carro que te interessa e já fale comigo.</p>
+    </div>
+    <div class="stock-filters fi" id="stock-filters">
+      <button class="filter-btn active" data-cat="todos">Todos</button>
+      <button class="filter-btn" data-cat="HATCH">Hatch</button>
+      <button class="filter-btn" data-cat="SEDAN">Sedan</button>
+      <button class="filter-btn" data-cat="SUV">SUV</button>
+      <button class="filter-btn" data-cat="PICAPE">Picape</button>
+      <button class="filter-btn" data-cat="MOTO">Moto</button>
+    </div>
+    <div style="margin:12px 0 20px">
+      <input type="text" id="car-search" placeholder="🔍  Buscar por marca, modelo..." style="width:100%;max-width:420px;background:#161616;border:1px solid rgba(255,106,0,.2);border-radius:8px;padding:11px 16px;color:#f5f5f5;font-family:'Barlow',sans-serif;font-size:14px;outline:none;">
+    </div>
+    <div class="car-grid" id="car-grid">
+      <div style="grid-column:1/-1;text-align:center;padding:60px 0;color:#666;font-family:'Barlow Condensed',sans-serif;font-size:18px;letter-spacing:1px">
+        Carregando estoque...
+      </div>
+    </div>
+
+    <div class="stock-cta fi">
+      <a href="https://wa.me/5513996040166?text=Oi+Luiz%2C+quero+ver+todos+os+carros+disponíveis!" target="_blank" class="btn btn-catalog">🚗 Ver estoque completo</a>
+      <p class="stock-cta-note">Não achou o que procura? Me chama e eu busco pra você. 130+ veículos no estoque do Grupo Reauto.</p>
+    </div>
+    <p style="font-size:11px;color:var(--gray2);text-align:center;margin-top:20px">*Estimativa de parcela calculada com base em 60 meses e 20% de entrada. Condições sujeitas a aprovação de crédito.</p>
+  </div>
+</section>
+
+<!-- WA CTA MID -->
+<div class="wa-mid fi">
+  <p>Ficou com dúvida sobre algum carro? Me chama agora. Respondo rápido.</p>
+  <a href="https://wa.me/5513996040166?text=Oi+Luiz%2C+fiquei+interessado+em+um+carro+do+estoque!" target="_blank" class="btn btn-wa-full btn-md">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    Chamar no WhatsApp
+  </a>
+</div>
+
+<!-- SIMULADOR -->
+<section class="sim-section sec" id="simulador">
+  <div class="wrap">
+    <div class="sim-wrap">
+      <div class="sim-info fi">
+        <span class="tag">Simulador gratuito</span>
+        <h2 class="h2">Descubra quanto<br>fica a sua <em>parcela.</em></h2>
+        <div class="bar"></div>
+        <p class="lead" style="margin-bottom:28px">Preencha os campos ao lado e calcule agora. Depois é só me mandar pelo WhatsApp e eu já monto a proposta real pra você.</p>
+        <div class="sim-check">
+          <div class="sim-check-item">
+            <div class="sim-check-icon">✅</div>
+            <div class="sim-check-text"><strong>Simulação sem compromisso</strong><span>Você simula, vê como fica e decide na sua hora. Sem pressão.</span></div>
+          </div>
+          <div class="sim-check-item">
+            <div class="sim-check-icon">📲</div>
+            <div class="sim-check-text"><strong>Envio direto pro WhatsApp</strong><span>Clique em "Enviar simulação" e a proposta já chega pra mim formatada.</span></div>
+          </div>
+          <div class="sim-check-item">
+            <div class="sim-check-icon">🏦</div>
+            <div class="sim-check-text"><strong>Análise de crédito real</strong><span>Depois que eu recebo, analiso as melhores condições com os bancos parceiros.</span></div>
+          </div>
+          <div class="sim-check-item">
+            <div class="sim-check-icon">🔒</div>
+            <div class="sim-check-text"><strong>Seus dados ficam seguros</strong><span>Nenhuma informação é compartilhada sem a sua autorização.</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fi d1">
+        <div class="sim-form">
+          <span class="tag" style="margin-bottom:20px">Preencha os dados</span>
+
+          <div class="field">
+            <label>Seu nome</label>
+            <input type="text" id="sim-nome" placeholder="Como posso te chamar?">
+          </div>
+
+          <div class="field">
+            <label>Carro de interesse</label>
+            <input type="text" id="sim-carro" placeholder="Ex: HB20, Onix, Compass...">
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label>Valor do carro (R$)</label>
+              <input type="text" id="sim-valor" placeholder="Ex: 65000" oninput="formatMoney(this); calcSim()">
+            </div>
+            <div class="field">
+              <label>Valor de entrada (R$)</label>
+              <input type="text" id="sim-entrada" placeholder="Ex: 13000" oninput="formatMoney(this); calcSim()">
+            </div>
+          </div>
+
+          <div class="field">
+            <label>Prazo de financiamento</label>
+            <select id="sim-prazo" onchange="calcSim()">
+              <option value="24">24 meses (2 anos)</option>
+              <option value="36">36 meses (3 anos)</option>
+              <option value="48">48 meses (4 anos)</option>
+              <option value="60" selected>60 meses (5 anos)</option>
+              <option value="72">72 meses (6 anos)</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label>Tem carro pra dar como troca?</label>
+            <select id="sim-troca">
+              <option value="nao">Não tenho troca</option>
+              <option value="sim">Sim, tenho um carro pra trocar</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label>Renda mensal aproximada (R$)</label>
+            <select id="sim-renda">
+              <option value="">Prefiro não informar</option>
+              <option value="ate2k">Até R$ 2.000</option>
+              <option value="2a4k">R$ 2.000 a R$ 4.000</option>
+              <option value="4a7k">R$ 4.000 a R$ 7.000</option>
+              <option value="7kplus">Acima de R$ 7.000</option>
+            </select>
+          </div>
+
+          <!-- Resultado da simulação -->
+          <div class="sim-result" id="sim-result">
+            <div class="sim-result-label">Estimativa de parcela mensal</div>
+            <div class="sim-result-value" id="sim-parcela">R$ 0</div>
+            <div class="sim-result-note" id="sim-note"></div>
+            <div class="sim-result-breakdown">
+              <div class="sim-mini">
+                <span class="sim-mini-n" id="sim-financiado">R$ 0</span>
+                <div class="sim-mini-l">Valor financiado</div>
+              </div>
+              <div class="sim-mini">
+                <span class="sim-mini-n" id="sim-total">R$ 0</span>
+                <div class="sim-mini-l">Total a pagar</div>
+              </div>
+            </div>
+          </div>
+
+          <a href="#" id="sim-wa-btn" onclick="sendSimToWA(); return false;" class="btn btn-wa-full btn-lg" style="width:100%;margin-top:16px;display:none">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Enviar simulação pro Brabo
+          </a>
+
+          <button onclick="calcSim()" class="btn btn-orange btn-lg" style="width:100%;margin-top:12px">📊 Calcular parcela</button>
+          <p style="font-size:11px;color:var(--gray2);text-align:center;margin-top:10px">*Estimativa com taxa de 1,69% a.m. Condições reais mediante análise de crédito.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALERIA DE ENTREGAS -->
+<!-- INSTRUÇÃO: Substitua os src abaixo pelas URLs das suas fotos reais de entrega -->
+<section class="gallery-section" id="entregas">
+  <div class="gallery-header fi">
+    <span class="tag">Prova real</span>
+    <h2 class="h2">Cada entrega é uma <em>história.</em></h2>
+    <p class="lead">Clientes reais. Carros reais. Momentos reais que acontecem todo dia aqui.</p>
+  </div>
+  <div class="masonry">
+    <div class="mi fi" onclick="openLb(this)"><img src="" alt="Entrega" loading="lazy"><div class="mi-ov"><span class="mi-tag">🔑 Entrega realizada</span></div></div>
+    <div class="mi fi d1" onclick="openLb(this)"><img src="" alt="Entrega" loading="lazy"><div class="mi-ov"><span class="mi-tag">🔑 Entrega realizada</span></div></div>
+    <div class="mi fi" onclick="openLb(this)"><img src="" alt="Entrega" loading="lazy"><div class="mi-ov"><span class="mi-tag">🔑 Entrega realizada</span></div></div>
+    <div class="mi fi d2" onclick="openLb(this)"><img src="" alt="Entrega" loading="lazy"><div class="mi-ov"><span class="mi-tag">🔑 Entrega realizada</span></div></div>
+    <div class="mi fi d1" onclick="openLb(this)"><img src="" alt="Entrega" loading="lazy"><div class="mi-ov"><span class="mi-tag">🔑 Entrega realizada</span></div></div>
+    <div class="mi fi d2" onclick="openLb(this)"><img src="" alt="Entrega" loading="lazy"><div class="mi-ov"><span class="mi-tag">🔑 Entrega realizada</span></div></div>
+    <div class="mi fi d3" onclick="openLb(this)"><img src="" alt="Entrega" loading="lazy"><div class="mi-ov"><span class="mi-tag">🔑 Entrega realizada</span></div></div>
+    <div class="mi fi d1" onclick="openLb(this)"><img src="" alt="Entrega" loading="lazy"><div class="mi-ov"><span class="mi-tag">🔑 Entrega realizada</span></div></div>
+    <div class="mi fi" onclick="openLb(this)"><img src="" alt="Entrega" loading="lazy"><div class="mi-ov"><span class="mi-tag">🔑 Entrega realizada</span></div></div>
+    <div class="mi fi d2" onclick="openLb(this)"><img src="" alt="Entrega" loading="lazy"><div class="mi-ov"><span class="mi-tag">🔑 Entrega realizada</span></div></div>
+    <div class="mi fi d1" onclick="openLb(this)"><img src="" alt="Entrega" loading="lazy"><div class="mi-ov"><span class="mi-tag">🔑 Entrega realizada</span></div></div>
+    <div class="mi fi d3" onclick="openLb(this)"><img src="" alt="Entrega" loading="lazy"><div class="mi-ov"><span class="mi-tag">🔑 Entrega realizada</span></div></div>
+  </div>
+  <div class="gscroll">
+    <div class="gsi"><img src="" alt="entrega"></div>
+    <div class="gsi"><img src="" alt="entrega"></div>
+    <div class="gsi"><img src="" alt="entrega"></div>
+    <div class="gsi"><img src="" alt="entrega"></div>
+    <div class="gsi"><img src="" alt="entrega"></div>
+    <div class="gsi"><img src="" alt="entrega"></div>
+  </div>
+  <div class="gallery-badge fi" style="padding:0 24px;margin-top:4px">
+    <div class="gallery-badge-inner">🔑 Mais de 1.000 entregas realizadas todo ano pelo Grupo Reauto Veículos</div>
+  </div>
+</section>
+
+<div class="lb" id="lb" onclick="closeLb()">
+  <button class="lb-x" onclick="closeLb()">×</button>
+  <img id="lb-img" src="" alt="">
+</div>
+
+<!-- COMO FUNCIONA -->
+<section class="sec" id="como-funciona">
+  <div class="wrap">
+    <div class="steps-wrap">
+      <div class="fi">
+        <span class="tag">O processo</span>
+        <h2 class="h2">Do primeiro contato<br>até a <em>chave na mão.</em></h2>
+        <div class="bar"></div>
+        <p class="lead">Sem burocracia. Sem enrolação. Você sabe exatamente o que tá acontecendo em cada etapa.</p>
+        <br><br>
+        <a href="https://wa.me/5513996040166?text=Oi+Luiz%2C+quero+começar+o+processo+de+compra!" target="_blank" class="btn btn-orange btn-md">Quero começar agora</a>
+      </div>
+      <div class="steps fi d1">
+        <div class="step"><div class="step-n">1</div><div class="step-b"><h3>Me conta o que você quer</h3><p>Modelo, valor, entrada disponível, se tem troca. Quanto mais você conta, mais certeira fica a proposta.</p></div></div>
+        <div class="step"><div class="step-n">2</div><div class="step-b"><h3>Proposta sob medida</h3><p>Analiso o estoque, simulo o financiamento nos melhores bancos, verifico a aprovação. Proposta real, sem chute.</p></div></div>
+        <div class="step"><div class="step-n">3</div><div class="step-b"><h3>Você escolhe com segurança</h3><p>Todas as informações na mesa: taxa, prazo, parcela, documentação. Sem pressão. Você decide no seu tempo.</p></div></div>
+        <div class="step"><div class="step-n">4</div><div class="step-b"><h3>Entrega e pós-venda</h3><p>Carro conferido, documentação ok, chave na mão. O suporte continua. Você não fica desamparado depois.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DEPOIMENTOS -->
+<section class="proof-bg sec" id="depoimentos">
+  <div class="wrap">
+    <div style="text-align:center;margin-bottom:40px" class="fi">
+      <span class="tag">Quem já comprou fala</span>
+      <h2 class="h2">Resultado real de <em>clientes reais.</em></h2>
+    </div>
+    <div class="proof-grid">
+      <div class="proof-card fi">
+        <div class="proof-q">"</div>
+        <div class="stars">★★★★★</div>
+        <p class="proof-txt">Tinha medo de financiar porque meu nome tava sujo. O Luiz me explicou tudo, vimos as opções juntos e consegui aprovação. Em 15 dias tava com o carro na mão.</p>
+        <div class="proof-by"><div class="proof-av">A</div><div><div class="proof-name">Anderson S.</div><div class="proof-role">Motorista de app, Praia Grande</div></div></div>
+      </div>
+      <div class="proof-card fi d1">
+        <div class="proof-q">"</div>
+        <div class="stars">★★★★★</div>
+        <p class="proof-txt">Já caí em financiamento ruim duas vezes em outro lugar. Com o Luiz foi diferente. Transparente do começo ao fim. Parcela cabe certinho no meu orçamento.</p>
+        <div class="proof-by"><div class="proof-av">C</div><div><div class="proof-name">Camila R.</div><div class="proof-role">Professora, Santos</div></div></div>
+      </div>
+      <div class="proof-card fi d2">
+        <div class="proof-q">"</div>
+        <div class="stars">★★★★★</div>
+        <p class="proof-txt">Primeiro carro próprio. Não entendia nada de financiamento. Segui o Luiz no Instagram por meses. Quando resolvi comprar, fui direto nele. Recomendo demais.</p>
+        <div class="proof-by"><div class="proof-av">F</div><div><div class="proof-name">Felipe M.</div><div class="proof-role">Técnico de TI, São Vicente</div></div></div>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:32px" class="fi">
+      <a href="https://wa.me/5513996040166?text=Oi+Luiz%2C+li+os+depoimentos+e+quero+comprar+meu+carro+com+você!" target="_blank" class="btn btn-wa-full btn-md">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Quero ser o próximo cliente
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sec" id="faq" style="background:var(--black2);border-top:1px solid var(--border)">
+  <div class="wrap">
+    <div style="text-align:center;margin-bottom:40px" class="fi">
+      <span class="tag">Dúvidas frequentes</span>
+      <h2 class="h2">Perguntas que <em>todo mundo faz.</em></h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item fi">
+        <div class="faq-q" onclick="toggleFaq(this)">Preciso ter nome limpo pra financiar?</div>
+        <div class="faq-a"><p>Não necessariamente. Existem opções de financiamento mesmo com restrição no CPF. O que muda são as condições: taxa, prazo e exigência de entrada. Me conta sua situação e eu analiso as opções disponíveis pra você.</p></div>
+      </div>
+      <div class="faq-item fi d1">
+        <div class="faq-q" onclick="toggleFaq(this)">Qual o valor mínimo de entrada?</div>
+        <div class="faq-a"><p>Depende do seu perfil e do banco. Em geral, a partir de 20% do valor do carro. Mas existem condições com entrada menor pra quem tem um bom score. Faz a simulação acima e me manda pelo WhatsApp que eu verifico.</p></div>
+      </div>
+      <div class="faq-item fi d1">
+        <div class="faq-q" onclick="toggleFaq(this)">Vocês aceitam troca?</div>
+        <div class="faq-a"><p>Sim. Avaliamos seu carro e usamos como parte do pagamento. É só me contar o modelo, ano e quilometragem que eu já faço uma estimativa de valor.</p></div>
+      </div>
+      <div class="faq-item fi d2">
+        <div class="faq-q" onclick="toggleFaq(this)">Como funciona o processo após a aprovação?</div>
+        <div class="faq-a"><p>Depois da aprovação do crédito, a gente marca a entrega, confere toda a documentação juntos e você sai com o carro no mesmo dia. Em média o processo leva de 3 a 7 dias úteis após a aprovação.</p></div>
+      </div>
+      <div class="faq-item fi d2">
+        <div class="faq-q" onclick="toggleFaq(this)">Os carros têm garantia?</div>
+        <div class="faq-a"><p>Todos os veículos do Grupo Reauto passam por vistoria técnica antes da venda. Dependendo do modelo e ano, oferecemos garantia adicional. Os detalhes variam por veículo, me chama que eu te explico caso a caso.</p></div>
+      </div>
+      <div class="faq-item fi d3">
+        <div class="faq-q" onclick="toggleFaq(this)">Atende fora de Praia Grande?</div>
+        <div class="faq-a"><p>Sim! O Grupo Reauto tem 6 lojas na Baixada Santista. Atendemos toda a região de Santos, São Vicente, Cubatão, Guarujá, Mongaguá, Itanhaém e região. Me fala onde você está que a gente se organiza.</p></div>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:32px" class="fi">
+      <p style="font-size:14px;color:var(--gray);margin-bottom:14px">Não encontrou a resposta que precisava?</p>
+      <a href="https://wa.me/5513996040166?text=Oi+Luiz%2C+tenho+uma+dúvida+sobre+financiamento!" target="_blank" class="btn btn-outline btn-md">Me perguntar no WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<!-- SOBRE -->
+<section class="sec" id="sobre">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="fi">
+        <div class="about-card">
+          <!-- INSTRUÇÃO: Substitua o bloco abaixo pela sua foto real -->
+          <div style="background:var(--black2);border-radius:8px;height:240px;display:flex;align-items:center;justify-content:center;margin-bottom:22px;font-size:80px;opacity:.12;">📸</div>
+          <h3>Luiz</h3>
+          <div class="sub">O Brabo das Vendas · @luiz.obrabodasvendas</div>
+          <div class="mini-stats">
+            <div class="mini-s"><span class="mini-n">100K+</span><div class="mini-l">Seguidores</div></div>
+            <div class="mini-s"><span class="mini-n">41 anos</span><div class="mini-l">Grupo Reauto</div></div>
+            <div class="mini-s"><span class="mini-n">6</span><div class="mini-l">Lojas ativas</div></div>
+            <div class="mini-s"><span class="mini-n">1.000+</span><div class="mini-l">Carros/ano</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="fi d1">
+        <span class="tag">Quem é o Brabo</span>
+        <h2 class="h2">Autoridade não se declara.<br><em>Se prova.</em></h2>
+        <div class="bar"></div>
+        <div class="about-body">
+          <p>Eu sou Luiz. Vendedor de veículos na <strong>Recar Automarcas</strong>, parte do <strong>Grupo Reauto Veículos</strong>. São 41 anos de mercado e 6 lojas espalhadas pela Baixada Santista.</p>
+          <p>Antes de vendedor, eu sou a pessoa que você precisava ter do lado quando foi comprar carro. Aquele que conta o que o vendedor médio não conta.</p>
+          <p>Criei o <strong>@luiz.obrabodasvendas</strong> pra educar antes de vender. Financiamento, aprovação de crédito, escolha de modelo. Mais de 100 mil pessoas acompanham esse conteúdo todo dia.</p>
+          <p>E quando chega a hora de comprar, elas sabem com quem falar.</p>
+        </div>
+        <div class="badges">
+          <div class="badge"><em>✓</em> +100k seguidores</div>
+          <div class="badge"><em>✓</em> Instagram e TikTok</div>
+          <div class="badge"><em>✓</em> Grupo Reauto, 41 anos</div>
+          <div class="badge"><em>✓</em> Recar Automarcas</div>
+          <div class="badge"><em>✓</em> Especialista em financiamento</div>
+          <div class="badge"><em>✓</em> Pós-venda real</div>
+        </div>
+        <br>
+        <div style="display:flex;gap:10px;flex-wrap:wrap">
+          <a href="https://www.instagram.com/luiz.obrabodasvendas" target="_blank" class="btn btn-outline btn-md">Ver Instagram →</a>
+          <a href="https://wa.me/5513996040166?text=Oi+Luiz%2C+vim+pelo+site!" target="_blank" class="btn btn-wa-full btn-md">💬 Falar comigo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- URGENCY -->
+<div class="urgency">
+  <span style="font-size:22px">🔥</span>
+  <p>Estoque limitado · Carros saindo todo dia · Não perca o seu</p>
+  <a href="#estoque" class="btn btn-orange btn-sm">Ver disponíveis agora</a>
+</div>
+
+<!-- FINAL CTA -->
+<section class="final-cta">
+  <div class="wrap-sm">
+    <span class="tag" style="display:block;text-align:center;margin-bottom:14px">Próximo passo</span>
+    <h2 class="h2 fi">Seu próximo carro começa<br>com <em>uma mensagem.</em></h2>
+    <p class="lead fi">Me conta o que você tá buscando. Em menos de 24 horas eu já tenho uma proposta real pra você.</p>
+    <div class="fi" style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:14px">
+      <a href="https://wa.me/5513996040166?text=Oi+Luiz%2C+vim+pelo+site+e+quero+comprar+um+carro!" target="_blank" class="btn btn-wa-full btn-lg">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Falar com o Brabo agora
+      </a>
+      <a href="#simulador" class="btn btn-outline btn-lg">📊 Simular financiamento</a>
+    </div>
+    <p style="font-size:12px;color:var(--gray2)">Segunda a sábado. Resposta rápida. Sem enrolação.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="foot-logo">O <span>BRABO</span> DAS VENDAS</div>
+  <div class="foot-sub">Recar Automarcas · Grupo Reauto Veículos · Praia Grande, SP</div>
+  <div class="foot-links">
+    <a href="https://www.instagram.com/luiz.obrabodasvendas" target="_blank">Instagram</a>
+    <a href="https://wa.me/5513996040166" target="_blank">WhatsApp</a>
+    <a href="#estoque">Estoque</a>
+    <a href="#simulador">Simular</a>
+    <a href="#entregas">Entregas</a>
+    <a href="#faq">Dúvidas</a>
+    <a href="#sobre">Sobre</a>
+  </div>
+  <div class="foot-copy">© 2025 O Brabo das Vendas · Todos os direitos reservados</div>
+</footer>
+
+<!-- WhatsApp flutuante -->
+<a href="https://wa.me/5513996040166?text=Oi+Luiz%2C+vim+pelo+site!" target="_blank" class="float-wa" title="Falar com o Brabo">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<script>
+// ─── SCROLL PROGRESS ───
+window.addEventListener('scroll',()=>{
+  document.getElementById('prog').style.width=(window.scrollY/(document.body.scrollHeight-window.innerHeight)*100)+'%';
+});
+
+// ─── FADE IN ───
+new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('vis');} });
+},{threshold:0.1}).observe||(()=>{})();
+const io=new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('vis');}});
+},{threshold:0.09});
+document.querySelectorAll('.fi').forEach(el=>io.observe(el));
+
+// ─── LIGHTBOX ───
+function openLb(el){document.getElementById('lb-img').src=el.querySelector('img').src;document.getElementById('lb').classList.add('on');}
+function closeLb(){document.getElementById('lb').classList.remove('on');}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeLb();});
+
+// ─── STOCK DINÂMICO — catalogo-brabo ───
+const CATALOGO_URL = 'https://luizintrepido.github.io/catalogo-brabo/vehicles.json';
+const CATALOGO_BASE = 'https://luizintrepido.github.io/catalogo-brabo';
+const TAXA = 0.0169;
+const PRAZO_PAD = 60;
+
+let _allCars = [];
+let _activeCat = 'todos';
+let _searchQ = '';
+
+function _parcela(preco) {
+  if (!preco) return '';
+  const r = TAXA, n = PRAZO_PAD;
+  const p = preco * (r * Math.pow(1+r,n)) / (Math.pow(1+r,n)-1);
+  return p.toLocaleString('pt-BR',{style:'currency',currency:'BRL',maximumFractionDigits:0});
+}
+
+function _tipoToCat(tipo) {
+  const m = {'HATCH':'HATCH','SEDAN':'SEDAN','SUV':'SUV','PICAPE':'PICAPE','MOTO':'MOTO','VAN':'VAN'};
+  return m[(tipo||'').toUpperCase()] || 'OUTROS';
+}
+
+function _imgUrl(v) {
+  // fotos é array de file_ids do Google Drive
+  const fotos = v.fotos || v.photos || [];
+  if (fotos.length > 0) {
+    const id = typeof fotos[0] === 'string' ? fotos[0] : (fotos[0].id || fotos[0].file_id || '');
+    if (id) return `https://lh3.googleusercontent.com/d/${id}=s800`;
+  }
+  // fallback: campo img direto
+  if (v.img) return v.img;
+  // imagem de preparação do repo
+  return `${CATALOGO_BASE}/em-preparacao.jpg`;
+}
+
+function _buildCard(v, idx) {
+  const delay = idx % 3 === 1 ? ' d1' : idx % 3 === 2 ? ' d2' : '';
+  const slug = v.slug || v.id;
+  const linkCatalogo = `${CATALOGO_BASE}/carros/${slug}`;
+  const nomeCarro = `${v.marca} ${v.modelo}${v.ano ? ' '+v.ano : ''}`;
+  const kmFmt = v.km ? Number(v.km).toLocaleString('pt-BR')+' km' : null;
+  const detalhe = [v.ano, kmFmt].filter(Boolean).join(' · ');
+  const precoFmt = v.preco ? 'R$ '+Number(v.preco).toLocaleString('pt-BR') : 'Consulte';
+  const parc = v.preco ? `ou a partir de ${_parcela(v.preco)}/mês*` : '';
+  const imgSrc = _imgUrl(v);
+  const waMsg = encodeURIComponent(`Oi Luiz, tenho interesse no ${nomeCarro} por ${precoFmt}! Pode me dar mais informações? ${linkCatalogo}`);
+
+  return `
+  <div class="car-card fi${delay}" data-cat="${_tipoToCat(v.tipo)}">
+    <div class="car-img-wrap">
+      <img src="${imgSrc}" alt="${v.marca} ${v.modelo}" loading="lazy"
+           onerror="this.src='${CATALOGO_BASE}/em-preparacao.jpg'">
+      <span class="car-badge">${v.tipo || 'Seminovo'}</span>
+    </div>
+    <div class="car-body">
+      <div class="car-name">${v.marca} ${v.modelo}</div>
+      <div class="car-detail">${detalhe}</div>
+      ${v.versao ? `<div class="car-detail" style="font-size:12px;color:#666;margin-top:-4px">${v.versao}</div>` : ''}
+      <div class="car-price">${precoFmt}</div>
+      ${parc ? `<div class="car-price-note">${parc}</div>` : ''}
+      <div class="car-btns">
+        <a href="${linkCatalogo}" target="_blank" rel="noopener" class="btn btn-outline btn-sm">🔗 Ver detalhes</a>
+        <a href="https://wa.me/5513996040166?text=${waMsg}" target="_blank" class="btn btn-wa-full btn-sm">💬 Tenho interesse</a>
+      </div>
+    </div>
+  </div>`;
+}
+
+function _renderCars() {
+  const grid = document.getElementById('car-grid');
+  let list = _allCars;
+  if (_activeCat !== 'todos') list = list.filter(v => _tipoToCat(v.tipo) === _activeCat);
+  if (_searchQ) {
+    const q = _searchQ.toLowerCase();
+    list = list.filter(v =>
+      (v.marca||'').toLowerCase().includes(q) ||
+      (v.modelo||'').toLowerCase().includes(q) ||
+      (v.versao||'').toLowerCase().includes(q)
+    );
+  }
+  if (!list.length) {
+    grid.innerHTML = `<div style="grid-column:1/-1;text-align:center;padding:60px 0;color:#666;font-family:'Barlow Condensed',sans-serif;font-size:18px;letter-spacing:1px">Nenhum veículo encontrado.</div>`;
+    return;
+  }
+  grid.innerHTML = list.map((v,i) => _buildCard(v,i)).join('');
+  if (typeof io !== 'undefined') grid.querySelectorAll('.fi').forEach(el => io.observe(el));
+}
+
+async function loadStock() {
+  const grid = document.getElementById('car-grid');
+  try {
+    const resp = await fetch(CATALOGO_URL);
+    if (!resp.ok) throw new Error('HTTP '+resp.status);
+    const data = await resp.json();
+    // vehicles.json pode ser array direto ou objeto com campo 'veiculos'/'vehicles'
+    _allCars = Array.isArray(data) ? data : (data.veiculos || data.vehicles || []);
+    const total = _allCars.length;
+    document.getElementById('stock-count').textContent = total > 0 ? total : '...';
+    _renderCars();
+  } catch(e) {
+    grid.innerHTML = `<div style="grid-column:1/-1;text-align:center;padding:60px 0;color:#666;font-size:14px">
+      Não foi possível carregar o estoque.<br>
+      <a href="https://wa.me/5513996040166" style="color:#FF6A00">Fale com o Luiz</a> para ver os carros disponíveis.
+    </div>`;
+  }
+}
+
+document.getElementById('stock-filters').addEventListener('click', e => {
+  const btn = e.target.closest('.filter-btn');
+  if (!btn) return;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  _activeCat = btn.dataset.cat;
+  _renderCars();
+});
+
+document.getElementById('car-search').addEventListener('input', e => {
+  _searchQ = e.target.value.trim();
+  _renderCars();
+});
+
+loadStock();
+
+// ─── FAQ ───
+function toggleFaq(el){
+  const item=el.closest('.faq-item');
+  const isOpen=item.classList.contains('open');
+  document.querySelectorAll('.faq-item').forEach(i=>i.classList.remove('open'));
+  if(!isOpen)item.classList.add('open');
+}
+
+// ─── FORMAT MONEY ───
+function formatMoney(input){
+  let v=input.value.replace(/\D/g,'');
+  if(v){v=parseInt(v,10).toLocaleString('pt-BR');}
+  input.value=v;
+}
+
+function parseVal(id){
+  return parseInt((document.getElementById(id).value||'0').replace(/\./g,'').replace(/,/g,'.'),10)||0;
+}
+
+// ─── SIMULATOR ───
+function calcSim(){
+  const valor=parseVal('sim-valor');
+  const entrada=parseVal('sim-entrada');
+  const prazo=parseInt(document.getElementById('sim-prazo').value);
+  if(!valor||valor<=0){document.getElementById('sim-result').classList.remove('show');document.getElementById('sim-wa-btn').style.display='none';return;}
+  const financiado=Math.max(0,valor-entrada);
+  const taxa=0.0169; // 1.69% a.m.
+  let parcela=0;
+  if(financiado>0&&prazo>0){
+    parcela=financiado*(taxa*Math.pow(1+taxa,prazo))/(Math.pow(1+taxa,prazo)-1);
+  }
+  const total=parcela*prazo+entrada;
+  const fmt=n=>n.toLocaleString('pt-BR',{style:'currency',currency:'BRL',maximumFractionDigits:0});
+  document.getElementById('sim-parcela').textContent=fmt(parcela);
+  document.getElementById('sim-financiado').textContent=fmt(financiado);
+  document.getElementById('sim-total').textContent=fmt(total);
+  document.getElementById('sim-note').textContent=prazo+' parcelas de '+fmt(parcela)+' · Taxa ref. 1,69% a.m.';
+  document.getElementById('sim-result').classList.add('show');
+  document.getElementById('sim-wa-btn').style.display='flex';
+}
+
+// ─── SEND SIM TO WA ───
+function sendSimToWA(){
+  const nome=document.getElementById('sim-nome').value||'(não informado)';
+  const carro=document.getElementById('sim-carro').value||'(não informado)';
+  const valor=document.getElementById('sim-valor').value||'0';
+  const entrada=document.getElementById('sim-entrada').value||'0';
+  const prazo=document.getElementById('sim-prazo').value;
+  const troca=document.getElementById('sim-troca').value==='sim'?'Sim':'Não';
+  const renda=document.getElementById('sim-renda').options[document.getElementById('sim-renda').selectedIndex].text;
+  const parcela=document.getElementById('sim-parcela').textContent;
+
+  const msg=
+    `Oi Luiz, fiz a simulação no seu site! Aqui estão os dados:%0A%0A`+
+    `👤 Nome: ${encodeURIComponent(nome)}%0A`+
+    `🚗 Carro: ${encodeURIComponent(carro)}%0A`+
+    `💰 Valor: R$ ${encodeURIComponent(valor)}%0A`+
+    `💵 Entrada: R$ ${encodeURIComponent(entrada)}%0A`+
+    `📅 Prazo: ${prazo} meses%0A`+
+    `🔄 Troca: ${troca}%0A`+
+    `💼 Renda: ${encodeURIComponent(renda)}%0A`+
+    `📊 Parcela estimada: ${encodeURIComponent(parcela)}%0A%0A`+
+    `Pode me ajudar a fechar?`;
+
+  window.open('https://wa.me/5513996040166?text='+msg,'_blank');
+}
+
+// ─── GALLERY DRIVE SLIDESHOW ───
+const DRIVE_IDS = [
+  '16QweKLPo7bBfIedUcKSphAoXQDTlbo4B','1wb-d5AyReYdWunXyZDW90W1EXCM_sCG8',
+  '1C0ctZyBx3Tr07A_xx3KU6K4dQ_dk9tLE','1exVg2iSdLp_qxxdrnKO0aWybOLgKleP0',
+  '1qGbkZkx-IxIYfQ5LjJI14XVlMkDhJSLn','1pe1sxG1mS-BUBSzfqatZ3zlNAjWxXAUz',
+  '1-0QXngGI_HUAi4wC8lw_ARt10NDv05QV','112QzzZFkhLfaudKI0CjviLrDf2WE_1UO',
+  '1HbGYo5J5FjbANY5pccmwKkdIhrnbWeJk','1uXGDmI7rzLARv0dY1kvdJm2uatx_OfyW',
+  '1_IAeoVYRKxcxg_6oUPMt93MUWRAouVGp','1ALw9tfPWYXbnM5L6vQzvMb_DEq4K8nP5',
+  '1whrL6XpjvP1BPbsz0TxVVpN-q7_7waDG','11y2f4WIATRbzKfIg8VTJoWPQ2pczKZqu',
+  '1VgYsjXqcuGBOPnjQmYqF__UfpQg47tRH','1v25DVBp_WhE7yMz7LUcH72wss7040BKi',
+  '1kjjsQZACs7ZSy40BnlAPpYUqhK-h1hp8','1S0zSBRTgEkMVXjWG1ELvdqcod7NJ9UoA',
+  '1f8oO9077z-TW3_sAsa4ebgAWpJLjgnh2','17cOrSD6H4xsyRCwZ2O-FXRmImiRWmIkx',
+  '1ZEh1vJoARCHBSEaaMOUh73ZNTo3SJtKS','17_XYd0Cw3QoYS3yhNG_tdDU111ryIoC2',
+  '1P5Ozo198qAbYwoA1ki6aMu0EnJ3bG8TN','1pxC7U9vaAWhVblK8vIpeb-aqFXGg7z1l',
+  '1REYlBcJKCkztdVqJWbTaLZSAcYnNA3W0','1xHMH8JD9PuV2FUWY1gRK0b3Ho-xIGzln',
+  '1D8HPnUoH75JUmie2MUpA1XE0oTm1XIHR','1Vm_bV6L9xwYX0lbfY0eoIP9Xzmh55BsV',
+  '1ay8-0vtB5hE15faLOc4As1VmtM8HxuDo','1FIoLfAHSwW6t437ChzltkMxCb163ACR9',
+  '1tdonX4I4Yq1chVWMtnpjCDWTG18Vnxzl','1_v5ovUi4wGI1ShtCqdNMDFMmkOyMwgt3',
+  '1qeHkFyJ-2APdfw4-4KYdU8BNVuzmhvwZ','1P2KBIsRE3lDQAF_m7w_JSTq9NaQcWvBG',
+  '1dfdTWFZIjXvfeVc-r5PZRcJRgKswP4I2','1rEmcFHXKME0CHPqnK0t_vKrKwZqkPM80',
+  '1yrMQZOIjCZOYSOwCDzqbKGA3bhKNI_Qt','1jfYP0qlWedYoAbu6uVWTau6FJ7SA6EVh',
+  '1eJQZhufb65ngV4VXmlqdlDafCOa_IbnP','1N_IL44RkzcOcxuho3uhfpMr2eXHm_hko',
+  '1yazuxst9H9jPR74xrMoFg31ZsUPULEq3','1ETBN9sK1pCRrNykKW3Plf0VSk2yTMy7j',
+  '16290Vj4n6mXKSaFao-Z0t-c2qsDWbmOk','1t-3AMxPL-wV2Poj84984-Er19X7WMt-G',
+  '1-_i3gRAjJjrtV3Dey7S0WfYGICMq4dfo','1_aIqbnUNmylahfZ-cjGlZW0P8vhzm276',
+  '1fJUR-vc4zhUhEgRMkkl3qH_0ntd93H1Q','1K2bogu3FCliUi_XEzy3efQMpXBdfq2wl',
+  '1Nfz0ddIeyyTedlRixKtixjvcBBcIP4wf','1StcpRhJyzpNCx3teFikxNjEhOtK6ydUu'
+];
+
+const driveUrl = id => `https://drive.google.com/thumbnail?id=${id}&sz=w800`;
+
+function shuffleIds(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+(function initGallery() {
+  const mImgs = [...document.querySelectorAll('.masonry .mi img')];
+  const gImgs = [...document.querySelectorAll('.gscroll .gsi img')];
+  const allCells = [...mImgs, ...gImgs];
+  const ids = shuffleIds(DRIVE_IDS);
+  let ptr = 0;
+
+  allCells.forEach(img => {
+    img.src = driveUrl(ids[ptr % ids.length]);
+    ptr++;
+  });
+
+  allCells.forEach((img, cellIdx) => {
+    let localPtr = cellIdx;
+    setInterval(() => {
+      img.style.opacity = '0';
+      setTimeout(() => {
+        localPtr = (localPtr + allCells.length) % ids.length;
+        img.src = driveUrl(ids[localPtr]);
+        const show = () => { img.style.opacity = ''; };
+        img.onload = show;
+        img.onerror = show;
+        if (img.complete) show();
+      }, 500);
+    }, 4500 + cellIdx * 380);
+  });
+})();
+</script>
+</body>
+</html>
