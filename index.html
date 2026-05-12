@@ -300,6 +300,13 @@ footer{background:#080808;border-top:1px solid rgba(255,255,255,.04);padding:32p
 .fi.d1{transition-delay:.1s}.fi.d2{transition-delay:.2s}.fi.d3{transition-delay:.3s}
 .fi.vis{opacity:1;transform:none}
 
+/* ── TOGGLE BUTTONS ── */
+.tog-group{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+.tog-btn{background:var(--card);border:1.5px solid var(--border);color:var(--gray);font-family:'Barlow Condensed',sans-serif;font-size:13px;font-weight:700;letter-spacing:1px;padding:11px 16px;border-radius:6px;cursor:pointer;transition:all .18s;flex:1;min-width:120px;text-align:center;line-height:1.2}
+.tog-btn:hover{border-color:var(--orange);color:var(--orange)}
+.tog-btn.active{background:var(--orange);border-color:var(--orange);color:#fff}
+.tog-btn.full{flex:0 0 100%}
+
 /* ── RESPONSIVE ── */
 @media(max-width:960px){
   .stats,.journey-grid{grid-template-columns:repeat(2,1fr)}
@@ -647,22 +654,22 @@ footer{background:#080808;border-top:1px solid rgba(255,255,255,.04);padding:32p
   <div class="wrap">
     <div class="sim-wrap">
       <div class="sim-info fi">
-        <span class="tag">Simulador gratuito</span>
-        <h2 class="h2">Descubra quanto<br>fica a sua <em>parcela.</em></h2>
+        <span class="tag">Proposta personalizada</span>
+        <h2 class="h2">Preencha uma vez.<br><em>Eu faço o resto.</em></h2>
         <div class="bar"></div>
-        <p class="lead" style="margin-bottom:28px">Preencha os campos ao lado e calcule agora. Depois é só me mandar pelo WhatsApp e eu já monto a proposta real pra você.</p>
+        <p class="lead" style="margin-bottom:28px">Me conta sua situação e eu monto a melhor proposta pra você — com as condições reais dos bancos parceiros. Sem enrolação, sem pressão.</p>
         <div class="sim-check">
           <div class="sim-check-item">
-            <div class="sim-check-icon">✅</div>
-            <div class="sim-check-text"><strong>Simulação sem compromisso</strong><span>Você simula, vê como fica e decide na sua hora. Sem pressão.</span></div>
-          </div>
-          <div class="sim-check-item">
             <div class="sim-check-icon">📲</div>
-            <div class="sim-check-text"><strong>Envio direto pro WhatsApp</strong><span>Clique em "Enviar simulação" e a proposta já chega pra mim formatada.</span></div>
+            <div class="sim-check-text"><strong>Chega direto no meu WhatsApp</strong><span>Assim que você clicar, recebo todas as informações formatadas e já começo a analisar.</span></div>
           </div>
           <div class="sim-check-item">
             <div class="sim-check-icon">🏦</div>
-            <div class="sim-check-text"><strong>Análise de crédito real</strong><span>Depois que eu recebo, analiso as melhores condições com os bancos parceiros.</span></div>
+            <div class="sim-check-text"><strong>Análise com bancos reais</strong><span>Consulto as melhores condições com os parceiros do Grupo Reauto pra você.</span></div>
+          </div>
+          <div class="sim-check-item">
+            <div class="sim-check-icon">✅</div>
+            <div class="sim-check-text"><strong>Sem compromisso</strong><span>Você preenche, vê a proposta e decide na sua hora. Sem pressão nenhuma.</span></div>
           </div>
           <div class="sim-check-item">
             <div class="sim-check-icon">🔒</div>
@@ -680,76 +687,92 @@ footer{background:#080808;border-top:1px solid rgba(255,255,255,.04);padding:32p
             <input type="text" id="sim-nome" placeholder="Como posso te chamar?">
           </div>
 
-          <div class="field">
-            <label>Carro de interesse</label>
-            <input type="text" id="sim-carro" placeholder="Ex: HB20, Onix, Compass...">
-          </div>
-
           <div class="field-row">
             <div class="field">
-              <label>Valor do carro (R$)</label>
-              <input type="text" id="sim-valor" placeholder="Ex: 65000" oninput="formatMoney(this); calcSim()">
+              <label>Celular / WhatsApp</label>
+              <input type="tel" id="sim-cel" placeholder="(13) 99999-9999" oninput="maskPhone(this)">
             </div>
             <div class="field">
-              <label>Valor de entrada (R$)</label>
-              <input type="text" id="sim-entrada" placeholder="Ex: 13000" oninput="formatMoney(this); calcSim()">
+              <label>Data de nascimento</label>
+              <input type="text" id="sim-nasc" placeholder="DD/MM/AAAA" oninput="maskDate(this)" maxlength="10">
             </div>
           </div>
 
           <div class="field">
-            <label>Prazo de financiamento</label>
-            <select id="sim-prazo" onchange="calcSim()">
-              <option value="24">24 meses (2 anos)</option>
-              <option value="36">36 meses (3 anos)</option>
-              <option value="48">48 meses (4 anos)</option>
-              <option value="60" selected>60 meses (5 anos)</option>
-              <option value="72">72 meses (6 anos)</option>
-            </select>
+            <label>E-mail <span style="font-weight:400;color:var(--gray2)">(opcional)</span></label>
+            <input type="email" id="sim-email" placeholder="seuemail@gmail.com">
           </div>
 
           <div class="field">
-            <label>Tem carro pra dar como troca?</label>
-            <select id="sim-troca">
-              <option value="nao">Não tenho troca</option>
-              <option value="sim">Sim, tenho um carro pra trocar</option>
-            </select>
-          </div>
-
-          <div class="field">
-            <label>Renda mensal aproximada (R$)</label>
-            <select id="sim-renda">
-              <option value="">Prefiro não informar</option>
-              <option value="ate2k">Até R$ 2.000</option>
-              <option value="2a4k">R$ 2.000 a R$ 4.000</option>
-              <option value="4a7k">R$ 4.000 a R$ 7.000</option>
-              <option value="7kplus">Acima de R$ 7.000</option>
-            </select>
-          </div>
-
-          <!-- Resultado da simulação -->
-          <div class="sim-result" id="sim-result">
-            <div class="sim-result-label">Estimativa de parcela mensal</div>
-            <div class="sim-result-value" id="sim-parcela">R$ 0</div>
-            <div class="sim-result-note" id="sim-note"></div>
-            <div class="sim-result-breakdown">
-              <div class="sim-mini">
-                <span class="sim-mini-n" id="sim-financiado">R$ 0</span>
-                <div class="sim-mini-l">Valor financiado</div>
-              </div>
-              <div class="sim-mini">
-                <span class="sim-mini-n" id="sim-total">R$ 0</span>
-                <div class="sim-mini-l">Total a pagar</div>
-              </div>
+            <label>Quando planeja comprar seu carro?</label>
+            <div class="tog-group" id="grp-prazo">
+              <button type="button" class="tog-btn" data-val="Agora">AGORA</button>
+              <button type="button" class="tog-btn" data-val="Daqui a 7 dias">DAQUI A 7 DIAS</button>
+              <button type="button" class="tog-btn" data-val="Daqui a 30 dias">DAQUI A 30 DIAS</button>
+              <button type="button" class="tog-btn full" data-val="Estou pesquisando e perdendo as oportunidades">ESTOU PESQUISANDO E PERDENDO AS OPORTUNIDADES</button>
             </div>
           </div>
 
-          <a href="#" id="sim-wa-btn" onclick="sendSimToWA(); return false;" class="btn btn-wa-full btn-lg" style="width:100%;margin-top:16px;display:none">
+          <div class="field">
+            <label>Possui restrição no nome?</label>
+            <div class="tog-group" id="grp-restricao">
+              <button type="button" class="tog-btn" data-val="Sim">SIM</button>
+              <button type="button" class="tog-btn" data-val="Não">NÃO</button>
+            </div>
+          </div>
+
+          <div class="field">
+            <label>Possui CNH?</label>
+            <div class="tog-group" id="grp-cnh">
+              <button type="button" class="tog-btn" data-val="Sim">SIM</button>
+              <button type="button" class="tog-btn" data-val="Não">NÃO</button>
+            </div>
+          </div>
+
+          <div class="field">
+            <label>Como vai ser sua entrada?</label>
+            <select id="sim-entrada-tipo" onchange="toggleEntrada()">
+              <option value="">Selecione uma opção</option>
+              <option value="dinheiro">💵 Vou dar entrada em dinheiro</option>
+              <option value="troca">🔄 Tenho carro pra dar como troca</option>
+              <option value="ambos">💵🔄 Dinheiro + carro pra trocar</option>
+              <option value="nasei">🤷 Ainda não sei / quero orientação</option>
+            </select>
+          </div>
+
+          <div class="field" id="campo-entrada" style="display:none">
+            <label>Valor de entrada em dinheiro</label>
+            <input type="text" id="sim-entrada-val" placeholder="Ex: R$ 8.000" oninput="formatMoney(this)">
+          </div>
+
+          <div class="field" id="campo-troca" style="display:none">
+            <label>Qual carro você vai dar como troca?</label>
+            <input type="text" id="sim-troca-modelo" placeholder="Ex: Gol 2019, HB20 2021...">
+          </div>
+
+          <div class="field">
+            <label>Qual parcela mensal cabe no seu bolso?</label>
+            <select id="sim-parcela">
+              <option value="">Selecione uma faixa</option>
+              <option value="Até R$ 600/mês">Até R$ 600/mês</option>
+              <option value="R$ 600 a R$ 1.000/mês">R$ 600 a R$ 1.000/mês</option>
+              <option value="R$ 1.000 a R$ 1.500/mês">R$ 1.000 a R$ 1.500/mês</option>
+              <option value="R$ 1.500 a R$ 2.000/mês">R$ 1.500 a R$ 2.000/mês</option>
+              <option value="Acima de R$ 2.000/mês">Acima de R$ 2.000/mês</option>
+              <option value="Não sei, quero orientação do Brabo">Não sei, quero orientação</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label>Qual carro ou faixa de valor você está de olho?</label>
+            <input type="text" id="sim-carro" placeholder="Ex: Onix, Compass, SUV até R$ 70.000...">
+          </div>
+
+          <button onclick="sendSimToWA()" class="btn btn-wa-full btn-lg" style="width:100%;margin-top:8px">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-            Enviar simulação pro Brabo
-          </a>
-
-          <button onclick="calcSim()" class="btn btn-orange btn-lg" style="width:100%;margin-top:12px">📊 Calcular parcela</button>
-          <p style="font-size:11px;color:var(--gray2);text-align:center;margin-top:10px">*Estimativa com taxa de 1,69% a.m. Condições reais mediante análise de crédito.</p>
+            Enviar proposta pro Brabo
+          </button>
+          <p style="font-size:11px;color:var(--gray2);text-align:center;margin-top:10px">🔒 Seus dados ficam seguros. Nenhuma informação é compartilhada sem sua autorização.</p>
         </div>
       </div>
     </div>
@@ -1060,63 +1083,83 @@ function toggleFaq(el){
   if(!isOpen)item.classList.add('open');
 }
 
-// ─── FORMAT MONEY ───
-function formatMoney(input){
-  let v=input.value.replace(/\D/g,'');
-  if(v){v=parseInt(v,10).toLocaleString('pt-BR');}
+// ─── MASKS ───
+function maskPhone(input){
+  let v=input.value.replace(/\D/g,'').slice(0,11);
+  if(v.length>6) v='('+v.slice(0,2)+') '+v.slice(2,7)+'-'+v.slice(7);
+  else if(v.length>2) v='('+v.slice(0,2)+') '+v.slice(2);
+  else if(v.length>0) v='('+v;
   input.value=v;
 }
-
-function parseVal(id){
-  return parseInt((document.getElementById(id).value||'0').replace(/\./g,'').replace(/,/g,'.'),10)||0;
+function maskDate(input){
+  let v=input.value.replace(/\D/g,'').slice(0,8);
+  if(v.length>4) v=v.slice(0,2)+'/'+v.slice(2,4)+'/'+v.slice(4);
+  else if(v.length>2) v=v.slice(0,2)+'/'+v.slice(2);
+  input.value=v;
+}
+function formatMoney(input){
+  let v=input.value.replace(/\D/g,'');
+  input.value=v?'R$ '+parseInt(v,10).toLocaleString('pt-BR'):'';
 }
 
-// ─── SIMULATOR ───
-function calcSim(){
-  const valor=parseVal('sim-valor');
-  const entrada=parseVal('sim-entrada');
-  const prazo=parseInt(document.getElementById('sim-prazo').value);
-  if(!valor||valor<=0){document.getElementById('sim-result').classList.remove('show');document.getElementById('sim-wa-btn').style.display='none';return;}
-  const financiado=Math.max(0,valor-entrada);
-  const taxa=0.0169; // 1.69% a.m.
-  let parcela=0;
-  if(financiado>0&&prazo>0){
-    parcela=financiado*(taxa*Math.pow(1+taxa,prazo))/(Math.pow(1+taxa,prazo)-1);
-  }
-  const total=parcela*prazo+entrada;
-  const fmt=n=>n.toLocaleString('pt-BR',{style:'currency',currency:'BRL',maximumFractionDigits:0});
-  document.getElementById('sim-parcela').textContent=fmt(parcela);
-  document.getElementById('sim-financiado').textContent=fmt(financiado);
-  document.getElementById('sim-total').textContent=fmt(total);
-  document.getElementById('sim-note').textContent=prazo+' parcelas de '+fmt(parcela)+' · Taxa ref. 1,69% a.m.';
-  document.getElementById('sim-result').classList.add('show');
-  document.getElementById('sim-wa-btn').style.display='flex';
+// ─── TOGGLE BUTTONS ───
+document.querySelectorAll('.tog-group').forEach(group=>{
+  group.querySelectorAll('.tog-btn').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      group.querySelectorAll('.tog-btn').forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+    });
+  });
+});
+
+// ─── TOGGLE ENTRADA FIELDS ───
+function toggleEntrada(){
+  const tipo=document.getElementById('sim-entrada-tipo').value;
+  document.getElementById('campo-entrada').style.display=(tipo==='dinheiro'||tipo==='ambos')?'block':'none';
+  document.getElementById('campo-troca').style.display=(tipo==='troca'||tipo==='ambos')?'block':'none';
 }
 
-// ─── SEND SIM TO WA ───
+// ─── SEND TO WHATSAPP ───
 function sendSimToWA(){
-  const nome=document.getElementById('sim-nome').value||'(não informado)';
-  const carro=document.getElementById('sim-carro').value||'(não informado)';
-  const valor=document.getElementById('sim-valor').value||'0';
-  const entrada=document.getElementById('sim-entrada').value||'0';
-  const prazo=document.getElementById('sim-prazo').value;
-  const troca=document.getElementById('sim-troca').value==='sim'?'Sim':'Não';
-  const renda=document.getElementById('sim-renda').options[document.getElementById('sim-renda').selectedIndex].text;
-  const parcela=document.getElementById('sim-parcela').textContent;
+  const g=id=>document.getElementById(id);
+  const tog=id=>{const a=document.querySelector('#'+id+' .tog-btn.active');return a?a.dataset.val:'(não selecionado)';};
+  const sel=id=>{const e=g(id);return e.options[e.selectedIndex].text||'(não informado)';};
 
-  const msg=
-    `Oi Luiz, fiz a simulação no seu site! Aqui estão os dados:%0A%0A`+
-    `👤 Nome: ${encodeURIComponent(nome)}%0A`+
-    `🚗 Carro: ${encodeURIComponent(carro)}%0A`+
-    `💰 Valor: R$ ${encodeURIComponent(valor)}%0A`+
-    `💵 Entrada: R$ ${encodeURIComponent(entrada)}%0A`+
-    `📅 Prazo: ${prazo} meses%0A`+
-    `🔄 Troca: ${troca}%0A`+
-    `💼 Renda: ${encodeURIComponent(renda)}%0A`+
-    `📊 Parcela estimada: ${encodeURIComponent(parcela)}%0A%0A`+
-    `Pode me ajudar a fechar?`;
+  const nome=g('sim-nome').value||'(não informado)';
+  const cel=g('sim-cel').value||'(não informado)';
+  const nasc=g('sim-nasc').value||'(não informado)';
+  const email=g('sim-email').value||'(não informado)';
+  const prazo=tog('grp-prazo');
+  const restricao=tog('grp-restricao');
+  const cnh=tog('grp-cnh');
+  const entradaTipo=sel('sim-entrada-tipo');
+  const entradaVal=g('sim-entrada-val').value||'';
+  const trocaModelo=g('sim-troca-modelo').value||'';
+  const parcela=sel('sim-parcela');
+  const carro=g('sim-carro').value||'(não informado)';
 
-  window.open('https://wa.me/5513991575019?text='+msg,'_blank');
+  let entradaInfo=entradaTipo;
+  if(entradaVal) entradaInfo+=' — Valor: '+entradaVal;
+  if(trocaModelo) entradaInfo+=' — Troca: '+trocaModelo;
+
+  const linhas=[
+    '🚗 *NOVA PROPOSTA — Site O Brabo das Vendas*',
+    '',
+    '👤 *Nome:* '+nome,
+    '📱 *Celular:* '+cel,
+    '🎂 *Nascimento:* '+nasc,
+    '📧 *E-mail:* '+email,
+    '',
+    '⏰ *Quando quer comprar:* '+prazo,
+    '⚠️ *Restrição no nome:* '+restricao,
+    '🪪 *Possui CNH:* '+cnh,
+    '',
+    '💰 *Entrada/Troca:* '+entradaInfo,
+    '💳 *Parcela ideal:* '+parcela,
+    '🚙 *Carro desejado:* '+carro,
+  ];
+
+  window.open('https://wa.me/5513991575019?text='+encodeURIComponent(linhas.join('\n')),'_blank');
 }
 
 // ─── GALLERY DRIVE SLIDESHOW ───
