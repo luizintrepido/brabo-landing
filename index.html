@@ -1009,7 +1009,6 @@ function _imgUrl(v) {
 
 function _buildCard(v, idx) {
   const delay = idx % 3 === 1 ? ' d1' : idx % 3 === 2 ? ' d2' : '';
-  const linkCatalogo = v.url_original || `${CATALOGO_BASE}/carros/${v.slug || v.id}`;
   const nomeCarro = `${v.marca} ${v.modelo}${v.ano ? ' '+v.ano : ''}`;
   const kmFmt = v.km ? Number(v.km).toLocaleString('pt-BR')+' km' : null;
   const detalhe = [v.ano, kmFmt].filter(Boolean).join(' · ');
@@ -1017,7 +1016,7 @@ function _buildCard(v, idx) {
   const parc = v.preco ? `ou a partir de ${_parcela(v.preco)}/mês*` : '';
   const imgSrc = _imgUrl(v);
   const waNum = v.whatsapp || '5513991575019';
-  const waMsg = encodeURIComponent(`Oi Luiz, tenho interesse no ${nomeCarro} por ${precoFmt}! Pode me dar mais informações? ${linkCatalogo}`);
+  const waMsg = encodeURIComponent(`Oi Luiz, tenho interesse no ${nomeCarro} por ${precoFmt}! Pode me dar mais informações?`);
 
   return `
   <div class="car-card fi${delay}" data-cat="${_tipoToCat(v.tipo)}" data-idx="${idx}" onclick="openCar(_allCars[this.dataset.idx])" style="cursor:pointer">
