@@ -1,0 +1,38 @@
+name: Atualizar Feed Meta Catalog
+
+on:
+  schedule:
+    - cron: '0 9 * * *'   # todo dia às 06h (horário de Brasília = 09h UTC)
+  push:
+    branches: [master]
+  workflow_dispatch:       # permite rodar manualmente pelo GitHub
+
+jobs:
+  gerar-feed:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Gerar feed.xml
+        run: python generate_feed.py
+
+      - name: Verificar se o feed mudou
+        id: check
+        run: |
+          git diff --quiet feed.xml && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit e push do feed.xml
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add feed.xml
+          git commit -m "auto: atualiza feed Meta Catalog [$(date '+%d/%m/%Y %H:%M')]"
+          git push
