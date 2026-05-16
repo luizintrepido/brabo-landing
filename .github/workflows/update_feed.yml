@@ -2,7 +2,7 @@ name: Atualizar Feed Meta Catalog
 
 on:
   schedule:
-    - cron: '0 9 * * *'   # todo dia às 06h (horário de Brasília = 09h UTC)
+    - cron: '0 * * * *'   # a cada hora (UTC) = atualização horária
   push:
     branches: [master]
   workflow_dispatch:       # permite rodar manualmente pelo GitHub
