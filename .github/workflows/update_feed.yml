@@ -7,6 +7,9 @@ on:
     branches: [master]
   workflow_dispatch:       # permite rodar manualmente pelo GitHub
 
+permissions:
+  contents: write
+
 jobs:
   gerar-feed:
     runs-on: ubuntu-latest
