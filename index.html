@@ -31,14 +31,26 @@ body{background:var(--black);color:var(--white);font-family:'Barlow',sans-serif;
 #prog{position:fixed;top:0;left:0;height:3px;width:0;background:var(--orange);z-index:9999;transition:width .1s}
 
 /* ── NAV ── */
-nav{position:fixed;top:3px;left:0;right:0;z-index:900;height:60px;background:rgba(10,10,10,.95);border-bottom:1px solid var(--border);backdrop-filter:blur(14px);display:flex;align-items:center;justify-content:space-between;padding:0 24px;gap:16px}
-.nav-logo{font-family:'Bebas Neue',sans-serif;font-size:19px;letter-spacing:1px;color:var(--white);flex-shrink:0}
+nav{position:fixed;top:3px;left:0;right:0;z-index:900;background:rgba(10,10,10,.97);border-bottom:1px solid var(--border);backdrop-filter:blur(14px);display:flex;flex-direction:column}
+.nav-top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:11px 24px 9px}
+.nav-logo{font-family:'Bebas Neue',sans-serif;font-size:21px;letter-spacing:1px;color:var(--white);flex-shrink:0}
 .nav-logo span{color:var(--orange)}
-.nav-links{display:flex;gap:18px;list-style:none;align-items:center;margin-left:auto}
-.nav-links a{color:var(--gray);text-decoration:none;font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;transition:color .2s;white-space:nowrap}
-.nav-links a:hover{color:var(--orange)}
-.nav-pill{background:var(--orange);color:#000!important;padding:7px 16px;border-radius:4px;font-weight:700!important}
-.nav-wa{background:var(--green)!important;color:#000!important;padding:7px 16px;border-radius:4px}
+.nav-ig{color:var(--gray2);text-decoration:none;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;white-space:nowrap;transition:color .2s}
+.nav-ig:hover{color:var(--orange)}
+/* action bar (abaixo do nome) */
+.nav-bar{display:flex;align-items:center;gap:10px;padding:0 24px 11px}
+.nav-links2{display:flex;align-items:center;gap:6px;flex-shrink:0}
+.nav-link{color:var(--gray);text-decoration:none;font-family:'Barlow Condensed',sans-serif;font-size:14px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;white-space:nowrap;padding:8px 14px;border-radius:5px;transition:color .2s,background .2s}
+.nav-link:hover{color:var(--orange);background:rgba(255,106,0,.08)}
+.nav-wa{background:var(--green);color:#000!important;padding:8px 15px;border-radius:5px;font-family:'Barlow Condensed',sans-serif;font-size:14px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;text-decoration:none;white-space:nowrap;display:inline-flex;align-items:center;gap:6px;transition:background .2s,transform .2s}
+.nav-wa:hover{background:#20ba57;transform:translateY(-1px)}
+.nav-search{flex:1;min-width:0;position:relative;margin-left:auto}
+.nav-search input{width:100%;background:#161616;border:1px solid rgba(255,106,0,.22);border-radius:7px;padding:9px 14px 9px 38px;color:var(--white);font-family:'Barlow',sans-serif;font-size:14px;outline:none;transition:border-color .2s}
+.nav-search input:focus{border-color:var(--orange)}
+.nav-search input::placeholder{color:var(--gray2)}
+.nav-search svg{position:absolute;left:13px;top:50%;transform:translateY(-50%);color:var(--gray2);pointer-events:none}
+/* compensar nav fixa de 2 linhas ao rolar até âncoras */
+[id]{scroll-margin-top:130px}
 
 /* ── UTILS ── */
 .wrap{max-width:1100px;margin:0 auto;padding:0 24px}
@@ -319,9 +331,17 @@ footer{background:#080808;border-top:1px solid rgba(255,255,255,.04);padding:32p
   .steps-wrap{grid-template-columns:1fr}
   .proof-grid{grid-template-columns:1fr}
   .about-grid{grid-template-columns:1fr}
-  .nav-links{display:none}
   .masonry{column-count:2}
   .steps::before{display:none}
+}
+@media(max-width:680px){
+  .nav-ig{display:none}
+  .nav-logo{font-size:18px}
+  .nav-bar{flex-direction:column;align-items:stretch;gap:8px}
+  .nav-links2{overflow-x:auto;gap:5px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .nav-links2::-webkit-scrollbar{display:none}
+  .nav-search{width:100%;margin-left:0}
+  .nav-link,.nav-wa{font-size:13px;padding:8px 12px}
 }
 @media(max-width:560px){
   .car-grid{grid-template-columns:1fr}
@@ -354,16 +374,22 @@ src="https://www.facebook.com/tr?id=917262416674683&ev=PageView&noscript=1"/></n
 
 <!-- NAV -->
 <nav>
-  <div class="nav-logo">O <span>BRABO</span> DAS VENDAS</div>
-  <ul class="nav-links">
-    <li><a href="#estoque">Estoque</a></li>
-    <li><a href="#simulador">Simular</a></li>
-    <li><a href="#entregas">Entregas</a></li>
-    <li><a href="#faq">Dúvidas</a></li>
-    <li><a href="#sobre">Sobre</a></li>
-    <li><a href="#simulador" class="nav-pill">Simular grátis</a></li>
-    <li><a href="https://wa.me/5513991575019?text=Oi+Luiz%2C+vim+pelo+site+e+quero+comprar+um+carro!" target="_blank" class="nav-wa">💬 WhatsApp</a></li>
-  </ul>
+  <div class="nav-top">
+    <div class="nav-logo">O <span>BRABO</span> DAS VENDAS</div>
+    <a href="https://www.instagram.com/luiz.obrabodasvendas" target="_blank" class="nav-ig">@luiz.obrabodasvendas</a>
+  </div>
+  <div class="nav-bar">
+    <div class="nav-links2">
+      <a href="#sobre" class="nav-link">Sobre</a>
+      <a href="#estoque" class="nav-link">Estoque</a>
+      <a href="#simulador" class="nav-link">Simular</a>
+      <a href="https://wa.me/5513991575019?text=Oi+Luiz%2C+vim+pelo+site+e+quero+comprar+um+carro!" target="_blank" class="nav-wa">💬 WhatsApp</a>
+    </div>
+    <div class="nav-search">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" id="nav-car-search" placeholder="Buscar carro por marca ou modelo...">
+    </div>
+  </div>
 </nav>
 
 <!-- SOBRE -->
@@ -1126,8 +1152,28 @@ document.getElementById('stock-filters').addEventListener('click', e => {
 
 document.getElementById('car-search').addEventListener('input', e => {
   _searchQ = e.target.value.trim();
+  const ns = document.getElementById('nav-car-search');
+  if (ns) ns.value = e.target.value;
   _renderCars();
 });
+
+// busca da barra fixa do topo
+const _navSearch = document.getElementById('nav-car-search');
+if (_navSearch) {
+  _navSearch.addEventListener('input', e => {
+    _searchQ = e.target.value.trim();
+    const cs = document.getElementById('car-search');
+    if (cs) cs.value = e.target.value;
+    _renderCars();
+  });
+  _navSearch.addEventListener('keydown', e => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      const est = document.getElementById('estoque');
+      if (est) est.scrollIntoView({behavior:'smooth'});
+    }
+  });
+}
 
 loadStock();
 
