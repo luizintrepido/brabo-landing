@@ -4,7 +4,87 @@
     <title>O Brabo das Vendas — Estoque de Veículos</title>
     <link>https://luizintrepido.github.io/brabo-landing</link>
     <description>Estoque de veículos seminovos e usados da Recar Automarcas / Grupo Reauto Veículos. Laudo cautelar aprovado, garantia até 2 anos, financiamento facilitado.</description>
-    <lastBuildDate>Wed, 17 Jun 2026 10:29:31 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 14:21:43 +0000</lastBuildDate>
+    <item>
+      <g:id>992151</g:id>
+      <g:title>Fiat Fiorino Endurance Evo 2022</g:title>
+      <g:description>Fiat Fiorino Endurance Evo - 1 4 Flex 8V 2P | Ano 2022 | 47.429 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>85900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/15OEnxmAJszG5PsvUNx0TkhihRGAsDK_4=s800</g:image_link>
+      <g:brand>Fiat</g:brand>
+      <g:make>Fiat</g:make>
+      <g:model>Fiorino Endurance Evo</g:model>
+      <g:year>2022</g:year>
+      <g:mileage value="47429" unit="KM" />
+      <g:body_style>UTILITARIO</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>1 4 Flex 8V 2P</g:trim>
+      <g:vehicle_id>992151</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>1022791</g:id>
+      <g:title>Fiat Toro Ultra 2026</g:title>
+      <g:description>Fiat Toro Ultra - 1 3 16V 4X2 Tb Flex Aut | Ano 2026 | 12.121 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>179900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1QQ_t5UZB7k-NxjrDnebmrPw5JUvAagCu=s800</g:image_link>
+      <g:brand>Fiat</g:brand>
+      <g:make>Fiat</g:make>
+      <g:model>Toro Ultra</g:model>
+      <g:year>2026</g:year>
+      <g:mileage value="12121" unit="KM" />
+      <g:body_style>CAMIONETE</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>1 3 16V 4X2 Tb Flex Aut</g:trim>
+      <g:vehicle_id>1022791</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>364986</g:id>
+      <g:title>Ford Maverick Lariat Fx4 2022</g:title>
+      <g:description>Ford Maverick Lariat Fx4 - 2 0 Ecoboost Aut | Ano 2022 | 50.751 km | Gasolina | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>162900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1TlWCJP7obONK1asYsNhERdTOLjRA-cpk=s800</g:image_link>
+      <g:brand>Ford</g:brand>
+      <g:make>Ford</g:make>
+      <g:model>Maverick Lariat Fx4</g:model>
+      <g:year>2022</g:year>
+      <g:mileage value="50751" unit="KM" />
+      <g:body_style>CAMIONETE</g:body_style>
+      <g:fuel_type>Gasoline</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>2 0 Ecoboost Aut</g:trim>
+      <g:vehicle_id>364986</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>4884045</g:id>
+      <g:title>Toyota Hilux 2016</g:title>
+      <g:description>Toyota Hilux - 2.8 Srx 4X4 7 Lugares 16V Turbo Intercooler Diesel 4P Automático | Ano 2016 | 267.000 km | Diesel | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>199900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1SGFcD0GOWW2q-yOGpbUGiJzStEG-ojZG=s800</g:image_link>
+      <g:brand>Toyota</g:brand>
+      <g:make>Toyota</g:make>
+      <g:model>Hilux</g:model>
+      <g:year>2016</g:year>
+      <g:mileage value="267000" unit="KM" />
+      <g:body_style>CAMIONETE</g:body_style>
+      <g:fuel_type>Diesel</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>2.8 Srx 4X4 7 Lugares 16V Turbo Intercooler Diesel 4P Automático</g:trim>
+      <g:vehicle_id>4884045</g:vehicle_id>
+    </item>
     <item>
       <g:id>1022669</g:id>
       <g:title>Audi Q5 2019</g:title>
@@ -24,26 +104,6 @@
       <g:transmission>Automatic</g:transmission>
       <g:trim>2 0 Tfsi Quattro S Tronic Blindado</g:trim>
       <g:vehicle_id>1022669</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>1022817</g:id>
-      <g:title>BMW  2022</g:title>
-      <g:description>BMW  - 320I Active | Ano 2022 | 31.237 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>212900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1IghV_jos38xBFx78vGOVitoLjGn8vZ1C=s800</g:image_link>
-      <g:brand>Bmw</g:brand>
-      <g:make>Bmw</g:make>
-      <g:model />
-      <g:year>2022</g:year>
-      <g:mileage value="31237" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>320I Active</g:trim>
-      <g:vehicle_id>1022817</g:vehicle_id>
     </item>
     <item>
       <g:id>934576</g:id>
@@ -126,46 +186,6 @@
       <g:vehicle_id>1000433</g:vehicle_id>
     </item>
     <item>
-      <g:id>992151</g:id>
-      <g:title>Fiat Fiorino Endurance Evo 2022</g:title>
-      <g:description>Fiat Fiorino Endurance Evo - 1 4 Flex 8V 2P | Ano 2022 | 47.429 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>85900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/15OEnxmAJszG5PsvUNx0TkhihRGAsDK_4=s800</g:image_link>
-      <g:brand>Fiat</g:brand>
-      <g:make>Fiat</g:make>
-      <g:model>Fiorino Endurance Evo</g:model>
-      <g:year>2022</g:year>
-      <g:mileage value="47429" unit="KM" />
-      <g:body_style>UTILITARIO</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>1 4 Flex 8V 2P</g:trim>
-      <g:vehicle_id>992151</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>1022791</g:id>
-      <g:title>Fiat Toro Ultra 2026</g:title>
-      <g:description>Fiat Toro Ultra - 1 3 16V 4X2 Tb Flex Aut | Ano 2026 | 12.121 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>179900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1QQ_t5UZB7k-NxjrDnebmrPw5JUvAagCu=s800</g:image_link>
-      <g:brand>Fiat</g:brand>
-      <g:make>Fiat</g:make>
-      <g:model>Toro Ultra</g:model>
-      <g:year>2026</g:year>
-      <g:mileage value="12121" unit="KM" />
-      <g:body_style>CAMIONETE</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>1 3 16V 4X2 Tb Flex Aut</g:trim>
-      <g:vehicle_id>1022791</g:vehicle_id>
-    </item>
-    <item>
       <g:id>1004250</g:id>
       <g:title>Ford Ecosport Se 2015</g:title>
       <g:description>Ford Ecosport Se - 2 0 16V Flex 5P Aut | Ano 2015 | 38.597 km | Flex. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
@@ -183,26 +203,6 @@
       <g:fuel_type>Flex-fuel</g:fuel_type>
       <g:trim>2 0 16V Flex 5P Aut</g:trim>
       <g:vehicle_id>1004250</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>364986</g:id>
-      <g:title>Ford Maverick Lariat Fx4 2022</g:title>
-      <g:description>Ford Maverick Lariat Fx4 - 2 0 Ecoboost Aut | Ano 2022 | 50.751 km | Gasolina | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>162900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1TlWCJP7obONK1asYsNhERdTOLjRA-cpk=s800</g:image_link>
-      <g:brand>Ford</g:brand>
-      <g:make>Ford</g:make>
-      <g:model>Maverick Lariat Fx4</g:model>
-      <g:year>2022</g:year>
-      <g:mileage value="50751" unit="KM" />
-      <g:body_style>CAMIONETE</g:body_style>
-      <g:fuel_type>Gasoline</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>2 0 Ecoboost Aut</g:trim>
-      <g:vehicle_id>364986</g:vehicle_id>
     </item>
     <item>
       <g:id>1022647</g:id>
@@ -223,46 +223,6 @@
       <g:transmission>Automatic</g:transmission>
       <g:trim>1 5 Turbo 172Cv Aut</g:trim>
       <g:vehicle_id>1022647</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>600011</g:id>
-      <g:title>Chevrolet Onix Hatch Lt 2023</g:title>
-      <g:description>Chevrolet Onix Hatch Lt - 1 0 12V Flex 5P Mec | Ano 2023 | 39.639 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>71900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://luizintrepido.github.io/brabo-landing/em-preparacao.jpg</g:image_link>
-      <g:brand>Chevrolet</g:brand>
-      <g:make>Chevrolet</g:make>
-      <g:model>Onix Hatch Lt</g:model>
-      <g:year>2023</g:year>
-      <g:mileage value="39639" unit="KM" />
-      <g:body_style>Hatchback</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>1 0 12V Flex 5P Mec</g:trim>
-      <g:vehicle_id>600011</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>946591</g:id>
-      <g:title>Chevrolet Onix Hatch Lt 2023</g:title>
-      <g:description>Chevrolet Onix Hatch Lt - 1 0 12V Tb Flex 5P Mec | Ano 2023 | 30.885 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>77900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1CqNiBncPimeceQjIN1rUTkL5O5-6u1k3=s800</g:image_link>
-      <g:brand>Chevrolet</g:brand>
-      <g:make>Chevrolet</g:make>
-      <g:model>Onix Hatch Lt</g:model>
-      <g:year>2023</g:year>
-      <g:mileage value="30885" unit="KM" />
-      <g:body_style>Hatchback</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>1 0 12V Tb Flex 5P Mec</g:trim>
-      <g:vehicle_id>946591</g:vehicle_id>
     </item>
     <item>
       <g:id>961256</g:id>
@@ -365,26 +325,6 @@
       <g:vehicle_id>951133</g:vehicle_id>
     </item>
     <item>
-      <g:id>1022364</g:id>
-      <g:title>Honda Civic Sedan Touring 2018</g:title>
-      <g:description>Honda Civic Sedan Touring - 1 5 Turbo 16V Aut 4P | Ano 2018 | 69.063 km | Gasolina | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>127900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1b_alkyZl6yy-YpCZZZCyqXLcGK1kl6V7=s800</g:image_link>
-      <g:brand>Honda</g:brand>
-      <g:make>Honda</g:make>
-      <g:model>Civic Sedan Touring</g:model>
-      <g:year>2018</g:year>
-      <g:mileage value="69063" unit="KM" />
-      <g:body_style>Sedan</g:body_style>
-      <g:fuel_type>Gasoline</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>1 5 Turbo 16V Aut 4P</g:trim>
-      <g:vehicle_id>1022364</g:vehicle_id>
-    </item>
-    <item>
       <g:id>917910</g:id>
       <g:title>Hyundai Creta Action 2022</g:title>
       <g:description>Hyundai Creta Action - 1 6 16V Flex Aut | Ano 2022 | 66.860 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
@@ -423,26 +363,6 @@
       <g:transmission>Automatic</g:transmission>
       <g:trim>1 6 16V Flex Aut Pcd</g:trim>
       <g:vehicle_id>982254</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>1027362</g:id>
-      <g:title>Hyundai HB20 Comf C Plus C Style 2019</g:title>
-      <g:description>Hyundai HB20 Comf C Plus C Style - 1 0 Flex 12V | Ano 2019 | 44.294 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>71900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://luizintrepido.github.io/brabo-landing/em-preparacao.jpg</g:image_link>
-      <g:brand>Hyundai</g:brand>
-      <g:make>Hyundai</g:make>
-      <g:model>HB20 Comf C Plus C Style</g:model>
-      <g:year>2019</g:year>
-      <g:mileage value="44294" unit="KM" />
-      <g:body_style>Hatchback</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>1 0 Flex 12V</g:trim>
-      <g:vehicle_id>1027362</g:vehicle_id>
     </item>
     <item>
       <g:id>936524</g:id>
@@ -565,26 +485,6 @@
       <g:vehicle_id>1022623</g:vehicle_id>
     </item>
     <item>
-      <g:id>997750</g:id>
-      <g:title>Mercedes Benz Slk 2009</g:title>
-      <g:description>Mercedes Benz Slk - 200 Kompressor 16V 200 Cgi 16V | Ano 2009 | 53.536 km | Gasolina | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>149900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1aWBsa_QfuKXU4VXd7su3cfWRvEeZspc_=s800</g:image_link>
-      <g:brand>Mercedes Benz</g:brand>
-      <g:make>Mercedes Benz</g:make>
-      <g:model>Slk</g:model>
-      <g:year>2009</g:year>
-      <g:mileage value="53536" unit="KM" />
-      <g:body_style>Sedan</g:body_style>
-      <g:fuel_type>Gasoline</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>200 Kompressor 16V 200 Cgi 16V</g:trim>
-      <g:vehicle_id>997750</g:vehicle_id>
-    </item>
-    <item>
       <g:id>1019518</g:id>
       <g:title>Mitsubishi Asx 2019</g:title>
       <g:description>Mitsubishi Asx - 2 0 16V 4X4 Flex Aut | Ano 2019 | 79.891 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
@@ -705,26 +605,6 @@
       <g:vehicle_id>1022503</g:vehicle_id>
     </item>
     <item>
-      <g:id>1011435</g:id>
-      <g:title>Volkswagen Fox 2014</g:title>
-      <g:description>Volkswagen Fox - 1 0 Mi Total Flex 8V 5P | Ano 2014 | 39.720 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>48900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1MxXydhWdj_IgB9lQO_AZEiEaIhwFsrbu=s800</g:image_link>
-      <g:brand>Volkswagen</g:brand>
-      <g:make>Volkswagen</g:make>
-      <g:model>Fox</g:model>
-      <g:year>2014</g:year>
-      <g:mileage value="39720" unit="KM" />
-      <g:body_style>Hatchback</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>1 0 Mi Total Flex 8V 5P</g:trim>
-      <g:vehicle_id>1011435</g:vehicle_id>
-    </item>
-    <item>
       <g:id>874532</g:id>
       <g:title>Volkswagen Nivus Highline 2023</g:title>
       <g:description>Volkswagen Nivus Highline - 1 0 200 Tsi Flex Aut | Ano 2023 | 34.134 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
@@ -825,214 +705,6 @@
       <g:vehicle_id>992288</g:vehicle_id>
     </item>
     <item>
-      <g:id>1013017</g:id>
-      <g:title>Harley Davidson Fat Bob 2019</g:title>
-      <g:description>Harley Davidson Fat Bob - 107 | Ano 2019 | 9.195 km | Gasolina | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>76900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://luizintrepido.github.io/brabo-landing/em-preparacao.jpg</g:image_link>
-      <g:brand>Harley Davidson</g:brand>
-      <g:make>Harley Davidson</g:make>
-      <g:model>Fat Bob</g:model>
-      <g:year>2019</g:year>
-      <g:mileage value="9195" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Gasoline</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>107</g:trim>
-      <g:vehicle_id>1013017</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>881903</g:id>
-      <g:title>Harley Davidson Fat Bob 2024</g:title>
-      <g:description>Harley Davidson Fat Bob - 114 | Ano 2024 | 3.439 km | Gasolina | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>118900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1UPHWNqodTk9wbxycXPbnSBgv_sNfIVZ9=s800</g:image_link>
-      <g:brand>Harley Davidson</g:brand>
-      <g:make>Harley Davidson</g:make>
-      <g:model>Fat Bob</g:model>
-      <g:year>2024</g:year>
-      <g:mileage value="3439" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Gasoline</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>114</g:trim>
-      <g:vehicle_id>881903</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>862523</g:id>
-      <g:title>Harley Davidson Fat Boy Flfbs 2020</g:title>
-      <g:description>Harley Davidson Fat Boy Flfbs - Ano 2020 | 18.019 km | Gasolina | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>89900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1ssMsjE2h-S2W8Cpzqn4o2V_p4QmuDqXL=s800</g:image_link>
-      <g:brand>Harley Davidson</g:brand>
-      <g:make>Harley Davidson</g:make>
-      <g:model>Fat Boy Flfbs</g:model>
-      <g:year>2020</g:year>
-      <g:mileage value="18019" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Gasoline</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:vehicle_id>862523</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>833739</g:id>
-      <g:title>Harley Davidson Fat Boy Low Special Flstfb 2017</g:title>
-      <g:description>Harley Davidson Fat Boy Low Special Flstfb - Ano 2017 | 29.332 km | Gasolina | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>72900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/10a7jUq_jJI_ocap3zE81ekp61UzMD1bx=s800</g:image_link>
-      <g:brand>Harley Davidson</g:brand>
-      <g:make>Harley Davidson</g:make>
-      <g:model>Fat Boy Low Special Flstfb</g:model>
-      <g:year>2017</g:year>
-      <g:mileage value="29332" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Gasoline</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:vehicle_id>833739</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>655713</g:id>
-      <g:title>Harley Davidson Low Rider St 2025</g:title>
-      <g:description>Harley Davidson Low Rider St - Ano 2025 | Gasolina | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>148950.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1cwODYN8rlcth14lrRbJ8CfIXUHbkRoyA=s800</g:image_link>
-      <g:brand>Harley Davidson</g:brand>
-      <g:make>Harley Davidson</g:make>
-      <g:model>Low Rider St</g:model>
-      <g:year>2025</g:year>
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Gasoline</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:vehicle_id>655713</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>669961</g:id>
-      <g:title>Harley Davidson Road Glide 2026</g:title>
-      <g:description>Harley Davidson Road Glide - Ano 2026 | Gasolina | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>194950.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1tyD5_hYFgG3y7_64D4ZVAcTdbs-7QjLN=s800</g:image_link>
-      <g:brand>Harley Davidson</g:brand>
-      <g:make>Harley Davidson</g:make>
-      <g:model>Road Glide</g:model>
-      <g:year>2026</g:year>
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Gasoline</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:vehicle_id>669961</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>455269</g:id>
-      <g:title>Harley Davidson Softail Low Rider S Fxlrs 2020</g:title>
-      <g:description>Harley Davidson Softail Low Rider S Fxlrs - Ano 2020 | 8.413 km | Gasolina | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>81900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://luizintrepido.github.io/brabo-landing/em-preparacao.jpg</g:image_link>
-      <g:brand>Harley Davidson</g:brand>
-      <g:make>Harley Davidson</g:make>
-      <g:model>Softail Low Rider S Fxlrs</g:model>
-      <g:year>2020</g:year>
-      <g:mileage value="8413" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Gasoline</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:vehicle_id>455269</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>735347</g:id>
-      <g:title>Harley Davidson Street Bob 2025</g:title>
-      <g:description>Harley Davidson Street Bob - 117 | Ano 2025 | Gasolina | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>122900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1yISRrgW98QVx5BHWmo6p-EmvDeQDrTwj=s800</g:image_link>
-      <g:brand>Harley Davidson</g:brand>
-      <g:make>Harley Davidson</g:make>
-      <g:model>Street Bob</g:model>
-      <g:year>2025</g:year>
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Gasoline</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>117</g:trim>
-      <g:vehicle_id>735347</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>984574</g:id>
-      <g:title>Harley Davidson Street Glide Flhx 2025</g:title>
-      <g:description>Harley Davidson Street Glide Flhx - Ano 2025 | 15.086 km | Gasolina | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>168900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/16UZy1Vxh__YHepXI_F764kPwxKvx9Gsb=s800</g:image_link>
-      <g:brand>Harley Davidson</g:brand>
-      <g:make>Harley Davidson</g:make>
-      <g:model>Street Glide Flhx</g:model>
-      <g:year>2025</g:year>
-      <g:mileage value="15086" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Gasoline</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:vehicle_id>984574</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>624316</g:id>
-      <g:title>Harley Davidson Street Glide 2026</g:title>
-      <g:description>Harley Davidson Street Glide - Ano 2026 | Gasolina | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>190600.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/16RD_8IOC5WyzL_Dr4RESmDYpLthBR0Pw=s800</g:image_link>
-      <g:brand>Harley Davidson</g:brand>
-      <g:make>Harley Davidson</g:make>
-      <g:model>Street Glide</g:model>
-      <g:year>2026</g:year>
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Gasoline</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:vehicle_id>624316</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>840808</g:id>
-      <g:title>Harley Davidson Ultra Limited Flhtk 2022</g:title>
-      <g:description>Harley Davidson Ultra Limited Flhtk - Ano 2022 | 27.297 km | Gasolina | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>131900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1fi5M-i7MJRumPf8NkoIS6CVQiiQomzlq=s800</g:image_link>
-      <g:brand>Harley Davidson</g:brand>
-      <g:make>Harley Davidson</g:make>
-      <g:model>Ultra Limited Flhtk</g:model>
-      <g:year>2022</g:year>
-      <g:mileage value="27297" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Gasoline</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:vehicle_id>840808</g:vehicle_id>
-    </item>
-    <item>
       <g:id>4706811</g:id>
       <g:title>Hyundai Tucson 2015</g:title>
       <g:description>Hyundai Tucson - 2.0 Mpfi Gls 16V 143Cv 2Wd Flex 4P Automático | Ano 2015 | 83.868 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
@@ -1051,46 +723,6 @@
       <g:transmission>Automatic</g:transmission>
       <g:trim>2.0 Mpfi Gls 16V 143Cv 2Wd Flex 4P Automático</g:trim>
       <g:vehicle_id>4706811</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>4639279</g:id>
-      <g:title>Toyota Etios 2021</g:title>
-      <g:description>Toyota Etios - 1.5 X Plus 16V Flex 4P Manual | Ano 2021 | 134.000 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>67900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1m8YWHp12FS2chd8kYG6mQD3AygXOSHDZ=s800</g:image_link>
-      <g:brand>Toyota</g:brand>
-      <g:make>Toyota</g:make>
-      <g:model>Etios</g:model>
-      <g:year>2021</g:year>
-      <g:mileage value="134000" unit="KM" />
-      <g:body_style>Hatchback</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>1.5 X Plus 16V Flex 4P Manual</g:trim>
-      <g:vehicle_id>4639279</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>4989112</g:id>
-      <g:title>Toyota Yaris 2023</g:title>
-      <g:description>Toyota Yaris - 1.5 16V Flex Xs Connect Multidrive | Ano 2023 | 79.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>89900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://luizintrepido.github.io/brabo-landing/em-preparacao.jpg</g:image_link>
-      <g:brand>Toyota</g:brand>
-      <g:make>Toyota</g:make>
-      <g:model>Yaris</g:model>
-      <g:year>2023</g:year>
-      <g:mileage value="79000" unit="KM" />
-      <g:body_style>Hatchback</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>1.5 16V Flex Xs Connect Multidrive</g:trim>
-      <g:vehicle_id>4989112</g:vehicle_id>
     </item>
     <item>
       <g:id>3935712</g:id>
@@ -1133,26 +765,6 @@
       <g:vehicle_id>4876802</g:vehicle_id>
     </item>
     <item>
-      <g:id>4935876</g:id>
-      <g:title>Fiat Mobi 2019</g:title>
-      <g:description>Fiat Mobi - 1.0 Evo Flex Like. Manual | Ano 2019 | 70.000 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>47900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/18Zlt3L_OIStALKWOwk_na3bNzTCXOQQH=s800</g:image_link>
-      <g:brand>Fiat</g:brand>
-      <g:make>Fiat</g:make>
-      <g:model>Mobi</g:model>
-      <g:year>2019</g:year>
-      <g:mileage value="70000" unit="KM" />
-      <g:body_style>Hatchback</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>1.0 Evo Flex Like. Manual</g:trim>
-      <g:vehicle_id>4935876</g:vehicle_id>
-    </item>
-    <item>
       <g:id>4876904</g:id>
       <g:title>Hyundai Tucson 2015</g:title>
       <g:description>Hyundai Tucson - 2.0 Mpfi Gls 16V 143Cv 2Wd Flex 4P Automático | Ano 2015 | 90.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
@@ -1193,6 +805,427 @@
       <g:vehicle_id>5026940</g:vehicle_id>
     </item>
     <item>
+      <g:id>4639254</g:id>
+      <g:title>Honda HR-V 2019</g:title>
+      <g:description>Honda HR-V - 1.8 16V Flex Ex 4P Automático | Ano 2019 | 97.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>97900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1D1Z7usAL_OvXX1b6KbG7UXJIFK5GbMzR=s800</g:image_link>
+      <g:brand>Honda</g:brand>
+      <g:make>Honda</g:make>
+      <g:model>HR-V</g:model>
+      <g:year>2019</g:year>
+      <g:mileage value="97000" unit="KM" />
+      <g:body_style>SUV</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>1.8 16V Flex Ex 4P Automático</g:trim>
+      <g:vehicle_id>4639254</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>4983113</g:id>
+      <g:title>Honda HR-V 2016</g:title>
+      <g:description>Honda HR-V - 1.8 16V Flex Ex 4P Automático | Ano 2016 | 131.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>84900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1FkQwdG79Z_PI2cyGmFIVE-dffNhgWmqg=s800</g:image_link>
+      <g:brand>Honda</g:brand>
+      <g:make>Honda</g:make>
+      <g:model>HR-V</g:model>
+      <g:year>2016</g:year>
+      <g:mileage value="131000" unit="KM" />
+      <g:body_style>SUV</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>1.8 16V Flex Ex 4P Automático</g:trim>
+      <g:vehicle_id>4983113</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>4983117</g:id>
+      <g:title>Renault Duster 2016</g:title>
+      <g:description>Renault Duster - 2.0 Dynamique 4X2 16V Flex 4P Automático | Ano 2016 | 109.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>61900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1vfm-BXx6oAnKNNNWtuaSqNmM9AVgJJze=s800</g:image_link>
+      <g:brand>Renault</g:brand>
+      <g:make>Renault</g:make>
+      <g:model>Duster</g:model>
+      <g:year>2016</g:year>
+      <g:mileage value="109000" unit="KM" />
+      <g:body_style>SUV</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>2.0 Dynamique 4X2 16V Flex 4P Automático</g:trim>
+      <g:vehicle_id>4983117</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>4622542</g:id>
+      <g:title>Renault Duster 2017</g:title>
+      <g:description>Renault Duster - 2.0 Dynamique 4X2 16V Flex 4P Automático | Ano 2017 | 142.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>59900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1vWIbKoYmJPbpc06sJBbk3O_W4upqvDG3=s800</g:image_link>
+      <g:brand>Renault</g:brand>
+      <g:make>Renault</g:make>
+      <g:model>Duster</g:model>
+      <g:year>2017</g:year>
+      <g:mileage value="142000" unit="KM" />
+      <g:body_style>SUV</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>2.0 Dynamique 4X2 16V Flex 4P Automático</g:trim>
+      <g:vehicle_id>4622542</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>5030861</g:id>
+      <g:title>Jeep Renegade 2016</g:title>
+      <g:description>Jeep Renegade - 1.8 16V Flex Sport 4P Manual | Ano 2016 | 78.000 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>69900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://luizintrepido.github.io/brabo-landing/em-preparacao.jpg</g:image_link>
+      <g:brand>Jeep</g:brand>
+      <g:make>Jeep</g:make>
+      <g:model>Renegade</g:model>
+      <g:year>2016</g:year>
+      <g:mileage value="78000" unit="KM" />
+      <g:body_style>SUV</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>1.8 16V Flex Sport 4P Manual</g:trim>
+      <g:vehicle_id>5030861</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>4948553</g:id>
+      <g:title>Hyundai Creta 2021</g:title>
+      <g:description>Hyundai Creta - 1.6 16V Flex Attitude Automático | Ano 2021 | 85.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>89900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1kxHmR-IGW6-B9gk5SZK_OI8hIVDiT-l7=s800</g:image_link>
+      <g:brand>Hyundai</g:brand>
+      <g:make>Hyundai</g:make>
+      <g:model>Creta</g:model>
+      <g:year>2021</g:year>
+      <g:mileage value="85000" unit="KM" />
+      <g:body_style>SUV</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>1.6 16V Flex Attitude Automático</g:trim>
+      <g:vehicle_id>4948553</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>4639278</g:id>
+      <g:title>Nissan Kicks 2022</g:title>
+      <g:description>Nissan Kicks - 1.6 16V Flexstart Active Xtronic | Ano 2022 | 83.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>87900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1jFQ1_EL5Q0A_uEKLt5b6yFE9FhSXy-Qv=s800</g:image_link>
+      <g:brand>Nissan</g:brand>
+      <g:make>Nissan</g:make>
+      <g:model>Kicks</g:model>
+      <g:year>2022</g:year>
+      <g:mileage value="83000" unit="KM" />
+      <g:body_style>SUV</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>1.6 16V Flexstart Active Xtronic</g:trim>
+      <g:vehicle_id>4639278</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>4948555</g:id>
+      <g:title>Nissan Kicks 2022</g:title>
+      <g:description>Nissan Kicks - 1.6 16V Flexstart Advance Xtronic | Ano 2022 | 117.440 km | Flex | CVT. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>99900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://luizintrepido.github.io/brabo-landing/em-preparacao.jpg</g:image_link>
+      <g:brand>Nissan</g:brand>
+      <g:make>Nissan</g:make>
+      <g:model>Kicks</g:model>
+      <g:year>2022</g:year>
+      <g:mileage value="117440" unit="KM" />
+      <g:body_style>SUV</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>CVT</g:transmission>
+      <g:trim>1.6 16V Flexstart Advance Xtronic</g:trim>
+      <g:vehicle_id>4948555</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>4435130</g:id>
+      <g:title>Ford EcoSport 2014</g:title>
+      <g:description>Ford EcoSport - 2.0 Titanium 16V Flex 4P Automático | Ano 2014 | 122.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>53900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://luizintrepido.github.io/brabo-landing/em-preparacao.jpg</g:image_link>
+      <g:brand>Ford</g:brand>
+      <g:make>Ford</g:make>
+      <g:model>EcoSport</g:model>
+      <g:year>2014</g:year>
+      <g:mileage value="122000" unit="KM" />
+      <g:body_style>SUV</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>2.0 Titanium 16V Flex 4P Automático</g:trim>
+      <g:vehicle_id>4435130</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>5041245</g:id>
+      <g:title>Hyundai Creta 2019</g:title>
+      <g:description>Hyundai Creta - 2.0 16V Flex Prestige Automático | Ano 2019 | 96.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>95900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1ZdYCYbqxxp15241oWowhr3GqAyvsbz1U=s800</g:image_link>
+      <g:brand>Hyundai</g:brand>
+      <g:make>Hyundai</g:make>
+      <g:model>Creta</g:model>
+      <g:year>2019</g:year>
+      <g:mileage value="96000" unit="KM" />
+      <g:body_style>SUV</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>2.0 16V Flex Prestige Automático</g:trim>
+      <g:vehicle_id>5041245</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>5026625</g:id>
+      <g:title>Ford EcoSport 2019</g:title>
+      <g:description>Ford EcoSport - 1.5 Ti-Vct Flex Se Automático | Ano 2019 | 71.222 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>69900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1JDgxvtpv3b0vApWNPeJABenznyQdUsPi=s800</g:image_link>
+      <g:brand>Ford</g:brand>
+      <g:make>Ford</g:make>
+      <g:model>EcoSport</g:model>
+      <g:year>2019</g:year>
+      <g:mileage value="71222" unit="KM" />
+      <g:body_style>SUV</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>1.5 Ti-Vct Flex Se Automático</g:trim>
+      <g:vehicle_id>5026625</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>4983132</g:id>
+      <g:title>Fiat Pulse 2018</g:title>
+      <g:description>Fiat Pulse - 1.6 16V Flex Pulse Automático | Ano 2018 | 81.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>85900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1u64Aig37Q1f8VoSPLEc9XdprTKBR7syF=s800</g:image_link>
+      <g:brand>Fiat</g:brand>
+      <g:make>Fiat</g:make>
+      <g:model>Pulse</g:model>
+      <g:year>2018</g:year>
+      <g:mileage value="81000" unit="KM" />
+      <g:body_style>SUV</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>1.6 16V Flex Pulse Automático</g:trim>
+      <g:vehicle_id>4983132</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>5021409</g:id>
+      <g:title>N/D Nivus 1.0 2022</g:title>
+      <g:description>N/D Nivus 1.0 - 1.0 200 Tsi Total Flex Highline Automático | Ano 2022 | 77.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>109900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1vW7HTpCqicfgxByS78XqiKtZINghajPx=s800</g:image_link>
+      <g:brand>N/D</g:brand>
+      <g:make>N/D</g:make>
+      <g:model>Nivus 1.0</g:model>
+      <g:year>2022</g:year>
+      <g:mileage value="77000" unit="KM" />
+      <g:body_style>SUV</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>1.0 200 Tsi Total Flex Highline Automático</g:trim>
+      <g:vehicle_id>5021409</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>manual_1781100398072</g:id>
+      <g:title>Chevrolet EQUINOX RS (em preparação) 2024</g:title>
+      <g:description>Chevrolet EQUINOX RS (em preparação) - 1.5 Turbo Aut. | Ano 2024 | 19.785 km | flex | automatico | vermelha. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>166900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/https://luizintrepido.github.io/catalogo-brabo/fotos/manual_1781100398072/1781100887779_4fitq.jpg=s800</g:image_link>
+      <g:brand>Chevrolet</g:brand>
+      <g:make>Chevrolet</g:make>
+      <g:model>EQUINOX RS (em preparação)</g:model>
+      <g:year>2024</g:year>
+      <g:mileage value="19785" unit="KM" />
+      <g:body_style>SUV</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>1.5 Turbo Aut.</g:trim>
+      <g:exterior_color>vermelha</g:exterior_color>
+      <g:vehicle_id>manual_1781100398072</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>600011</g:id>
+      <g:title>Chevrolet Onix Hatch Lt 2023</g:title>
+      <g:description>Chevrolet Onix Hatch Lt - 1 0 12V Flex 5P Mec | Ano 2023 | 39.639 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>71900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://luizintrepido.github.io/brabo-landing/em-preparacao.jpg</g:image_link>
+      <g:brand>Chevrolet</g:brand>
+      <g:make>Chevrolet</g:make>
+      <g:model>Onix Hatch Lt</g:model>
+      <g:year>2023</g:year>
+      <g:mileage value="39639" unit="KM" />
+      <g:body_style>Hatchback</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>1 0 12V Flex 5P Mec</g:trim>
+      <g:vehicle_id>600011</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>946591</g:id>
+      <g:title>Chevrolet Onix Hatch Lt 2023</g:title>
+      <g:description>Chevrolet Onix Hatch Lt - 1 0 12V Tb Flex 5P Mec | Ano 2023 | 30.885 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>77900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1CqNiBncPimeceQjIN1rUTkL5O5-6u1k3=s800</g:image_link>
+      <g:brand>Chevrolet</g:brand>
+      <g:make>Chevrolet</g:make>
+      <g:model>Onix Hatch Lt</g:model>
+      <g:year>2023</g:year>
+      <g:mileage value="30885" unit="KM" />
+      <g:body_style>Hatchback</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>1 0 12V Tb Flex 5P Mec</g:trim>
+      <g:vehicle_id>946591</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>1027362</g:id>
+      <g:title>Hyundai HB20 Comf C Plus C Style 2019</g:title>
+      <g:description>Hyundai HB20 Comf C Plus C Style - 1 0 Flex 12V | Ano 2019 | 44.294 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>71900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://luizintrepido.github.io/brabo-landing/em-preparacao.jpg</g:image_link>
+      <g:brand>Hyundai</g:brand>
+      <g:make>Hyundai</g:make>
+      <g:model>HB20 Comf C Plus C Style</g:model>
+      <g:year>2019</g:year>
+      <g:mileage value="44294" unit="KM" />
+      <g:body_style>Hatchback</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>1 0 Flex 12V</g:trim>
+      <g:vehicle_id>1027362</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>1011435</g:id>
+      <g:title>Volkswagen Fox 2014</g:title>
+      <g:description>Volkswagen Fox - 1 0 Mi Total Flex 8V 5P | Ano 2014 | 39.720 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>48900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1MxXydhWdj_IgB9lQO_AZEiEaIhwFsrbu=s800</g:image_link>
+      <g:brand>Volkswagen</g:brand>
+      <g:make>Volkswagen</g:make>
+      <g:model>Fox</g:model>
+      <g:year>2014</g:year>
+      <g:mileage value="39720" unit="KM" />
+      <g:body_style>Hatchback</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>1 0 Mi Total Flex 8V 5P</g:trim>
+      <g:vehicle_id>1011435</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>4639279</g:id>
+      <g:title>Toyota Etios 2021</g:title>
+      <g:description>Toyota Etios - 1.5 X Plus 16V Flex 4P Manual | Ano 2021 | 134.000 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>67900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1m8YWHp12FS2chd8kYG6mQD3AygXOSHDZ=s800</g:image_link>
+      <g:brand>Toyota</g:brand>
+      <g:make>Toyota</g:make>
+      <g:model>Etios</g:model>
+      <g:year>2021</g:year>
+      <g:mileage value="134000" unit="KM" />
+      <g:body_style>Hatchback</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>1.5 X Plus 16V Flex 4P Manual</g:trim>
+      <g:vehicle_id>4639279</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>4989112</g:id>
+      <g:title>Toyota Yaris 2023</g:title>
+      <g:description>Toyota Yaris - 1.5 16V Flex Xs Connect Multidrive | Ano 2023 | 79.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>89900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://luizintrepido.github.io/brabo-landing/em-preparacao.jpg</g:image_link>
+      <g:brand>Toyota</g:brand>
+      <g:make>Toyota</g:make>
+      <g:model>Yaris</g:model>
+      <g:year>2023</g:year>
+      <g:mileage value="79000" unit="KM" />
+      <g:body_style>Hatchback</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>1.5 16V Flex Xs Connect Multidrive</g:trim>
+      <g:vehicle_id>4989112</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>4935876</g:id>
+      <g:title>Fiat Mobi 2019</g:title>
+      <g:description>Fiat Mobi - 1.0 Evo Flex Like. Manual | Ano 2019 | 70.000 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>47900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/18Zlt3L_OIStALKWOwk_na3bNzTCXOQQH=s800</g:image_link>
+      <g:brand>Fiat</g:brand>
+      <g:make>Fiat</g:make>
+      <g:model>Mobi</g:model>
+      <g:year>2019</g:year>
+      <g:mileage value="70000" unit="KM" />
+      <g:body_style>Hatchback</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>1.0 Evo Flex Like. Manual</g:trim>
+      <g:vehicle_id>4935876</g:vehicle_id>
+    </item>
+    <item>
       <g:id>4884057</g:id>
       <g:title>Volkswagen Golf 2017</g:title>
       <g:description>Volkswagen Golf - 1.0 Tsi Comfortline 12V Total Flex 4P Manual | Ano 2017 | 138.900 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
@@ -1231,46 +1264,6 @@
       <g:transmission>Manual</g:transmission>
       <g:trim>1.0 Firefly Flex Manual</g:trim>
       <g:vehicle_id>5026443</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>4989104</g:id>
-      <g:title>Nissan Sentra 2015</g:title>
-      <g:description>Nissan Sentra - 2.0 Sl 16V Flex 4P Automático | Ano 2015 | 104.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>62900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1YxvZnXp5D02_O6bMk9f6LwnQME_40l-G=s800</g:image_link>
-      <g:brand>Nissan</g:brand>
-      <g:make>Nissan</g:make>
-      <g:model>Sentra</g:model>
-      <g:year>2015</g:year>
-      <g:mileage value="104000" unit="KM" />
-      <g:body_style>Sedan</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>2.0 Sl 16V Flex 4P Automático</g:trim>
-      <g:vehicle_id>4989104</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>4639254</g:id>
-      <g:title>Honda HR-V 2019</g:title>
-      <g:description>Honda HR-V - 1.8 16V Flex Ex 4P Automático | Ano 2019 | 97.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>97900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1D1Z7usAL_OvXX1b6KbG7UXJIFK5GbMzR=s800</g:image_link>
-      <g:brand>Honda</g:brand>
-      <g:make>Honda</g:make>
-      <g:model>HR-V</g:model>
-      <g:year>2019</g:year>
-      <g:mileage value="97000" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>1.8 16V Flex Ex 4P Automático</g:trim>
-      <g:vehicle_id>4639254</g:vehicle_id>
     </item>
     <item>
       <g:id>4935867</g:id>
@@ -1334,106 +1327,6 @@
       <g:vehicle_id>5026206</g:vehicle_id>
     </item>
     <item>
-      <g:id>4983113</g:id>
-      <g:title>Honda HR-V 2016</g:title>
-      <g:description>Honda HR-V - 1.8 16V Flex Ex 4P Automático | Ano 2016 | 131.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>84900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1FkQwdG79Z_PI2cyGmFIVE-dffNhgWmqg=s800</g:image_link>
-      <g:brand>Honda</g:brand>
-      <g:make>Honda</g:make>
-      <g:model>HR-V</g:model>
-      <g:year>2016</g:year>
-      <g:mileage value="131000" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>1.8 16V Flex Ex 4P Automático</g:trim>
-      <g:vehicle_id>4983113</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>4983117</g:id>
-      <g:title>Renault Duster 2016</g:title>
-      <g:description>Renault Duster - 2.0 Dynamique 4X2 16V Flex 4P Automático | Ano 2016 | 109.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>61900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1vfm-BXx6oAnKNNNWtuaSqNmM9AVgJJze=s800</g:image_link>
-      <g:brand>Renault</g:brand>
-      <g:make>Renault</g:make>
-      <g:model>Duster</g:model>
-      <g:year>2016</g:year>
-      <g:mileage value="109000" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>2.0 Dynamique 4X2 16V Flex 4P Automático</g:trim>
-      <g:vehicle_id>4983117</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>4622542</g:id>
-      <g:title>Renault Duster 2017</g:title>
-      <g:description>Renault Duster - 2.0 Dynamique 4X2 16V Flex 4P Automático | Ano 2017 | 142.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>59900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1vWIbKoYmJPbpc06sJBbk3O_W4upqvDG3=s800</g:image_link>
-      <g:brand>Renault</g:brand>
-      <g:make>Renault</g:make>
-      <g:model>Duster</g:model>
-      <g:year>2017</g:year>
-      <g:mileage value="142000" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>2.0 Dynamique 4X2 16V Flex 4P Automático</g:trim>
-      <g:vehicle_id>4622542</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>5021382</g:id>
-      <g:title>Volvo V60 2018</g:title>
-      <g:description>Volvo V60 - 2.0 T4 Momentum Gasolina 4P Automático | Ano 2018 | 81.000 km | Gasolina | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>106900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1gtTBJUVa--_lSy-lS3E-zbpD2h_axltX=s800</g:image_link>
-      <g:brand>Volvo</g:brand>
-      <g:make>Volvo</g:make>
-      <g:model>V60</g:model>
-      <g:year>2018</g:year>
-      <g:mileage value="81000" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Gasoline</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>2.0 T4 Momentum Gasolina 4P Automático</g:trim>
-      <g:vehicle_id>5021382</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>5030861</g:id>
-      <g:title>Jeep Renegade 2016</g:title>
-      <g:description>Jeep Renegade - 1.8 16V Flex Sport 4P Manual | Ano 2016 | 78.000 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>69900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://luizintrepido.github.io/brabo-landing/em-preparacao.jpg</g:image_link>
-      <g:brand>Jeep</g:brand>
-      <g:make>Jeep</g:make>
-      <g:model>Renegade</g:model>
-      <g:year>2016</g:year>
-      <g:mileage value="78000" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>1.8 16V Flex Sport 4P Manual</g:trim>
-      <g:vehicle_id>5030861</g:vehicle_id>
-    </item>
-    <item>
       <g:id>4990427</g:id>
       <g:title>Chevrolet Onix 2019</g:title>
       <g:description>Chevrolet Onix - 1.0 Mpfi Lt 8V Flex 4P Manual | Ano 2019 | 159.000 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
@@ -1474,26 +1367,6 @@
       <g:vehicle_id>4639289</g:vehicle_id>
     </item>
     <item>
-      <g:id>4948553</g:id>
-      <g:title>Hyundai Creta 2021</g:title>
-      <g:description>Hyundai Creta - 1.6 16V Flex Attitude Automático | Ano 2021 | 85.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>89900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1kxHmR-IGW6-B9gk5SZK_OI8hIVDiT-l7=s800</g:image_link>
-      <g:brand>Hyundai</g:brand>
-      <g:make>Hyundai</g:make>
-      <g:model>Creta</g:model>
-      <g:year>2021</g:year>
-      <g:mileage value="85000" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>1.6 16V Flex Attitude Automático</g:trim>
-      <g:vehicle_id>4948553</g:vehicle_id>
-    </item>
-    <item>
       <g:id>4990419</g:id>
       <g:title>Chevrolet Onix 2017</g:title>
       <g:description>Chevrolet Onix - 1.4 Mpfi Ltz 8V Flex 4P Manual | Ano 2017 | 141.000 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
@@ -1532,26 +1405,6 @@
       <g:transmission>Automatic</g:transmission>
       <g:trim>1.5 Ex 16V Flex 4P Automático</g:trim>
       <g:vehicle_id>4120984</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>4639278</g:id>
-      <g:title>Nissan Kicks 2022</g:title>
-      <g:description>Nissan Kicks - 1.6 16V Flexstart Active Xtronic | Ano 2022 | 83.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>87900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1jFQ1_EL5Q0A_uEKLt5b6yFE9FhSXy-Qv=s800</g:image_link>
-      <g:brand>Nissan</g:brand>
-      <g:make>Nissan</g:make>
-      <g:model>Kicks</g:model>
-      <g:year>2022</g:year>
-      <g:mileage value="83000" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>1.6 16V Flexstart Active Xtronic</g:trim>
-      <g:vehicle_id>4639278</g:vehicle_id>
     </item>
     <item>
       <g:id>4884005</g:id>
@@ -1634,66 +1487,6 @@
       <g:vehicle_id>5026642</g:vehicle_id>
     </item>
     <item>
-      <g:id>4987710</g:id>
-      <g:title>Chevrolet Cruze 2015</g:title>
-      <g:description>Chevrolet Cruze - 1.8 Ltz 16V Flex 4P Automático | Ano 2015 | 123.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>68900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1U9YiZe6K0P3H6jwnOzc7bLJpNvg2Kc7u=s800</g:image_link>
-      <g:brand>Chevrolet</g:brand>
-      <g:make>Chevrolet</g:make>
-      <g:model>Cruze</g:model>
-      <g:year>2015</g:year>
-      <g:mileage value="123000" unit="KM" />
-      <g:body_style>Sedan</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>1.8 Ltz 16V Flex 4P Automático</g:trim>
-      <g:vehicle_id>4987710</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>4948555</g:id>
-      <g:title>Nissan Kicks 2022</g:title>
-      <g:description>Nissan Kicks - 1.6 16V Flexstart Advance Xtronic | Ano 2022 | 117.440 km | Flex | CVT. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>99900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://luizintrepido.github.io/brabo-landing/em-preparacao.jpg</g:image_link>
-      <g:brand>Nissan</g:brand>
-      <g:make>Nissan</g:make>
-      <g:model>Kicks</g:model>
-      <g:year>2022</g:year>
-      <g:mileage value="117440" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>CVT</g:transmission>
-      <g:trim>1.6 16V Flexstart Advance Xtronic</g:trim>
-      <g:vehicle_id>4948555</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>4435130</g:id>
-      <g:title>Ford EcoSport 2014</g:title>
-      <g:description>Ford EcoSport - 2.0 Titanium 16V Flex 4P Automático | Ano 2014 | 122.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>53900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://luizintrepido.github.io/brabo-landing/em-preparacao.jpg</g:image_link>
-      <g:brand>Ford</g:brand>
-      <g:make>Ford</g:make>
-      <g:model>EcoSport</g:model>
-      <g:year>2014</g:year>
-      <g:mileage value="122000" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>2.0 Titanium 16V Flex 4P Automático</g:trim>
-      <g:vehicle_id>4435130</g:vehicle_id>
-    </item>
-    <item>
       <g:id>4989088</g:id>
       <g:title>Chevrolet Onix 2013</g:title>
       <g:description>Chevrolet Onix - 1.0 Mpfi Lt 8V Flex 4P Manual | Ano 2013 | 131.000 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
@@ -1712,26 +1505,6 @@
       <g:transmission>Manual</g:transmission>
       <g:trim>1.0 Mpfi Lt 8V Flex 4P Manual</g:trim>
       <g:vehicle_id>4989088</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>4983122</g:id>
-      <g:title>Chevrolet Cruze 2013</g:title>
-      <g:description>Chevrolet Cruze - 1.8 Lt 16V Flex 4P Automático | Ano 2013 | 120.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>57900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/13IC0eoxopuZ0AvC5Avo3bwl-pnXXS-2k=s800</g:image_link>
-      <g:brand>Chevrolet</g:brand>
-      <g:make>Chevrolet</g:make>
-      <g:model>Cruze</g:model>
-      <g:year>2013</g:year>
-      <g:mileage value="120000" unit="KM" />
-      <g:body_style>Sedan</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>1.8 Lt 16V Flex 4P Automático</g:trim>
-      <g:vehicle_id>4983122</g:vehicle_id>
     </item>
     <item>
       <g:id>5026602</g:id>
@@ -1754,66 +1527,6 @@
       <g:vehicle_id>5026602</g:vehicle_id>
     </item>
     <item>
-      <g:id>5041245</g:id>
-      <g:title>Hyundai Creta 2019</g:title>
-      <g:description>Hyundai Creta - 2.0 16V Flex Prestige Automático | Ano 2019 | 96.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>95900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1ZdYCYbqxxp15241oWowhr3GqAyvsbz1U=s800</g:image_link>
-      <g:brand>Hyundai</g:brand>
-      <g:make>Hyundai</g:make>
-      <g:model>Creta</g:model>
-      <g:year>2019</g:year>
-      <g:mileage value="96000" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>2.0 16V Flex Prestige Automático</g:trim>
-      <g:vehicle_id>5041245</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>5025133</g:id>
-      <g:title>N/D Prisma 1.0 2019</g:title>
-      <g:description>N/D Prisma 1.0 - 1.0 Mpfi Joy 8V Flex 4P Manual | Ano 2019 | 148.000 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>51900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1Xh-HJuhIkrCXP6h0p4TLG1FRpi7lY_Ji=s800</g:image_link>
-      <g:brand>N/D</g:brand>
-      <g:make>N/D</g:make>
-      <g:model>Prisma 1.0</g:model>
-      <g:year>2019</g:year>
-      <g:mileage value="148000" unit="KM" />
-      <g:body_style>Sedan</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>1.0 Mpfi Joy 8V Flex 4P Manual</g:trim>
-      <g:vehicle_id>5025133</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>5026625</g:id>
-      <g:title>Ford EcoSport 2019</g:title>
-      <g:description>Ford EcoSport - 1.5 Ti-Vct Flex Se Automático | Ano 2019 | 71.222 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>69900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1JDgxvtpv3b0vApWNPeJABenznyQdUsPi=s800</g:image_link>
-      <g:brand>Ford</g:brand>
-      <g:make>Ford</g:make>
-      <g:model>EcoSport</g:model>
-      <g:year>2019</g:year>
-      <g:mileage value="71222" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>1.5 Ti-Vct Flex Se Automático</g:trim>
-      <g:vehicle_id>5026625</g:vehicle_id>
-    </item>
-    <item>
       <g:id>5004855</g:id>
       <g:title>Ford KA 2021</g:title>
       <g:description>Ford KA - 1.0 Ti-Vct Flex Freestyle Manual | Ano 2021 | 86.674 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
@@ -1834,46 +1547,6 @@
       <g:vehicle_id>5004855</g:vehicle_id>
     </item>
     <item>
-      <g:id>4983132</g:id>
-      <g:title>Fiat Pulse 2018</g:title>
-      <g:description>Fiat Pulse - 1.6 16V Flex Pulse Automático | Ano 2018 | 81.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>85900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1u64Aig37Q1f8VoSPLEc9XdprTKBR7syF=s800</g:image_link>
-      <g:brand>Fiat</g:brand>
-      <g:make>Fiat</g:make>
-      <g:model>Pulse</g:model>
-      <g:year>2018</g:year>
-      <g:mileage value="81000" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>1.6 16V Flex Pulse Automático</g:trim>
-      <g:vehicle_id>4983132</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>4989080</g:id>
-      <g:title>N/D Prisma 1.4 2016</g:title>
-      <g:description>N/D Prisma 1.4 - 1.4 Mpfi Ltz 8V Flex 4P Manual | Ano 2016 | 143.000 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>57900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1mFso3VjYUF_OR-9niprLXQBaCHUgy20L=s800</g:image_link>
-      <g:brand>N/D</g:brand>
-      <g:make>N/D</g:make>
-      <g:model>Prisma 1.4</g:model>
-      <g:year>2016</g:year>
-      <g:mileage value="143000" unit="KM" />
-      <g:body_style>Sedan</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>1.4 Mpfi Ltz 8V Flex 4P Manual</g:trim>
-      <g:vehicle_id>4989080</g:vehicle_id>
-    </item>
-    <item>
       <g:id>4983098</g:id>
       <g:title>Fiat Mobi 2021</g:title>
       <g:description>Fiat Mobi - 1.0 Evo Flex Like. Manual | Ano 2021 | 74.000 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
@@ -1892,26 +1565,6 @@
       <g:transmission>Manual</g:transmission>
       <g:trim>1.0 Evo Flex Like. Manual</g:trim>
       <g:vehicle_id>4983098</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>5021409</g:id>
-      <g:title>N/D Nivus 1.0 2022</g:title>
-      <g:description>N/D Nivus 1.0 - 1.0 200 Tsi Total Flex Highline Automático | Ano 2022 | 77.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>109900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1vW7HTpCqicfgxByS78XqiKtZINghajPx=s800</g:image_link>
-      <g:brand>N/D</g:brand>
-      <g:make>N/D</g:make>
-      <g:model>Nivus 1.0</g:model>
-      <g:year>2022</g:year>
-      <g:mileage value="77000" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>1.0 200 Tsi Total Flex Highline Automático</g:trim>
-      <g:vehicle_id>5021409</g:vehicle_id>
     </item>
     <item>
       <g:id>5026927</g:id>
@@ -1954,26 +1607,6 @@
       <g:vehicle_id>5030857</g:vehicle_id>
     </item>
     <item>
-      <g:id>4743574</g:id>
-      <g:title>Honda Civic 2021</g:title>
-      <g:description>Honda Civic - 2.0 16V Flexone Ex 4P Cvt | Ano 2021 | 116.000 km | Flex | CVT. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>118900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1Q76A_3JVMU5Lu80c7GEohZBz8OT9SEgO=s800</g:image_link>
-      <g:brand>Honda</g:brand>
-      <g:make>Honda</g:make>
-      <g:model>Civic</g:model>
-      <g:year>2021</g:year>
-      <g:mileage value="116000" unit="KM" />
-      <g:body_style>Sedan</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>CVT</g:transmission>
-      <g:trim>2.0 16V Flexone Ex 4P Cvt</g:trim>
-      <g:vehicle_id>4743574</g:vehicle_id>
-    </item>
-    <item>
       <g:id>4989091</g:id>
       <g:title>Chevrolet Onix 2024</g:title>
       <g:description>Chevrolet Onix - 1.0 Flex Plus Lt Manual | Ano 2024 | 88.000 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
@@ -2014,45 +1647,412 @@
       <g:vehicle_id>4844486</g:vehicle_id>
     </item>
     <item>
-      <g:id>4884045</g:id>
-      <g:title>Toyota Hilux 2016</g:title>
-      <g:description>Toyota Hilux - 2.8 Srx 4X4 7 Lugares 16V Turbo Intercooler Diesel 4P Automático | Ano 2016 | 267.000 km | Diesel | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:id>1022817</g:id>
+      <g:title>BMW  2022</g:title>
+      <g:description>BMW  - 320I Active | Ano 2022 | 31.237 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
       <g:availability>in stock</g:availability>
       <g:condition>used</g:condition>
-      <g:price>199900.00 BRL</g:price>
+      <g:price>212900.00 BRL</g:price>
       <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1SGFcD0GOWW2q-yOGpbUGiJzStEG-ojZG=s800</g:image_link>
-      <g:brand>Toyota</g:brand>
-      <g:make>Toyota</g:make>
-      <g:model>Hilux</g:model>
-      <g:year>2016</g:year>
-      <g:mileage value="267000" unit="KM" />
-      <g:body_style>CAMIONETE</g:body_style>
-      <g:fuel_type>Diesel</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>2.8 Srx 4X4 7 Lugares 16V Turbo Intercooler Diesel 4P Automático</g:trim>
-      <g:vehicle_id>4884045</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>manual_1781100398072</g:id>
-      <g:title>Chevrolet EQUINOX RS (em preparação) 2024</g:title>
-      <g:description>Chevrolet EQUINOX RS (em preparação) - 1.5 Turbo Aut. | Ano 2024 | 19.785 km | flex | automatico | vermelha. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>166900.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/https://luizintrepido.github.io/catalogo-brabo/fotos/manual_1781100398072/1781100887779_4fitq.jpg=s800</g:image_link>
-      <g:brand>Chevrolet</g:brand>
-      <g:make>Chevrolet</g:make>
-      <g:model>EQUINOX RS (em preparação)</g:model>
-      <g:year>2024</g:year>
-      <g:mileage value="19785" unit="KM" />
-      <g:body_style>SUV</g:body_style>
+      <g:image_link>https://lh3.googleusercontent.com/d/1IghV_jos38xBFx78vGOVitoLjGn8vZ1C=s800</g:image_link>
+      <g:brand>Bmw</g:brand>
+      <g:make>Bmw</g:make>
+      <g:model />
+      <g:year>2022</g:year>
+      <g:mileage value="31237" unit="KM" />
+      <g:body_style>Sedan</g:body_style>
       <g:fuel_type>Flex-fuel</g:fuel_type>
       <g:transmission>Automatic</g:transmission>
-      <g:trim>1.5 Turbo Aut.</g:trim>
-      <g:exterior_color>vermelha</g:exterior_color>
-      <g:vehicle_id>manual_1781100398072</g:vehicle_id>
+      <g:trim>320I Active</g:trim>
+      <g:vehicle_id>1022817</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>1022364</g:id>
+      <g:title>Honda Civic Sedan Touring 2018</g:title>
+      <g:description>Honda Civic Sedan Touring - 1 5 Turbo 16V Aut 4P | Ano 2018 | 69.063 km | Gasolina | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>127900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1b_alkyZl6yy-YpCZZZCyqXLcGK1kl6V7=s800</g:image_link>
+      <g:brand>Honda</g:brand>
+      <g:make>Honda</g:make>
+      <g:model>Civic Sedan Touring</g:model>
+      <g:year>2018</g:year>
+      <g:mileage value="69063" unit="KM" />
+      <g:body_style>Sedan</g:body_style>
+      <g:fuel_type>Gasoline</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>1 5 Turbo 16V Aut 4P</g:trim>
+      <g:vehicle_id>1022364</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>997750</g:id>
+      <g:title>Mercedes Benz Slk 2009</g:title>
+      <g:description>Mercedes Benz Slk - 200 Kompressor 16V 200 Cgi 16V | Ano 2009 | 53.536 km | Gasolina | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>149900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1aWBsa_QfuKXU4VXd7su3cfWRvEeZspc_=s800</g:image_link>
+      <g:brand>Mercedes Benz</g:brand>
+      <g:make>Mercedes Benz</g:make>
+      <g:model>Slk</g:model>
+      <g:year>2009</g:year>
+      <g:mileage value="53536" unit="KM" />
+      <g:body_style>Sedan</g:body_style>
+      <g:fuel_type>Gasoline</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>200 Kompressor 16V 200 Cgi 16V</g:trim>
+      <g:vehicle_id>997750</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>4989104</g:id>
+      <g:title>Nissan Sentra 2015</g:title>
+      <g:description>Nissan Sentra - 2.0 Sl 16V Flex 4P Automático | Ano 2015 | 104.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>62900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1YxvZnXp5D02_O6bMk9f6LwnQME_40l-G=s800</g:image_link>
+      <g:brand>Nissan</g:brand>
+      <g:make>Nissan</g:make>
+      <g:model>Sentra</g:model>
+      <g:year>2015</g:year>
+      <g:mileage value="104000" unit="KM" />
+      <g:body_style>Sedan</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>2.0 Sl 16V Flex 4P Automático</g:trim>
+      <g:vehicle_id>4989104</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>5021382</g:id>
+      <g:title>Volvo V60 2018</g:title>
+      <g:description>Volvo V60 - 2.0 T4 Momentum Gasolina 4P Automático | Ano 2018 | 81.000 km | Gasolina | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>106900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1gtTBJUVa--_lSy-lS3E-zbpD2h_axltX=s800</g:image_link>
+      <g:brand>Volvo</g:brand>
+      <g:make>Volvo</g:make>
+      <g:model>V60</g:model>
+      <g:year>2018</g:year>
+      <g:mileage value="81000" unit="KM" />
+      <g:body_style>Sedan</g:body_style>
+      <g:fuel_type>Gasoline</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>2.0 T4 Momentum Gasolina 4P Automático</g:trim>
+      <g:vehicle_id>5021382</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>4987710</g:id>
+      <g:title>Chevrolet Cruze 2015</g:title>
+      <g:description>Chevrolet Cruze - 1.8 Ltz 16V Flex 4P Automático | Ano 2015 | 123.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>68900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1U9YiZe6K0P3H6jwnOzc7bLJpNvg2Kc7u=s800</g:image_link>
+      <g:brand>Chevrolet</g:brand>
+      <g:make>Chevrolet</g:make>
+      <g:model>Cruze</g:model>
+      <g:year>2015</g:year>
+      <g:mileage value="123000" unit="KM" />
+      <g:body_style>Sedan</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>1.8 Ltz 16V Flex 4P Automático</g:trim>
+      <g:vehicle_id>4987710</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>4983122</g:id>
+      <g:title>Chevrolet Cruze 2013</g:title>
+      <g:description>Chevrolet Cruze - 1.8 Lt 16V Flex 4P Automático | Ano 2013 | 120.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>57900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/13IC0eoxopuZ0AvC5Avo3bwl-pnXXS-2k=s800</g:image_link>
+      <g:brand>Chevrolet</g:brand>
+      <g:make>Chevrolet</g:make>
+      <g:model>Cruze</g:model>
+      <g:year>2013</g:year>
+      <g:mileage value="120000" unit="KM" />
+      <g:body_style>Sedan</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>1.8 Lt 16V Flex 4P Automático</g:trim>
+      <g:vehicle_id>4983122</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>5025133</g:id>
+      <g:title>N/D Prisma 1.0 2019</g:title>
+      <g:description>N/D Prisma 1.0 - 1.0 Mpfi Joy 8V Flex 4P Manual | Ano 2019 | 148.000 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>51900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1Xh-HJuhIkrCXP6h0p4TLG1FRpi7lY_Ji=s800</g:image_link>
+      <g:brand>N/D</g:brand>
+      <g:make>N/D</g:make>
+      <g:model>Prisma 1.0</g:model>
+      <g:year>2019</g:year>
+      <g:mileage value="148000" unit="KM" />
+      <g:body_style>Sedan</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>1.0 Mpfi Joy 8V Flex 4P Manual</g:trim>
+      <g:vehicle_id>5025133</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>4989080</g:id>
+      <g:title>N/D Prisma 1.4 2016</g:title>
+      <g:description>N/D Prisma 1.4 - 1.4 Mpfi Ltz 8V Flex 4P Manual | Ano 2016 | 143.000 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>57900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1mFso3VjYUF_OR-9niprLXQBaCHUgy20L=s800</g:image_link>
+      <g:brand>N/D</g:brand>
+      <g:make>N/D</g:make>
+      <g:model>Prisma 1.4</g:model>
+      <g:year>2016</g:year>
+      <g:mileage value="143000" unit="KM" />
+      <g:body_style>Sedan</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>1.4 Mpfi Ltz 8V Flex 4P Manual</g:trim>
+      <g:vehicle_id>4989080</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>4743574</g:id>
+      <g:title>Honda Civic 2021</g:title>
+      <g:description>Honda Civic - 2.0 16V Flexone Ex 4P Cvt | Ano 2021 | 116.000 km | Flex | CVT. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>118900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1Q76A_3JVMU5Lu80c7GEohZBz8OT9SEgO=s800</g:image_link>
+      <g:brand>Honda</g:brand>
+      <g:make>Honda</g:make>
+      <g:model>Civic</g:model>
+      <g:year>2021</g:year>
+      <g:mileage value="116000" unit="KM" />
+      <g:body_style>Sedan</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>CVT</g:transmission>
+      <g:trim>2.0 16V Flexone Ex 4P Cvt</g:trim>
+      <g:vehicle_id>4743574</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>1013017</g:id>
+      <g:title>Harley Davidson Fat Bob 2019</g:title>
+      <g:description>Harley Davidson Fat Bob - 107 | Ano 2019 | 9.195 km | Gasolina | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>76900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://luizintrepido.github.io/brabo-landing/em-preparacao.jpg</g:image_link>
+      <g:brand>Harley Davidson</g:brand>
+      <g:make>Harley Davidson</g:make>
+      <g:model>Fat Bob</g:model>
+      <g:year>2019</g:year>
+      <g:mileage value="9195" unit="KM" />
+      <g:body_style>MOTO</g:body_style>
+      <g:fuel_type>Gasoline</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>107</g:trim>
+      <g:vehicle_id>1013017</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>881903</g:id>
+      <g:title>Harley Davidson Fat Bob 2024</g:title>
+      <g:description>Harley Davidson Fat Bob - 114 | Ano 2024 | 3.439 km | Gasolina | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>118900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1UPHWNqodTk9wbxycXPbnSBgv_sNfIVZ9=s800</g:image_link>
+      <g:brand>Harley Davidson</g:brand>
+      <g:make>Harley Davidson</g:make>
+      <g:model>Fat Bob</g:model>
+      <g:year>2024</g:year>
+      <g:mileage value="3439" unit="KM" />
+      <g:body_style>MOTO</g:body_style>
+      <g:fuel_type>Gasoline</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>114</g:trim>
+      <g:vehicle_id>881903</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>862523</g:id>
+      <g:title>Harley Davidson Fat Boy Flfbs 2020</g:title>
+      <g:description>Harley Davidson Fat Boy Flfbs - Ano 2020 | 18.019 km | Gasolina | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>89900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1ssMsjE2h-S2W8Cpzqn4o2V_p4QmuDqXL=s800</g:image_link>
+      <g:brand>Harley Davidson</g:brand>
+      <g:make>Harley Davidson</g:make>
+      <g:model>Fat Boy Flfbs</g:model>
+      <g:year>2020</g:year>
+      <g:mileage value="18019" unit="KM" />
+      <g:body_style>MOTO</g:body_style>
+      <g:fuel_type>Gasoline</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:vehicle_id>862523</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>833739</g:id>
+      <g:title>Harley Davidson Fat Boy Low Special Flstfb 2017</g:title>
+      <g:description>Harley Davidson Fat Boy Low Special Flstfb - Ano 2017 | 29.332 km | Gasolina | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>72900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/10a7jUq_jJI_ocap3zE81ekp61UzMD1bx=s800</g:image_link>
+      <g:brand>Harley Davidson</g:brand>
+      <g:make>Harley Davidson</g:make>
+      <g:model>Fat Boy Low Special Flstfb</g:model>
+      <g:year>2017</g:year>
+      <g:mileage value="29332" unit="KM" />
+      <g:body_style>MOTO</g:body_style>
+      <g:fuel_type>Gasoline</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:vehicle_id>833739</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>655713</g:id>
+      <g:title>Harley Davidson Low Rider St 2025</g:title>
+      <g:description>Harley Davidson Low Rider St - Ano 2025 | Gasolina | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>148950.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1cwODYN8rlcth14lrRbJ8CfIXUHbkRoyA=s800</g:image_link>
+      <g:brand>Harley Davidson</g:brand>
+      <g:make>Harley Davidson</g:make>
+      <g:model>Low Rider St</g:model>
+      <g:year>2025</g:year>
+      <g:body_style>MOTO</g:body_style>
+      <g:fuel_type>Gasoline</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:vehicle_id>655713</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>669961</g:id>
+      <g:title>Harley Davidson Road Glide 2026</g:title>
+      <g:description>Harley Davidson Road Glide - Ano 2026 | Gasolina | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>194950.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1tyD5_hYFgG3y7_64D4ZVAcTdbs-7QjLN=s800</g:image_link>
+      <g:brand>Harley Davidson</g:brand>
+      <g:make>Harley Davidson</g:make>
+      <g:model>Road Glide</g:model>
+      <g:year>2026</g:year>
+      <g:body_style>MOTO</g:body_style>
+      <g:fuel_type>Gasoline</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:vehicle_id>669961</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>455269</g:id>
+      <g:title>Harley Davidson Softail Low Rider S Fxlrs 2020</g:title>
+      <g:description>Harley Davidson Softail Low Rider S Fxlrs - Ano 2020 | 8.413 km | Gasolina | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>81900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://luizintrepido.github.io/brabo-landing/em-preparacao.jpg</g:image_link>
+      <g:brand>Harley Davidson</g:brand>
+      <g:make>Harley Davidson</g:make>
+      <g:model>Softail Low Rider S Fxlrs</g:model>
+      <g:year>2020</g:year>
+      <g:mileage value="8413" unit="KM" />
+      <g:body_style>MOTO</g:body_style>
+      <g:fuel_type>Gasoline</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:vehicle_id>455269</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>735347</g:id>
+      <g:title>Harley Davidson Street Bob 2025</g:title>
+      <g:description>Harley Davidson Street Bob - 117 | Ano 2025 | Gasolina | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>122900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1yISRrgW98QVx5BHWmo6p-EmvDeQDrTwj=s800</g:image_link>
+      <g:brand>Harley Davidson</g:brand>
+      <g:make>Harley Davidson</g:make>
+      <g:model>Street Bob</g:model>
+      <g:year>2025</g:year>
+      <g:body_style>MOTO</g:body_style>
+      <g:fuel_type>Gasoline</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>117</g:trim>
+      <g:vehicle_id>735347</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>984574</g:id>
+      <g:title>Harley Davidson Street Glide Flhx 2025</g:title>
+      <g:description>Harley Davidson Street Glide Flhx - Ano 2025 | 15.086 km | Gasolina | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>168900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/16UZy1Vxh__YHepXI_F764kPwxKvx9Gsb=s800</g:image_link>
+      <g:brand>Harley Davidson</g:brand>
+      <g:make>Harley Davidson</g:make>
+      <g:model>Street Glide Flhx</g:model>
+      <g:year>2025</g:year>
+      <g:mileage value="15086" unit="KM" />
+      <g:body_style>MOTO</g:body_style>
+      <g:fuel_type>Gasoline</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:vehicle_id>984574</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>624316</g:id>
+      <g:title>Harley Davidson Street Glide 2026</g:title>
+      <g:description>Harley Davidson Street Glide - Ano 2026 | Gasolina | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>190600.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/16RD_8IOC5WyzL_Dr4RESmDYpLthBR0Pw=s800</g:image_link>
+      <g:brand>Harley Davidson</g:brand>
+      <g:make>Harley Davidson</g:make>
+      <g:model>Street Glide</g:model>
+      <g:year>2026</g:year>
+      <g:body_style>MOTO</g:body_style>
+      <g:fuel_type>Gasoline</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:vehicle_id>624316</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>840808</g:id>
+      <g:title>Harley Davidson Ultra Limited Flhtk 2022</g:title>
+      <g:description>Harley Davidson Ultra Limited Flhtk - Ano 2022 | 27.297 km | Gasolina | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>131900.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1fi5M-i7MJRumPf8NkoIS6CVQiiQomzlq=s800</g:image_link>
+      <g:brand>Harley Davidson</g:brand>
+      <g:make>Harley Davidson</g:make>
+      <g:model>Ultra Limited Flhtk</g:model>
+      <g:year>2022</g:year>
+      <g:mileage value="27297" unit="KM" />
+      <g:body_style>MOTO</g:body_style>
+      <g:fuel_type>Gasoline</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:vehicle_id>840808</g:vehicle_id>
     </item>
   </channel>
 </rss>
