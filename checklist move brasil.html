@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Checklist Move Brasil - O Brabo das Vendas</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;900&display=swap');
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --orange: #FF6A00;
+      --orange-dim: rgba(255, 106, 0, 0.12);
+      --orange-border: rgba(255, 106, 0, 0.35);
+      --bg: #0a0a0a;
+      --bg-card: #111111;
+      --bg-card2: #161616;
+      --text: #f0f0f0;
+      --text-muted: #888;
+      --white: #ffffff;
+      --green: #22c55e;
+      --green-dim: rgba(34, 197, 94, 0.1);
+      --red: #ef4444;
+      --red-dim: rgba(239, 68, 68, 0.1);
+      --yellow: #f59e0b;
+      --yellow-dim: rgba(245, 158, 11, 0.1);
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      min-height: 100vh;
+      padding: 0;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      background: linear-gradient(180deg, #0f0f0f 0%, #0a0a0a 100%);
+      border-bottom: 1px solid var(--orange-border);
+      padding: 48px 24px 36px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -80px; left: 50%; transform: translateX(-50%);
+      width: 400px; height: 400px;
+      background: radial-gradient(circle, rgba(255,106,0,0.08) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .hero-label {
+      display: inline-block;
+      background: var(--orange);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 4px 14px;
+      border-radius: 2px;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(36px, 8vw, 60px);
+      letter-spacing: 2px;
+      line-height: 1;
+      color: var(--white);
+      margin-bottom: 6px;
+    }
+
+    .hero h1 span {
+      color: var(--orange);
+    }
+
+    .hero-sub {
+      font-size: 14px;
+      color: var(--text-muted);
+      margin-bottom: 28px;
+      line-height: 1.5;
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* ── LOGO ── */
+    .logo-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 28px;
+    }
+
+    .logo-box {
+      background: var(--orange);
+      width: 52px; height: 52px;
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .logo-box svg {
+      width: 30px; height: 30px;
+      fill: #fff;
+    }
+
+    .logo-text {
+      text-align: left;
+    }
+
+    .logo-text strong {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 22px;
+      letter-spacing: 1.5px;
+      color: var(--white);
+      display: block;
+      line-height: 1;
+    }
+
+    .logo-text span {
+      font-size: 11px;
+      color: var(--text-muted);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    /* ── ALERTA ── */
+    .alert {
+      background: var(--yellow-dim);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      border-left: 4px solid var(--yellow);
+      border-radius: 8px;
+      padding: 16px 18px;
+      margin: 0 16px 28px;
+      font-size: 13px;
+      line-height: 1.6;
+      color: #f0d080;
+    }
+
+    .alert strong {
+      display: block;
+      font-size: 12px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: var(--yellow);
+      margin-bottom: 6px;
+    }
+
+    /* ── WRAPPER ── */
+    .wrapper {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 28px 16px 48px;
+    }
+
+    /* ── SEÇÃO ── */
+    .section {
+      margin-bottom: 28px;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+
+    .section-icon {
+      width: 38px; height: 38px;
+      background: var(--orange-dim);
+      border: 1px solid var(--orange-border);
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px;
+      flex-shrink: 0;
+    }
+
+    .section-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 20px;
+      letter-spacing: 1.5px;
+      color: var(--white);
+      line-height: 1;
+    }
+
+    .section-badge {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      padding: 2px 8px;
+      border: 1px solid #333;
+      border-radius: 20px;
+      margin-left: auto;
+      flex-shrink: 0;
+    }
+
+    .section-badge.critical {
+      color: var(--orange);
+      border-color: var(--orange-border);
+    }
+
+    /* ── CARDS ── */
+    .checklist {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .check-item {
+      background: var(--bg-card);
+      border: 1px solid #222;
+      border-radius: 10px;
+      padding: 14px 16px;
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      transition: border-color 0.2s;
+    }
+
+    .check-item:hover {
+      border-color: var(--orange-border);
+    }
+
+    .check-icon {
+      width: 22px; height: 22px;
+      border-radius: 50%;
+      background: var(--green-dim);
+      border: 1.5px solid var(--green);
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+
+    .check-icon svg {
+      width: 12px; height: 12px;
+      stroke: var(--green);
+      stroke-width: 2.5;
+      fill: none;
+    }
+
+    .check-content {
+      flex: 1;
+    }
+
+    .check-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 4px;
+    }
+
+    .check-desc {
+      font-size: 12px;
+      color: var(--text-muted);
+      line-height: 1.55;
+    }
+
+    .check-desc strong {
+      color: var(--orange);
+      font-weight: 600;
+    }
+
+    .check-item.warning .check-icon {
+      background: var(--yellow-dim);
+      border-color: var(--yellow);
+    }
+
+    .check-item.warning .check-icon svg {
+      stroke: var(--yellow);
+    }
+
+    .check-item.danger .check-icon {
+      background: var(--red-dim);
+      border-color: var(--red);
+    }
+
+    .check-item.danger .check-icon svg {
+      stroke: var(--red);
+    }
+
+    .check-item.danger .check-title {
+      color: #ff9090;
+    }
+
+    /* ── DIVIDER ── */
+    .divider {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, #333, transparent);
+      margin: 4px 0 28px;
+    }
+
+    /* ── CTA ── */
+    .cta-block {
+      background: linear-gradient(135deg, #111 0%, #1a0d00 100%);
+      border: 1.5px solid var(--orange-border);
+      border-radius: 14px;
+      padding: 32px 24px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .cta-block::before {
+      content: '';
+      position: absolute;
+      bottom: -60px; right: -60px;
+      width: 200px; height: 200px;
+      background: radial-gradient(circle, rgba(255,106,0,0.1) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .cta-label {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--orange);
+      margin-bottom: 14px;
+    }
+
+    .cta-block h2 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(26px, 6vw, 38px);
+      letter-spacing: 1.5px;
+      color: var(--white);
+      line-height: 1.05;
+      margin-bottom: 12px;
+    }
+
+    .cta-block h2 span {
+      color: var(--orange);
+    }
+
+    .cta-block p {
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 24px;
+      max-width: 340px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .cta-btn {
+      display: inline-block;
+      background: var(--orange);
+      color: #fff;
+      font-size: 15px;
+      font-weight: 700;
+      text-decoration: none;
+      padding: 16px 32px;
+      border-radius: 8px;
+      letter-spacing: 0.5px;
+      transition: opacity 0.2s, transform 0.1s;
+      width: 100%;
+      max-width: 320px;
+      text-align: center;
+    }
+
+    .cta-btn:hover {
+      opacity: 0.9;
+      transform: translateY(-1px);
+    }
+
+    .cta-hint {
+      font-size: 11px;
+      color: #555;
+      margin-top: 12px;
+    }
+
+    /* ── FOOTER ── */
+    .footer {
+      text-align: center;
+      padding: 20px 24px 32px;
+      font-size: 12px;
+      color: #444;
+      letter-spacing: 0.5px;
+    }
+
+    .footer strong {
+      color: var(--orange);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-label">Programa Governo Federal</div>
+    <h1>MOVE <span>BRASIL</span></h1>
+    <p class="hero-sub">Guia completo para você chegar preparado na análise de crédito e sair com a chave na mão.</p>
+
+    <!-- LOGO -->
+    <div class="logo-wrap">
+      <div class="logo-box">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+        </svg>
+      </div>
+      <div class="logo-text">
+        <strong>O BRABO DAS VENDAS</strong>
+        <span>@luiz.obrabodasvendas</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ALERTA ESTRATÉGICO -->
+  <div class="alert">
+    <strong>⚠ Atenção antes de começar</strong>
+    Ser aprovado pelo Governo no Move Brasil <strong style="color:#f0d080">NÃO garante</strong> a liberação do dinheiro. O Governo valida se você é motorista elegível. A análise de crédito de verdade é feita pelo banco parceiro (BNDES, Banco do Brasil, Santander, etc.). Siga este checklist à risca.
+  </div>
+
+  <div class="wrapper">
+
+    <!-- BLOCO 1 -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-icon">📋</div>
+        <div>
+          <div class="section-title">Filtros de Elegibilidade</div>
+        </div>
+        <div class="section-badge">Governo</div>
+      </div>
+
+      <div class="checklist">
+        <div class="check-item">
+          <div class="check-icon">
+            <svg viewBox="0 0 12 12"><polyline points="1.5,6 4.5,9 10.5,3"/></svg>
+          </div>
+          <div class="check-content">
+            <div class="check-title">Cadastro ativo na plataforma</div>
+            <div class="check-desc">Mínimo de <strong>12 meses</strong> de conta ativa na mesma plataforma (Uber, 99, etc.) ou registro de Taxista regularizado.</div>
+          </div>
+        </div>
+
+        <div class="check-item">
+          <div class="check-icon">
+            <svg viewBox="0 0 12 12"><polyline points="1.5,6 4.5,9 10.5,3"/></svg>
+          </div>
+          <div class="check-content">
+            <div class="check-title">Histórico mínimo de corridas</div>
+            <div class="check-desc">Pelo menos <strong>100 corridas</strong> nos últimos 12 meses na plataforma informada.</div>
+          </div>
+        </div>
+
+        <div class="check-item">
+          <div class="check-icon">
+            <svg viewBox="0 0 12 12"><polyline points="1.5,6 4.5,9 10.5,3"/></svg>
+          </div>
+          <div class="check-content">
+            <div class="check-title">Adesão oficial no Gov.br</div>
+            <div class="check-desc">Acesse <strong>gov.br/movebrasil</strong>, faça login e clique em "Solicitar adesão". Aguarde até 5 dias úteis para a confirmação na caixa postal do portal.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- BLOCO 2 -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-icon">🛡️</div>
+        <div>
+          <div class="section-title">Blindagem do CPF</div>
+        </div>
+        <div class="section-badge critical">Crítico</div>
+      </div>
+
+      <div class="checklist">
+        <div class="check-item">
+          <div class="check-icon">
+            <svg viewBox="0 0 12 12"><polyline points="1.5,6 4.5,9 10.5,3"/></svg>
+          </div>
+          <div class="check-content">
+            <div class="check-title">Limpe qualquer restrição no CPF</div>
+            <div class="check-desc">O Governo aprova com nome sujo. O banco, <strong>não</strong>. Consulte Serasa/SPC e quite qualquer pendência, mesmo valores pequenos ou contas antigas.</div>
+          </div>
+        </div>
+
+        <div class="check-item">
+          <div class="check-icon">
+            <svg viewBox="0 0 12 12"><polyline points="1.5,6 4.5,9 10.5,3"/></svg>
+          </div>
+          <div class="check-content">
+            <div class="check-title">Ative o Cadastro Positivo</div>
+            <div class="check-desc">Ative e mantenha contas de consumo no seu nome <strong>pagas em dia</strong> para acelerar a subida do score semanas antes da simulação.</div>
+          </div>
+        </div>
+
+        <div class="check-item danger">
+          <div class="check-icon">
+            <svg viewBox="0 0 12 12"><line x1="2" y1="2" x2="10" y2="10"/><line x1="10" y1="2" x2="2" y2="10"/></svg>
+          </div>
+          <div class="check-content">
+            <div class="check-title">Pare de pedir crédito agora</div>
+            <div class="check-desc">Não solicite cartão, empréstimo ou financiamento durante o período de avaliação. Várias consultas simultâneas no CPF sinalizam desespero e <strong>derrubam o score na hora</strong>.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- BLOCO 3 -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-icon">📄</div>
+        <div>
+          <div class="section-title">Renda e Documentação</div>
+        </div>
+        <div class="section-badge">Bancária</div>
+      </div>
+
+      <div class="checklist">
+        <div class="check-item">
+          <div class="check-icon">
+            <svg viewBox="0 0 12 12"><polyline points="1.5,6 4.5,9 10.5,3"/></svg>
+          </div>
+          <div class="check-content">
+            <div class="check-title">Relatório de ganhos do app</div>
+            <div class="check-desc">Exporte o histórico oficial de ganhos dos <strong>últimos 3 meses</strong> direto do aplicativo. O banco precisa ver constância de faturamento.</div>
+          </div>
+        </div>
+
+        <div class="check-item warning">
+          <div class="check-icon">
+            <svg viewBox="0 0 12 12"><polyline points="1.5,6 4.5,9 10.5,3"/></svg>
+          </div>
+          <div class="check-content">
+            <div class="check-title">Extratos bancários dos últimos 90 dias</div>
+            <div class="check-desc">Use a conta onde você recebe os repasses. Evite contas digitais sem histórico. Extrato <strong>sem uso de cheque especial</strong> é o seu maior aliado.</div>
+          </div>
+        </div>
+
+        <div class="check-item">
+          <div class="check-icon">
+            <svg viewBox="0 0 12 12"><polyline points="1.5,6 4.5,9 10.5,3"/></svg>
+          </div>
+          <div class="check-content">
+            <div class="check-title">CNH atualizada com EAR</div>
+            <div class="check-desc">Sua CNH deve estar dentro da validade e com a observação <strong>EAR (Exerce Atividade Remunerada)</strong> explícita.</div>
+          </div>
+        </div>
+
+        <div class="check-item">
+          <div class="check-icon">
+            <svg viewBox="0 0 12 12"><polyline points="1.5,6 4.5,9 10.5,3"/></svg>
+          </div>
+          <div class="check-content">
+            <div class="check-title">Comprovante de residência atualizado</div>
+            <div class="check-desc">Conta de água, luz ou internet dos <strong>últimos 60 dias</strong>, no seu nome ou de parente de primeiro grau com comprovação de vínculo.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- BLOCO 4 -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-icon">🚗</div>
+        <div>
+          <div class="section-title">Enquadramento do Carro</div>
+        </div>
+        <div class="section-badge">Simulação</div>
+      </div>
+
+      <div class="checklist">
+        <div class="check-item">
+          <div class="check-icon">
+            <svg viewBox="0 0 12 12"><polyline points="1.5,6 4.5,9 10.5,3"/></svg>
+          </div>
+          <div class="check-content">
+            <div class="check-title">Carro Zero Km dentro do programa Mover</div>
+            <div class="check-desc">O veículo deve constar na lista oficial das montadoras do programa e custar até <strong>R$ 150.000</strong> (modelos flex eficientes, híbridos ou elétricos).</div>
+          </div>
+        </div>
+
+        <div class="check-item warning">
+          <div class="check-icon">
+            <svg viewBox="0 0 12 12"><polyline points="1.5,6 4.5,9 10.5,3"/></svg>
+          </div>
+          <div class="check-content">
+            <div class="check-title">Parcela máxima de 30% da renda líquida</div>
+            <div class="check-desc">Projete a simulação para que a parcela mensal comprometa no máximo <strong>30% da sua renda</strong>. Acima disso, o sistema bancário recusa automaticamente.</div>
+          </div>
+        </div>
+
+        <div class="check-item">
+          <div class="check-icon">
+            <svg viewBox="0 0 12 12"><polyline points="1.5,6 4.5,9 10.5,3"/></svg>
+          </div>
+          <div class="check-content">
+            <div class="check-title">Subsídio de gênero (se aplicável)</div>
+            <div class="check-desc">Se a motorista titular for mulher, exija a taxa reduzida do programa: <strong>0,91% ao mês / 11,6% ao ano</strong>, com itens adicionais de segurança financiados.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- CTA FINAL -->
+    <div class="cta-block">
+      <div class="cta-label">Próximo passo</div>
+      <h2>VOCÊ SERIA<br><span>APROVADO?</span></h2>
+      <p>Descubra agora se o seu perfil passa na análise de crédito. Preencha a simulação no meu site e te dou um retorno sem enrolação.</p>
+      <a href="https://luizintrepido.github.io/brabo-landing/#simulador" class="cta-btn" target="_blank">
+        FAZER SIMULAÇÃO GRATUITA
+      </a>
+      <div class="cta-hint">Rápido, sem compromisso e sem consulta no CPF agora.</div>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    Material produzido por <strong>@luiz.obrabodasvendas</strong> · Recar Automarcas · Praia Grande, SP
+  </div>
+
+</body>
+</html>
