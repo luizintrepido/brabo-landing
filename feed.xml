@@ -4,7 +4,7 @@
     <title>O Brabo das Vendas — Estoque de Veículos</title>
     <link>https://luizintrepido.github.io/brabo-landing</link>
     <description>Estoque de veículos seminovos e usados da Recar Automarcas / Grupo Reauto Veículos. Laudo cautelar aprovado, garantia até 2 anos, financiamento facilitado.</description>
-    <lastBuildDate>Wed, 15 Jul 2026 21:00:11 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 22:45:04 +0000</lastBuildDate>
     <item>
       <g:id>934576</g:id>
       <g:title>BMW X1 Sdrive 2022</g:title>
@@ -267,12 +267,12 @@
     <item>
       <g:id>1048194</g:id>
       <g:title>Gwm Haval H6 Phev19 Hibrido 2025</g:title>
-      <g:description>Gwm Haval H6 Phev19 Hibrido - Ano 2025 | 16.402 km | Hibrido | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:description>Gwm Haval H6 Phev19 Hibrido - 1.5 Turbo Aut. | Ano 2025 | 16.402 km | Hibrido | Automático | cinza. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
       <g:availability>in stock</g:availability>
       <g:condition>used</g:condition>
       <g:price>199900.00 BRL</g:price>
       <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/19ykwp2iOvhN5bWTibd28A0NwA8qRxufS=s800</g:image_link>
+      <g:image_link>https://lh3.googleusercontent.com/d/https://raw.githubusercontent.com/luizintrepido/catalogo-brabo/master/fotos/1048194/1784151680233_w3gds.jpg=s800</g:image_link>
       <g:brand>Gwm</g:brand>
       <g:make>Gwm</g:make>
       <g:model>Haval H6 Phev19 Hibrido</g:model>
@@ -281,6 +281,8 @@
       <g:body_style>SUV</g:body_style>
       <g:fuel_type>Hybrid</g:fuel_type>
       <g:transmission>Automatic</g:transmission>
+      <g:trim>1.5 Turbo Aut.</g:trim>
+      <g:exterior_color>cinza</g:exterior_color>
       <g:vehicle_id>1048194</g:vehicle_id>
     </item>
     <item>
@@ -1964,7 +1966,7 @@
       <g:condition>used</g:condition>
       <g:price>199900.00 BRL</g:price>
       <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1tcggbTHC_Z1qh0aDoQYhOvtqi5uunAtt=s800</g:image_link>
+      <g:image_link>https://lh3.googleusercontent.com/d/https://raw.githubusercontent.com/luizintrepido/catalogo-brabo/master/fotos/299593/1784151879557_wewj6.jpg=s800</g:image_link>
       <g:brand>Gwm</g:brand>
       <g:make>Gwm</g:make>
       <g:model>HAVAL H6</g:model>
