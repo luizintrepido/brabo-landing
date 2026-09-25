@@ -4,7 +4,7 @@
     <title>O Brabo das Vendas — Estoque de Veículos</title>
     <link>https://luizintrepido.github.io/brabo-landing</link>
     <description>Estoque de veículos seminovos e usados da Recar Automarcas / Grupo Reauto Veículos. Laudo cautelar aprovado, garantia até 2 anos, financiamento facilitado.</description>
-    <lastBuildDate>Fri, 25 Sep 2026 14:21:02 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 15:37:24 +0000</lastBuildDate>
     <item>
       <g:id>2319048</g:id>
       <g:title>Volkswagen T-CROSS 2021</g:title>
@@ -146,26 +146,6 @@
       <g:vehicle_id>2297355</g:vehicle_id>
     </item>
     <item>
-      <g:id>2129601</g:id>
-      <g:title>Volkswagen NIVUS 2023</g:title>
-      <g:description>Volkswagen NIVUS - 1.0 200 TSI Comfortline | Ano 2023 | 65.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>102790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1NOJ7KdwYeJ135irfEWAb0mcPvZ9LNFRs=s800</g:image_link>
-      <g:brand>Volkswagen</g:brand>
-      <g:make>Volkswagen</g:make>
-      <g:model>NIVUS</g:model>
-      <g:year>2023</g:year>
-      <g:mileage value="65000" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>1.0 200 TSI Comfortline</g:trim>
-      <g:vehicle_id>2129601</g:vehicle_id>
-    </item>
-    <item>
       <g:id>2301937</g:id>
       <g:title>Volkswagen NIVUS 2022</g:title>
       <g:description>Volkswagen NIVUS - 1.0 200 TSI Highline | Ano 2022 | 55.248 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
@@ -206,44 +186,24 @@
       <g:vehicle_id>2307495</g:vehicle_id>
     </item>
     <item>
-      <g:id>2288370</g:id>
-      <g:title>Toyota HILUX 2022</g:title>
-      <g:description>Toyota HILUX - 2.8 D-4d Turbo CD SRV 4X4 | Ano 2022 | 66.708 km | Diesel | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:id>2318097</g:id>
+      <g:title>Toyota YARIS 2020</g:title>
+      <g:description>Toyota YARIS - 1.5 16V XL Plus Connect | Ano 2020 | 31.488 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
       <g:availability>in stock</g:availability>
       <g:condition>used</g:condition>
-      <g:price>224790.00 BRL</g:price>
+      <g:price>84790.00 BRL</g:price>
       <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1lqU_oJCVPH1ZW0y8UoFA_zLpcCdhf2la=s800</g:image_link>
+      <g:image_link>https://lh3.googleusercontent.com/d/14yuWMNrmiOGvp3wRdktB4wqdrkGxuqqM=s800</g:image_link>
       <g:brand>Toyota</g:brand>
       <g:make>Toyota</g:make>
-      <g:model>HILUX</g:model>
-      <g:year>2022</g:year>
-      <g:mileage value="66708" unit="KM" />
-      <g:body_style>CAMIONETE</g:body_style>
-      <g:fuel_type>Diesel</g:fuel_type>
+      <g:model>YARIS</g:model>
+      <g:year>2020</g:year>
+      <g:mileage value="31488" unit="KM" />
+      <g:body_style>Hatchback</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
       <g:transmission>Automatic</g:transmission>
-      <g:trim>2.8 D-4d Turbo CD SRV 4X4</g:trim>
-      <g:vehicle_id>2288370</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2260437</g:id>
-      <g:title>Toyota HILUX SW4 2024</g:title>
-      <g:description>Toyota HILUX SW4 - 2.8 D-4d Turbo SRX Platinum 7L 4X4 | Ano 2024 | 38.000 km | Diesel | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>338790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1kV_VRvN1d-3GQ4tkpn_TWxpUuxEphUAC=s800</g:image_link>
-      <g:brand>Toyota</g:brand>
-      <g:make>Toyota</g:make>
-      <g:model>HILUX SW4</g:model>
-      <g:year>2024</g:year>
-      <g:mileage value="38000" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Diesel</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>2.8 D-4d Turbo SRX Platinum 7L 4X4</g:trim>
-      <g:vehicle_id>2260437</g:vehicle_id>
+      <g:trim>1.5 16V XL Plus Connect</g:trim>
+      <g:vehicle_id>2318097</g:vehicle_id>
     </item>
     <item>
       <g:id>2318625</g:id>
@@ -266,26 +226,6 @@
       <g:vehicle_id>2318625</g:vehicle_id>
     </item>
     <item>
-      <g:id>2318097</g:id>
-      <g:title>Toyota YARIS 2020</g:title>
-      <g:description>Toyota YARIS - 1.5 16V XL Plus Connect | Ano 2020 | 31.488 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>84790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/14yuWMNrmiOGvp3wRdktB4wqdrkGxuqqM=s800</g:image_link>
-      <g:brand>Toyota</g:brand>
-      <g:make>Toyota</g:make>
-      <g:model>YARIS</g:model>
-      <g:year>2020</g:year>
-      <g:mileage value="31488" unit="KM" />
-      <g:body_style>Hatchback</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>1.5 16V XL Plus Connect</g:trim>
-      <g:vehicle_id>2318097</g:vehicle_id>
-    </item>
-    <item>
       <g:id>2252098</g:id>
       <g:title>Toyota YARIS 2025</g:title>
       <g:description>Toyota YARIS - 1.5 16V XS | Ano 2025 | 40.812 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
@@ -306,6 +246,66 @@
       <g:vehicle_id>2252098</g:vehicle_id>
     </item>
     <item>
+      <g:id>2129601</g:id>
+      <g:title>Volkswagen NIVUS 2023</g:title>
+      <g:description>Volkswagen NIVUS - 1.0 200 TSI Comfortline | Ano 2023 | 65.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>102790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1NOJ7KdwYeJ135irfEWAb0mcPvZ9LNFRs=s800</g:image_link>
+      <g:brand>Volkswagen</g:brand>
+      <g:make>Volkswagen</g:make>
+      <g:model>NIVUS</g:model>
+      <g:year>2023</g:year>
+      <g:mileage value="65000" unit="KM" />
+      <g:body_style>SUV</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>1.0 200 TSI Comfortline</g:trim>
+      <g:vehicle_id>2129601</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2260437</g:id>
+      <g:title>Toyota HILUX SW4 2024</g:title>
+      <g:description>Toyota HILUX SW4 - 2.8 D-4d Turbo SRX Platinum 7L 4X4 | Ano 2024 | 38.000 km | Diesel | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>338790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1kV_VRvN1d-3GQ4tkpn_TWxpUuxEphUAC=s800</g:image_link>
+      <g:brand>Toyota</g:brand>
+      <g:make>Toyota</g:make>
+      <g:model>HILUX SW4</g:model>
+      <g:year>2024</g:year>
+      <g:mileage value="38000" unit="KM" />
+      <g:body_style>SUV</g:body_style>
+      <g:fuel_type>Diesel</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>2.8 D-4d Turbo SRX Platinum 7L 4X4</g:trim>
+      <g:vehicle_id>2260437</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2288370</g:id>
+      <g:title>Toyota HILUX 2022</g:title>
+      <g:description>Toyota HILUX - 2.8 D-4d Turbo CD SRV 4X4 | Ano 2022 | 66.708 km | Diesel | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>224790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1lqU_oJCVPH1ZW0y8UoFA_zLpcCdhf2la=s800</g:image_link>
+      <g:brand>Toyota</g:brand>
+      <g:make>Toyota</g:make>
+      <g:model>HILUX</g:model>
+      <g:year>2022</g:year>
+      <g:mileage value="66708" unit="KM" />
+      <g:body_style>CAMIONETE</g:body_style>
+      <g:fuel_type>Diesel</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>2.8 D-4d Turbo CD SRV 4X4</g:trim>
+      <g:vehicle_id>2288370</g:vehicle_id>
+    </item>
+    <item>
       <g:id>1785308</g:id>
       <g:title>Toyota COROLLA 2021</g:title>
       <g:description>Toyota COROLLA - 2.0 Vvt-ie XEI | Ano 2021 | 65.504 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
@@ -324,26 +324,6 @@
       <g:transmission>Automatic</g:transmission>
       <g:trim>2.0 Vvt-ie XEI</g:trim>
       <g:vehicle_id>1785308</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2286852</g:id>
-      <g:title>Toyota COROLLA 2023</g:title>
-      <g:description>Toyota COROLLA - 2.0 Vvt-ie XEI | Ano 2023 | 60.653 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>129790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1J8xHM6i2Em47BFa1zmYuz8_oJd8anRzg=s800</g:image_link>
-      <g:brand>Toyota</g:brand>
-      <g:make>Toyota</g:make>
-      <g:model>COROLLA</g:model>
-      <g:year>2023</g:year>
-      <g:mileage value="60653" unit="KM" />
-      <g:body_style>Sedan</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>2.0 Vvt-ie XEI</g:trim>
-      <g:vehicle_id>2286852</g:vehicle_id>
     </item>
     <item>
       <g:id>2060639</g:id>
@@ -386,6 +366,26 @@
       <g:vehicle_id>2286854</g:vehicle_id>
     </item>
     <item>
+      <g:id>2286852</g:id>
+      <g:title>Toyota COROLLA 2023</g:title>
+      <g:description>Toyota COROLLA - 2.0 Vvt-ie XEI | Ano 2023 | 60.653 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>129790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1J8xHM6i2Em47BFa1zmYuz8_oJd8anRzg=s800</g:image_link>
+      <g:brand>Toyota</g:brand>
+      <g:make>Toyota</g:make>
+      <g:model>COROLLA</g:model>
+      <g:year>2023</g:year>
+      <g:mileage value="60653" unit="KM" />
+      <g:body_style>Sedan</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>2.0 Vvt-ie XEI</g:trim>
+      <g:vehicle_id>2286852</g:vehicle_id>
+    </item>
+    <item>
       <g:id>2311457</g:id>
       <g:title>Toyota COROLLA 2023</g:title>
       <g:description>Toyota COROLLA - 2.0 Vvt-ie XEI | Ano 2023 | 42.994 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
@@ -404,46 +404,6 @@
       <g:transmission>Automatic</g:transmission>
       <g:trim>2.0 Vvt-ie XEI</g:trim>
       <g:vehicle_id>2311457</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2190189</g:id>
-      <g:title>Porsche CAYENNE 2016</g:title>
-      <g:description>Porsche CAYENNE - 3.6 4X4 V6 24V | Ano 2016 | 58.900 km | Gasolina | TipTronic. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>219790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1MCATj6dzj3XNSH0yWUrHDkOvu-XPqOV5=s800</g:image_link>
-      <g:brand>Porsche</g:brand>
-      <g:make>Porsche</g:make>
-      <g:model>CAYENNE</g:model>
-      <g:year>2016</g:year>
-      <g:mileage value="58900" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Gasoline</g:fuel_type>
-      <g:transmission>TipTronic</g:transmission>
-      <g:trim>3.6 4X4 V6 24V</g:trim>
-      <g:vehicle_id>2190189</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2051391</g:id>
-      <g:title>Porsche MACAN 2019</g:title>
-      <g:description>Porsche MACAN - 2.0 16V | Ano 2019 | 55.200 km | Gasolina | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>315790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1NtywInROuR_mmmwH63jOBYNU0bEkwz2f=s800</g:image_link>
-      <g:brand>Porsche</g:brand>
-      <g:make>Porsche</g:make>
-      <g:model>MACAN</g:model>
-      <g:year>2019</g:year>
-      <g:mileage value="55200" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Gasoline</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>2.0 16V</g:trim>
-      <g:vehicle_id>2051391</g:vehicle_id>
     </item>
     <item>
       <g:id>2260857</g:id>
@@ -483,66 +443,6 @@
       <g:transmission>Automatic</g:transmission>
       <g:trim>1.5 Tgdi HEV Luxury DHT</g:trim>
       <g:vehicle_id>2296448</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2312496</g:id>
-      <g:title>Nissan SENTRA 2025</g:title>
-      <g:description>Nissan SENTRA - 2.0 16V Exclusive | Ano 2025 | 35.132 km | Gasolina | XTronic. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>147790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1VbIg__m4JswRVdYTOSfZYb2nIDBMdczm=s800</g:image_link>
-      <g:brand>Nissan</g:brand>
-      <g:make>Nissan</g:make>
-      <g:model>SENTRA</g:model>
-      <g:year>2025</g:year>
-      <g:mileage value="35132" unit="KM" />
-      <g:body_style>Sedan</g:body_style>
-      <g:fuel_type>Gasoline</g:fuel_type>
-      <g:transmission>XTronic</g:transmission>
-      <g:trim>2.0 16V Exclusive</g:trim>
-      <g:vehicle_id>2312496</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2253199</g:id>
-      <g:title>Nissan VERSA 2023</g:title>
-      <g:description>Nissan VERSA - 1.6 16V Advance | Ano 2023 | 32.256 km | Flex | XTronic. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>104790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/12kFOvjr7ATI1uH52_ZUH8dehdr3S-rRl=s800</g:image_link>
-      <g:brand>Nissan</g:brand>
-      <g:make>Nissan</g:make>
-      <g:model>VERSA</g:model>
-      <g:year>2023</g:year>
-      <g:mileage value="32256" unit="KM" />
-      <g:body_style>Sedan</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>XTronic</g:transmission>
-      <g:trim>1.6 16V Advance</g:trim>
-      <g:vehicle_id>2253199</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2249716</g:id>
-      <g:title>Nissan VERSA 2026</g:title>
-      <g:description>Nissan VERSA - 1.6 16V Exclusive | Ano 2026 | 8.075 km | Flex | XTronic. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>120790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1ztw8x1kGGkNBpFf5KlOx5Q1lbYpNDbER=s800</g:image_link>
-      <g:brand>Nissan</g:brand>
-      <g:make>Nissan</g:make>
-      <g:model>VERSA</g:model>
-      <g:year>2026</g:year>
-      <g:mileage value="8075" unit="KM" />
-      <g:body_style>Sedan</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>XTronic</g:transmission>
-      <g:trim>1.6 16V Exclusive</g:trim>
-      <g:vehicle_id>2249716</g:vehicle_id>
     </item>
     <item>
       <g:id>2312680</g:id>
@@ -585,6 +485,46 @@
       <g:vehicle_id>2316685</g:vehicle_id>
     </item>
     <item>
+      <g:id>2051391</g:id>
+      <g:title>Porsche MACAN 2019</g:title>
+      <g:description>Porsche MACAN - 2.0 16V | Ano 2019 | 55.200 km | Gasolina | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>315790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1NtywInROuR_mmmwH63jOBYNU0bEkwz2f=s800</g:image_link>
+      <g:brand>Porsche</g:brand>
+      <g:make>Porsche</g:make>
+      <g:model>MACAN</g:model>
+      <g:year>2019</g:year>
+      <g:mileage value="55200" unit="KM" />
+      <g:body_style>SUV</g:body_style>
+      <g:fuel_type>Gasoline</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>2.0 16V</g:trim>
+      <g:vehicle_id>2051391</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2190189</g:id>
+      <g:title>Porsche CAYENNE 2016</g:title>
+      <g:description>Porsche CAYENNE - 3.6 4X4 V6 24V | Ano 2016 | 58.900 km | Gasolina | TipTronic. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>219790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1MCATj6dzj3XNSH0yWUrHDkOvu-XPqOV5=s800</g:image_link>
+      <g:brand>Porsche</g:brand>
+      <g:make>Porsche</g:make>
+      <g:model>CAYENNE</g:model>
+      <g:year>2016</g:year>
+      <g:mileage value="58900" unit="KM" />
+      <g:body_style>SUV</g:body_style>
+      <g:fuel_type>Gasoline</g:fuel_type>
+      <g:transmission>TipTronic</g:transmission>
+      <g:trim>3.6 4X4 V6 24V</g:trim>
+      <g:vehicle_id>2190189</g:vehicle_id>
+    </item>
+    <item>
       <g:id>2320093</g:id>
       <g:title>Nissan KICKS 2023</g:title>
       <g:description>Nissan KICKS - 1.6 16vstart Advance | Ano 2023 | 61.116 km | Flex | XTronic. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
@@ -603,6 +543,46 @@
       <g:transmission>XTronic</g:transmission>
       <g:trim>1.6 16vstart Advance</g:trim>
       <g:vehicle_id>2320093</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2312496</g:id>
+      <g:title>Nissan SENTRA 2025</g:title>
+      <g:description>Nissan SENTRA - 2.0 16V Exclusive | Ano 2025 | 35.132 km | Gasolina | XTronic. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>147790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1VbIg__m4JswRVdYTOSfZYb2nIDBMdczm=s800</g:image_link>
+      <g:brand>Nissan</g:brand>
+      <g:make>Nissan</g:make>
+      <g:model>SENTRA</g:model>
+      <g:year>2025</g:year>
+      <g:mileage value="35132" unit="KM" />
+      <g:body_style>Sedan</g:body_style>
+      <g:fuel_type>Gasoline</g:fuel_type>
+      <g:transmission>XTronic</g:transmission>
+      <g:trim>2.0 16V Exclusive</g:trim>
+      <g:vehicle_id>2312496</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2249716</g:id>
+      <g:title>Nissan VERSA 2026</g:title>
+      <g:description>Nissan VERSA - 1.6 16V Exclusive | Ano 2026 | 8.075 km | Flex | XTronic. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>120790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1ztw8x1kGGkNBpFf5KlOx5Q1lbYpNDbER=s800</g:image_link>
+      <g:brand>Nissan</g:brand>
+      <g:make>Nissan</g:make>
+      <g:model>VERSA</g:model>
+      <g:year>2026</g:year>
+      <g:mileage value="8075" unit="KM" />
+      <g:body_style>Sedan</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>XTronic</g:transmission>
+      <g:trim>1.6 16V Exclusive</g:trim>
+      <g:vehicle_id>2249716</g:vehicle_id>
     </item>
     <item>
       <g:id>2310717</g:id>
@@ -685,26 +665,6 @@
       <g:vehicle_id>2260855</g:vehicle_id>
     </item>
     <item>
-      <g:id>2159868</g:id>
-      <g:title>Nissan KICKS 2022</g:title>
-      <g:description>Nissan KICKS - 1.6 16vstart Active | Ano 2022 | 65.000 km | Flex | XTronic. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>91790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1hOntgjLdeZKnOIkOsEaYLDq0YN1NqnHT=s800</g:image_link>
-      <g:brand>Nissan</g:brand>
-      <g:make>Nissan</g:make>
-      <g:model>KICKS</g:model>
-      <g:year>2022</g:year>
-      <g:mileage value="65000" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>XTronic</g:transmission>
-      <g:trim>1.6 16vstart Active</g:trim>
-      <g:vehicle_id>2159868</g:vehicle_id>
-    </item>
-    <item>
       <g:id>2305360</g:id>
       <g:title>Jeep RENEGADE 2018</g:title>
       <g:description>Jeep RENEGADE - 2.0 16V Turbo Trailhawk 4X4 | Ano 2018 | 67.788 km | Diesel | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
@@ -743,6 +703,26 @@
       <g:transmission>Automatic</g:transmission>
       <g:trim>2.0 16V Turbo Trailhawk 4X4</g:trim>
       <g:vehicle_id>2315397</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2159868</g:id>
+      <g:title>Nissan KICKS 2022</g:title>
+      <g:description>Nissan KICKS - 1.6 16vstart Active | Ano 2022 | 65.000 km | Flex | XTronic. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>91790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1hOntgjLdeZKnOIkOsEaYLDq0YN1NqnHT=s800</g:image_link>
+      <g:brand>Nissan</g:brand>
+      <g:make>Nissan</g:make>
+      <g:model>KICKS</g:model>
+      <g:year>2022</g:year>
+      <g:mileage value="65000" unit="KM" />
+      <g:body_style>SUV</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>XTronic</g:transmission>
+      <g:trim>1.6 16vstart Active</g:trim>
+      <g:vehicle_id>2159868</g:vehicle_id>
     </item>
     <item>
       <g:id>2276618</g:id>
@@ -925,24 +905,24 @@
       <g:vehicle_id>2320096</g:vehicle_id>
     </item>
     <item>
-      <g:id>2298527</g:id>
+      <g:id>2308215</g:id>
       <g:title>Honda HR-V 2025</g:title>
-      <g:description>Honda HR-V - 1.5 DI I-vtec EXL | Ano 2025 | 29.668 km | Flex | CVT. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:description>Honda HR-V - 1.5 DI I-vtec EXL | Ano 2025 | 41.000 km | Flex | CVT. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
       <g:availability>in stock</g:availability>
       <g:condition>used</g:condition>
       <g:price>156790.00 BRL</g:price>
       <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1-Q9BBM8VBb7IvrbsTOgtOOB3OPQrkVKF=s800</g:image_link>
+      <g:image_link>https://lh3.googleusercontent.com/d/11m4YyFSmsPwpbDLjnlp-MTSPFo_4V10m=s800</g:image_link>
       <g:brand>Honda</g:brand>
       <g:make>Honda</g:make>
       <g:model>HR-V</g:model>
       <g:year>2025</g:year>
-      <g:mileage value="29668" unit="KM" />
+      <g:mileage value="41000" unit="KM" />
       <g:body_style>SUV</g:body_style>
       <g:fuel_type>Flex-fuel</g:fuel_type>
       <g:transmission>CVT</g:transmission>
       <g:trim>1.5 DI I-vtec EXL</g:trim>
-      <g:vehicle_id>2298527</g:vehicle_id>
+      <g:vehicle_id>2308215</g:vehicle_id>
     </item>
     <item>
       <g:id>2318587</g:id>
@@ -965,24 +945,24 @@
       <g:vehicle_id>2318587</g:vehicle_id>
     </item>
     <item>
-      <g:id>2308215</g:id>
+      <g:id>2298527</g:id>
       <g:title>Honda HR-V 2025</g:title>
-      <g:description>Honda HR-V - 1.5 DI I-vtec EXL | Ano 2025 | 41.000 km | Flex | CVT. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:description>Honda HR-V - 1.5 DI I-vtec EXL | Ano 2025 | 29.668 km | Flex | CVT. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
       <g:availability>in stock</g:availability>
       <g:condition>used</g:condition>
       <g:price>156790.00 BRL</g:price>
       <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/11m4YyFSmsPwpbDLjnlp-MTSPFo_4V10m=s800</g:image_link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1-Q9BBM8VBb7IvrbsTOgtOOB3OPQrkVKF=s800</g:image_link>
       <g:brand>Honda</g:brand>
       <g:make>Honda</g:make>
       <g:model>HR-V</g:model>
       <g:year>2025</g:year>
-      <g:mileage value="41000" unit="KM" />
+      <g:mileage value="29668" unit="KM" />
       <g:body_style>SUV</g:body_style>
       <g:fuel_type>Flex-fuel</g:fuel_type>
       <g:transmission>CVT</g:transmission>
       <g:trim>1.5 DI I-vtec EXL</g:trim>
-      <g:vehicle_id>2308215</g:vehicle_id>
+      <g:vehicle_id>2298527</g:vehicle_id>
     </item>
     <item>
       <g:id>2317339</g:id>
@@ -1002,105 +982,6 @@
       <g:fuel_type>Gasoline</g:fuel_type>
       <g:transmission>Manual</g:transmission>
       <g:vehicle_id>2317339</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2265536</g:id>
-      <g:title>Ford TERRITORY 2023</g:title>
-      <g:description>Ford TERRITORY - 1.5 Ecoboost Gtdi Titanium | Ano 2023 | 54.262 km | Gasolina | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>138790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/13nGcBoyAbJphAbSIXFWcWaGuEx5G_6nc=s800</g:image_link>
-      <g:brand>Ford</g:brand>
-      <g:make>Ford</g:make>
-      <g:model>TERRITORY</g:model>
-      <g:year>2023</g:year>
-      <g:mileage value="54262" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Gasoline</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>1.5 Ecoboost Gtdi Titanium</g:trim>
-      <g:vehicle_id>2265536</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2296446</g:id>
-      <g:title>Geely EX2 2026</g:title>
-      <g:description>Geely EX2 - 39,4 KW PRO | Ano 2026 | Elétrico | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>132790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1qxNMBc1mRuVKRZLGl0HZKKM0vXCe_gFQ=s800</g:image_link>
-      <g:brand>Geely</g:brand>
-      <g:make>Geely</g:make>
-      <g:model>EX2</g:model>
-      <g:year>2026</g:year>
-      <g:body_style>Hatchback</g:body_style>
-      <g:fuel_type>Electric</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>39,4 KW PRO</g:trim>
-      <g:vehicle_id>2296446</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2316694</g:id>
-      <g:title>Gurgel XAVANTE 1973</g:title>
-      <g:description>Gurgel XAVANTE - 1.3 8V | Ano 1973 | 38.155 km | Gasolina | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>84790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1L95utQiZH6RAOIRbhl8jrKmaq7fNxPYG=s800</g:image_link>
-      <g:brand>Gurgel</g:brand>
-      <g:make>Gurgel</g:make>
-      <g:model>XAVANTE</g:model>
-      <g:year>1973</g:year>
-      <g:mileage value="38155" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Gasoline</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>1.3 8V</g:trim>
-      <g:vehicle_id>2316694</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2319602</g:id>
-      <g:title>Gwm ORA 03 2024</g:title>
-      <g:description>Gwm ORA 03 - 63 KW GT | Ano 2024 | 12.000 km | Elétrico | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>139790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1KWSq219mkckSA_7KAswEI-diKuL3ZbO6=s800</g:image_link>
-      <g:brand>Gwm</g:brand>
-      <g:make>Gwm</g:make>
-      <g:model>ORA 03</g:model>
-      <g:year>2024</g:year>
-      <g:mileage value="12000" unit="KM" />
-      <g:body_style>Hatchback</g:body_style>
-      <g:fuel_type>Electric</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>63 KW GT</g:trim>
-      <g:vehicle_id>2319602</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2241743</g:id>
-      <g:title>Honda CITY 2023</g:title>
-      <g:description>Honda CITY - 1.5 I-vtec Hatch EXL | Ano 2023 | 33.017 km | Flex | CVT. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>109790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1KwEuJ6C2BLWlYtCtZHvZMvOyW8Op8ETQ=s800</g:image_link>
-      <g:brand>Honda</g:brand>
-      <g:make>Honda</g:make>
-      <g:model>CITY</g:model>
-      <g:year>2023</g:year>
-      <g:mileage value="33017" unit="KM" />
-      <g:body_style>Hatchback</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>CVT</g:transmission>
-      <g:trim>1.5 I-vtec Hatch EXL</g:trim>
-      <g:vehicle_id>2241743</g:vehicle_id>
     </item>
     <item>
       <g:id>2259054</g:id>
@@ -1123,24 +1004,44 @@
       <g:vehicle_id>2259054</g:vehicle_id>
     </item>
     <item>
-      <g:id>2288420</g:id>
-      <g:title>Honda CITY 2024</g:title>
-      <g:description>Honda CITY - 1.5 I-vtec EXL | Ano 2024 | 30.056 km | Flex | CVT. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:id>2241743</g:id>
+      <g:title>Honda CITY 2023</g:title>
+      <g:description>Honda CITY - 1.5 I-vtec Hatch EXL | Ano 2023 | 33.017 km | Flex | CVT. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
       <g:availability>in stock</g:availability>
       <g:condition>used</g:condition>
-      <g:price>121790.00 BRL</g:price>
+      <g:price>109790.00 BRL</g:price>
       <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1Xy1Ow5aw2IQnoYc6xD-LGhGpg_wc9fAr=s800</g:image_link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1KwEuJ6C2BLWlYtCtZHvZMvOyW8Op8ETQ=s800</g:image_link>
       <g:brand>Honda</g:brand>
       <g:make>Honda</g:make>
       <g:model>CITY</g:model>
-      <g:year>2024</g:year>
-      <g:mileage value="30056" unit="KM" />
+      <g:year>2023</g:year>
+      <g:mileage value="33017" unit="KM" />
       <g:body_style>Hatchback</g:body_style>
       <g:fuel_type>Flex-fuel</g:fuel_type>
       <g:transmission>CVT</g:transmission>
-      <g:trim>1.5 I-vtec EXL</g:trim>
-      <g:vehicle_id>2288420</g:vehicle_id>
+      <g:trim>1.5 I-vtec Hatch EXL</g:trim>
+      <g:vehicle_id>2241743</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2265536</g:id>
+      <g:title>Ford TERRITORY 2023</g:title>
+      <g:description>Ford TERRITORY - 1.5 Ecoboost Gtdi Titanium | Ano 2023 | 54.262 km | Gasolina | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>138790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/13nGcBoyAbJphAbSIXFWcWaGuEx5G_6nc=s800</g:image_link>
+      <g:brand>Ford</g:brand>
+      <g:make>Ford</g:make>
+      <g:model>TERRITORY</g:model>
+      <g:year>2023</g:year>
+      <g:mileage value="54262" unit="KM" />
+      <g:body_style>SUV</g:body_style>
+      <g:fuel_type>Gasoline</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>1.5 Ecoboost Gtdi Titanium</g:trim>
+      <g:vehicle_id>2265536</g:vehicle_id>
     </item>
     <item>
       <g:id>2317484</g:id>
@@ -1161,6 +1062,85 @@
       <g:transmission>Automatic</g:transmission>
       <g:trim>3.0 V6 Turbo Raptor 4X4</g:trim>
       <g:vehicle_id>2317484</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2296446</g:id>
+      <g:title>Geely EX2 2026</g:title>
+      <g:description>Geely EX2 - 39,4 KW PRO | Ano 2026 | Elétrico | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>132790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1qxNMBc1mRuVKRZLGl0HZKKM0vXCe_gFQ=s800</g:image_link>
+      <g:brand>Geely</g:brand>
+      <g:make>Geely</g:make>
+      <g:model>EX2</g:model>
+      <g:year>2026</g:year>
+      <g:body_style>Hatchback</g:body_style>
+      <g:fuel_type>Electric</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>39,4 KW PRO</g:trim>
+      <g:vehicle_id>2296446</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2319602</g:id>
+      <g:title>Gwm ORA 03 2024</g:title>
+      <g:description>Gwm ORA 03 - 63 KW GT | Ano 2024 | 12.000 km | Elétrico | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>139790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1KWSq219mkckSA_7KAswEI-diKuL3ZbO6=s800</g:image_link>
+      <g:brand>Gwm</g:brand>
+      <g:make>Gwm</g:make>
+      <g:model>ORA 03</g:model>
+      <g:year>2024</g:year>
+      <g:mileage value="12000" unit="KM" />
+      <g:body_style>Hatchback</g:body_style>
+      <g:fuel_type>Electric</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>63 KW GT</g:trim>
+      <g:vehicle_id>2319602</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2288420</g:id>
+      <g:title>Honda CITY 2024</g:title>
+      <g:description>Honda CITY - 1.5 I-vtec EXL | Ano 2024 | 30.056 km | Flex | CVT. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>121790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1Xy1Ow5aw2IQnoYc6xD-LGhGpg_wc9fAr=s800</g:image_link>
+      <g:brand>Honda</g:brand>
+      <g:make>Honda</g:make>
+      <g:model>CITY</g:model>
+      <g:year>2024</g:year>
+      <g:mileage value="30056" unit="KM" />
+      <g:body_style>Hatchback</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>CVT</g:transmission>
+      <g:trim>1.5 I-vtec EXL</g:trim>
+      <g:vehicle_id>2288420</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2316694</g:id>
+      <g:title>Gurgel XAVANTE 1973</g:title>
+      <g:description>Gurgel XAVANTE - 1.3 8V | Ano 1973 | 38.155 km | Gasolina | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>84790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1L95utQiZH6RAOIRbhl8jrKmaq7fNxPYG=s800</g:image_link>
+      <g:brand>Gurgel</g:brand>
+      <g:make>Gurgel</g:make>
+      <g:model>XAVANTE</g:model>
+      <g:year>1973</g:year>
+      <g:mileage value="38155" unit="KM" />
+      <g:body_style>SUV</g:body_style>
+      <g:fuel_type>Gasoline</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>1.3 8V</g:trim>
+      <g:vehicle_id>2316694</g:vehicle_id>
     </item>
     <item>
       <g:id>2254659</g:id>
@@ -1501,354 +1481,14 @@
       <g:vehicle_id>2129007</g:vehicle_id>
     </item>
     <item>
-      <g:id>2306076</g:id>
-      <g:title>Volkswagen POLO 2026</g:title>
-      <g:description>Volkswagen POLO - 1.0 MPI Track | Ano 2026 | 34.950 km | Gasolina | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>82790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1X6TqUBZmin7sveYyF46EIHmE8CtwQLqy=s800</g:image_link>
-      <g:brand>Volkswagen</g:brand>
-      <g:make>Volkswagen</g:make>
-      <g:model>POLO</g:model>
-      <g:year>2026</g:year>
-      <g:mileage value="34950" unit="KM" />
-      <g:body_style>Hatchback</g:body_style>
-      <g:fuel_type>Gasoline</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>1.0 MPI Track</g:trim>
-      <g:vehicle_id>2306076</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2317499</g:id>
-      <g:title>Volkswagen POLO 2026</g:title>
-      <g:description>Volkswagen POLO - 1.0 MPI Track | Ano 2026 | 47.701 km | Gasolina | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>82790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1gK4yljE5tcFwciUB-Bm5-rhwPc7Z7Luh=s800</g:image_link>
-      <g:brand>Volkswagen</g:brand>
-      <g:make>Volkswagen</g:make>
-      <g:model>POLO</g:model>
-      <g:year>2026</g:year>
-      <g:mileage value="47701" unit="KM" />
-      <g:body_style>Hatchback</g:body_style>
-      <g:fuel_type>Gasoline</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>1.0 MPI Track</g:trim>
-      <g:vehicle_id>2317499</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2311861</g:id>
-      <g:title>Volkswagen SAVEIRO 2012</g:title>
-      <g:description>Volkswagen SAVEIRO - 1.6 Cross CE 8V | Ano 2012 | 134.219 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>56790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1CwJJfrRvsr0WcV4LizGB07wp3gDfuGkZ=s800</g:image_link>
-      <g:brand>Volkswagen</g:brand>
-      <g:make>Volkswagen</g:make>
-      <g:model>SAVEIRO</g:model>
-      <g:year>2012</g:year>
-      <g:mileage value="134219" unit="KM" />
-      <g:body_style>CAMIONETE</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>1.6 Cross CE 8V</g:trim>
-      <g:vehicle_id>2311861</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2319053</g:id>
-      <g:title>Volkswagen SAVEIRO 2025</g:title>
-      <g:description>Volkswagen SAVEIRO - 1.6 MSI Robust CS 16V | Ano 2025 | 48.134 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>81790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1vN6C9Qsx2Dt1M7Z1K3ZqR4eh_S-nHUle=s800</g:image_link>
-      <g:brand>Volkswagen</g:brand>
-      <g:make>Volkswagen</g:make>
-      <g:model>SAVEIRO</g:model>
-      <g:year>2025</g:year>
-      <g:mileage value="48134" unit="KM" />
-      <g:body_style>CAMIONETE</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>1.6 MSI Robust CS 16V</g:trim>
-      <g:vehicle_id>2319053</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2306083</g:id>
-      <g:title>Volkswagen SAVEIRO 2023</g:title>
-      <g:description>Volkswagen SAVEIRO - 1.6 MSI Robust CS 16V | Ano 2023 | 62.100 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>68790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/19bhnqZeTTXkMLKLJSC2Arpo9SrfIIwZg=s800</g:image_link>
-      <g:brand>Volkswagen</g:brand>
-      <g:make>Volkswagen</g:make>
-      <g:model>SAVEIRO</g:model>
-      <g:year>2023</g:year>
-      <g:mileage value="62100" unit="KM" />
-      <g:body_style>CAMIONETE</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>1.6 MSI Robust CS 16V</g:trim>
-      <g:vehicle_id>2306083</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2306085</g:id>
-      <g:title>Volkswagen SAVEIRO 2023</g:title>
-      <g:description>Volkswagen SAVEIRO - 1.6 MSI Robust CS 16V | Ano 2023 | 77.073 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>67790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1IR_LoglG9czVAr0FcJkKdNII6zmFIAFA=s800</g:image_link>
-      <g:brand>Volkswagen</g:brand>
-      <g:make>Volkswagen</g:make>
-      <g:model>SAVEIRO</g:model>
-      <g:year>2023</g:year>
-      <g:mileage value="77073" unit="KM" />
-      <g:body_style>CAMIONETE</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>1.6 MSI Robust CS 16V</g:trim>
-      <g:vehicle_id>2306085</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2319054</g:id>
-      <g:title>Volkswagen SAVEIRO 2025</g:title>
-      <g:description>Volkswagen SAVEIRO - 1.6 MSI Robust CS 16V | Ano 2025 | 40.494 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>81790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1-4mSlhl4UVk57ZPsuZyyfMRmWmS0E1RF=s800</g:image_link>
-      <g:brand>Volkswagen</g:brand>
-      <g:make>Volkswagen</g:make>
-      <g:model>SAVEIRO</g:model>
-      <g:year>2025</g:year>
-      <g:mileage value="40494" unit="KM" />
-      <g:body_style>CAMIONETE</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>1.6 MSI Robust CS 16V</g:trim>
-      <g:vehicle_id>2319054</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2073548</g:id>
-      <g:title>Volkswagen T-CROSS 2021</g:title>
-      <g:description>Volkswagen T-CROSS - 1.0 200 TSI Comfortline | Ano 2021 | 128.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>97790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1I7JPm44yDNssgtq5I7NZ3MLAF9adAjtC=s800</g:image_link>
-      <g:brand>Volkswagen</g:brand>
-      <g:make>Volkswagen</g:make>
-      <g:model>T-CROSS</g:model>
-      <g:year>2021</g:year>
-      <g:mileage value="128000" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>1.0 200 TSI Comfortline</g:trim>
-      <g:vehicle_id>2073548</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2317332</g:id>
-      <g:title>Volkswagen VIRTUS 2025</g:title>
-      <g:description>Volkswagen VIRTUS - 1.0 200 TSI Comfortline | Ano 2025 | 35.259 km | Gasolina | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>115790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1KgcfmAiybEAQg92fg6RZjD4TP6N4eVTn=s800</g:image_link>
-      <g:brand>Volkswagen</g:brand>
-      <g:make>Volkswagen</g:make>
-      <g:model>VIRTUS</g:model>
-      <g:year>2025</g:year>
-      <g:mileage value="35259" unit="KM" />
-      <g:body_style>Sedan</g:body_style>
-      <g:fuel_type>Gasoline</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>1.0 200 TSI Comfortline</g:trim>
-      <g:vehicle_id>2317332</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2319606</g:id>
-      <g:title>Honda CIVIC 2016</g:title>
-      <g:description>Honda CIVIC - 1.8 LXS 16V | Ano 2016 | 113.320 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>75790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1AX2ZACN9-AyAqEinsq6Qp791Belbq9eA=s800</g:image_link>
-      <g:brand>Honda</g:brand>
-      <g:make>Honda</g:make>
-      <g:model>CIVIC</g:model>
-      <g:year>2016</g:year>
-      <g:mileage value="113320" unit="KM" />
-      <g:body_style>Sedan</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>1.8 LXS 16V</g:trim>
-      <g:vehicle_id>2319606</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2307123</g:id>
-      <g:title>Honda Fit 2019</g:title>
-      <g:description>Honda Fit - 1.5 Personal 16V | Ano 2019 | 29.022 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>82790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1Otvom-Pi_e4zPDJeHkmSPUMYmHFy7YaJ=s800</g:image_link>
-      <g:brand>Honda</g:brand>
-      <g:make>Honda</g:make>
-      <g:model>Fit</g:model>
-      <g:year>2019</g:year>
-      <g:mileage value="29022" unit="KM" />
-      <g:body_style>Hatchback</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>1.5 Personal 16V</g:trim>
-      <g:vehicle_id>2307123</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2316139</g:id>
-      <g:title>Honda HR-V 2020</g:title>
-      <g:description>Honda HR-V - 1.5 16V Turbo Touring | Ano 2020 | 93.000 km | Gasolina | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>119790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1eK97P4B0L2L4VSx8ou2iYhtYye35zaDv=s800</g:image_link>
-      <g:brand>Honda</g:brand>
-      <g:make>Honda</g:make>
-      <g:model>HR-V</g:model>
-      <g:year>2020</g:year>
-      <g:mileage value="93000" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Gasoline</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>1.5 16V Turbo Touring</g:trim>
-      <g:vehicle_id>2316139</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2308776</g:id>
-      <g:title>Honda HR-V 2018</g:title>
-      <g:description>Honda HR-V - 1.8 16V EX | Ano 2018 | 105.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>94790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1EhGdtp8T4I5i8NwYZeIgGSvqJhsUwjaz=s800</g:image_link>
-      <g:brand>Honda</g:brand>
-      <g:make>Honda</g:make>
-      <g:model>HR-V</g:model>
-      <g:year>2018</g:year>
-      <g:mileage value="105000" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>1.8 16V EX</g:trim>
-      <g:vehicle_id>2308776</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2305957</g:id>
-      <g:title>Honda HR-V 2021</g:title>
-      <g:description>Honda HR-V - 1.8 16V EX | Ano 2021 | 107.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>105790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1C_Ib4VeAvDRgMskrWi1LefCCiREpyz9K=s800</g:image_link>
-      <g:brand>Honda</g:brand>
-      <g:make>Honda</g:make>
-      <g:model>HR-V</g:model>
-      <g:year>2021</g:year>
-      <g:mileage value="107000" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>1.8 16V EX</g:trim>
-      <g:vehicle_id>2305957</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2305965</g:id>
-      <g:title>Hyundai CRETA 2025</g:title>
-      <g:description>Hyundai CRETA - 1.0 Tgdi Comfort Plus | Ano 2025 | 41.691 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>119790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1kNpk1dEJ1kA_ZO16PrI_xhLkKk8Onjyo=s800</g:image_link>
-      <g:brand>Hyundai</g:brand>
-      <g:make>Hyundai</g:make>
-      <g:model>CRETA</g:model>
-      <g:year>2025</g:year>
-      <g:mileage value="41691" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>1.0 Tgdi Comfort Plus</g:trim>
-      <g:vehicle_id>2305965</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2319465</g:id>
-      <g:title>Hyundai HB20 2026</g:title>
-      <g:description>Hyundai HB20 - 1.0 12V Comfort | Ano 2026 | 37.100 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>80790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1h6hIvW9Ux0Oaocgvu3DRlP4V2pZLrBmc=s800</g:image_link>
-      <g:brand>Hyundai</g:brand>
-      <g:make>Hyundai</g:make>
-      <g:model>HB20</g:model>
-      <g:year>2026</g:year>
-      <g:mileage value="37100" unit="KM" />
-      <g:body_style>Hatchback</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>1.0 12V Comfort</g:trim>
-      <g:vehicle_id>2319465</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2305974</g:id>
-      <g:title>Hyundai HB20 2025</g:title>
-      <g:description>Hyundai HB20 - 1.0 12V Comfort Plus | Ano 2025 | 44.808 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>76790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1SFmU-WMSFb18zGt1Ucnlt3EBh4Ikv-KB=s800</g:image_link>
-      <g:brand>Hyundai</g:brand>
-      <g:make>Hyundai</g:make>
-      <g:model>HB20</g:model>
-      <g:year>2025</g:year>
-      <g:mileage value="44808" unit="KM" />
-      <g:body_style>Hatchback</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>1.0 12V Comfort Plus</g:trim>
-      <g:vehicle_id>2305974</g:vehicle_id>
-    </item>
-    <item>
       <g:id>2253375</g:id>
       <g:title>Hyundai HB20X 2022</g:title>
       <g:description>Hyundai HB20X - 1.6 16V Vision | Ano 2022 | 69.258 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
       <g:availability>in stock</g:availability>
       <g:condition>used</g:condition>
-      <g:price>83790.00 BRL</g:price>
+      <g:price>82790.00 BRL</g:price>
       <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/14fNOmiWRAl8hyqVkXktIxiO6sCXQerIV=s800</g:image_link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1yXBPdECsuyfUwjXfQB5P8OyTIDHHs4fB=s800</g:image_link>
       <g:brand>Hyundai</g:brand>
       <g:make>Hyundai</g:make>
       <g:model>HB20X</g:model>
@@ -1859,6 +1499,26 @@
       <g:transmission>Automatic</g:transmission>
       <g:trim>1.6 16V Vision</g:trim>
       <g:vehicle_id>2253375</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2320109</g:id>
+      <g:title>Hyundai IX35 2015</g:title>
+      <g:description>Hyundai IX35 - 2.0 MPFI GLS 16V | Ano 2015 | 156.735 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>73790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1ULchVMI8qqo8i0D0GS1PrFVxsQ9gkNvr=s800</g:image_link>
+      <g:brand>Hyundai</g:brand>
+      <g:make>Hyundai</g:make>
+      <g:model>IX35</g:model>
+      <g:year>2015</g:year>
+      <g:mileage value="156735" unit="KM" />
+      <g:body_style>SUV</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>2.0 MPFI GLS 16V</g:trim>
+      <g:vehicle_id>2320109</g:vehicle_id>
     </item>
     <item>
       <g:id>2318116</g:id>
@@ -1886,9 +1546,9 @@
       <g:description>Land ROVER DISCOVERY SPORT - 2.0 16V SI4 Turbo SE | Ano 2017 | 100.876 km | Gasolina | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
       <g:availability>in stock</g:availability>
       <g:condition>used</g:condition>
-      <g:price>109790.00 BRL</g:price>
+      <g:price>107790.00 BRL</g:price>
       <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1eNyJvOU235GXSby3UfA-AMKwyum2mqsR=s800</g:image_link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1YwUofTFkctz5_pSVTkrXIq2FNQcnIudZ=s800</g:image_link>
       <g:brand>Land</g:brand>
       <g:make>Land</g:make>
       <g:model>ROVER DISCOVERY SPORT</g:model>
@@ -1968,7 +1628,7 @@
       <g:condition>used</g:condition>
       <g:price>69790.00 BRL</g:price>
       <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1E1IblDB2tHjf5zVJIvsVu-e__Qnb6r98=s800</g:image_link>
+      <g:image_link>https://lh3.googleusercontent.com/d/14t6dv60xsFcKJ4BUrUPaiK6BZjZ754M1=s800</g:image_link>
       <g:brand>Renault</g:brand>
       <g:make>Renault</g:make>
       <g:model>KWID</g:model>
@@ -1988,7 +1648,7 @@
       <g:condition>used</g:condition>
       <g:price>174790.00 BRL</g:price>
       <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/18yWe8nlUUC8sUtLoNw05HHnczEGcNvRm=s800</g:image_link>
+      <g:image_link>https://lh3.googleusercontent.com/d/15H94pbwDHhTqAl6u3ak8YUF3ZwyyM9MK=s800</g:image_link>
       <g:brand>Toyota</g:brand>
       <g:make>Toyota</g:make>
       <g:model>HILUX</g:model>
@@ -2028,7 +1688,7 @@
       <g:condition>used</g:condition>
       <g:price>82790.00 BRL</g:price>
       <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/12CZoFc_3YbenFD5y6Nf0yxnOgbiaZ8Dy=s800</g:image_link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1Uq8BRxP2gP8R5sokRGaFpS6-dnwXvaJe=s800</g:image_link>
       <g:brand>Volkswagen</g:brand>
       <g:make>Volkswagen</g:make>
       <g:model>POLO</g:model>
@@ -2039,6 +1699,546 @@
       <g:transmission>Manual</g:transmission>
       <g:trim>1.0 MPI Track</g:trim>
       <g:vehicle_id>2317334</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2306076</g:id>
+      <g:title>Volkswagen POLO 2026</g:title>
+      <g:description>Volkswagen POLO - 1.0 MPI Track | Ano 2026 | 34.950 km | Gasolina | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>82790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1X6TqUBZmin7sveYyF46EIHmE8CtwQLqy=s800</g:image_link>
+      <g:brand>Volkswagen</g:brand>
+      <g:make>Volkswagen</g:make>
+      <g:model>POLO</g:model>
+      <g:year>2026</g:year>
+      <g:mileage value="34950" unit="KM" />
+      <g:body_style>Hatchback</g:body_style>
+      <g:fuel_type>Gasoline</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>1.0 MPI Track</g:trim>
+      <g:vehicle_id>2306076</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2320414</g:id>
+      <g:title>Volkswagen POLO 2024</g:title>
+      <g:description>Volkswagen POLO - 1.0 MPI Track | Ano 2024 | 93.300 km | Gasolina | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>70790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1fc_2vcFMSLZIcUUEmY9RaOvsEEWmiS5n=s800</g:image_link>
+      <g:brand>Volkswagen</g:brand>
+      <g:make>Volkswagen</g:make>
+      <g:model>POLO</g:model>
+      <g:year>2024</g:year>
+      <g:mileage value="93300" unit="KM" />
+      <g:body_style>Hatchback</g:body_style>
+      <g:fuel_type>Gasoline</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>1.0 MPI Track</g:trim>
+      <g:vehicle_id>2320414</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2317499</g:id>
+      <g:title>Volkswagen POLO 2026</g:title>
+      <g:description>Volkswagen POLO - 1.0 MPI Track | Ano 2026 | 47.701 km | Gasolina | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>82790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1gK4yljE5tcFwciUB-Bm5-rhwPc7Z7Luh=s800</g:image_link>
+      <g:brand>Volkswagen</g:brand>
+      <g:make>Volkswagen</g:make>
+      <g:model>POLO</g:model>
+      <g:year>2026</g:year>
+      <g:mileage value="47701" unit="KM" />
+      <g:body_style>Hatchback</g:body_style>
+      <g:fuel_type>Gasoline</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>1.0 MPI Track</g:trim>
+      <g:vehicle_id>2317499</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2311861</g:id>
+      <g:title>Volkswagen SAVEIRO 2012</g:title>
+      <g:description>Volkswagen SAVEIRO - 1.6 Cross CE 8V | Ano 2012 | 134.219 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>56790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1CwJJfrRvsr0WcV4LizGB07wp3gDfuGkZ=s800</g:image_link>
+      <g:brand>Volkswagen</g:brand>
+      <g:make>Volkswagen</g:make>
+      <g:model>SAVEIRO</g:model>
+      <g:year>2012</g:year>
+      <g:mileage value="134219" unit="KM" />
+      <g:body_style>CAMIONETE</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>1.6 Cross CE 8V</g:trim>
+      <g:vehicle_id>2311861</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2319053</g:id>
+      <g:title>Volkswagen SAVEIRO 2025</g:title>
+      <g:description>Volkswagen SAVEIRO - 1.6 MSI Robust CS 16V | Ano 2025 | 48.134 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>81790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1vN6C9Qsx2Dt1M7Z1K3ZqR4eh_S-nHUle=s800</g:image_link>
+      <g:brand>Volkswagen</g:brand>
+      <g:make>Volkswagen</g:make>
+      <g:model>SAVEIRO</g:model>
+      <g:year>2025</g:year>
+      <g:mileage value="48134" unit="KM" />
+      <g:body_style>CAMIONETE</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>1.6 MSI Robust CS 16V</g:trim>
+      <g:vehicle_id>2319053</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2306083</g:id>
+      <g:title>Volkswagen SAVEIRO 2023</g:title>
+      <g:description>Volkswagen SAVEIRO - 1.6 MSI Robust CS 16V | Ano 2023 | 62.100 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>68790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1p26THm5bkzUJVWT8-ubKQckZkErPazPD=s800</g:image_link>
+      <g:brand>Volkswagen</g:brand>
+      <g:make>Volkswagen</g:make>
+      <g:model>SAVEIRO</g:model>
+      <g:year>2023</g:year>
+      <g:mileage value="62100" unit="KM" />
+      <g:body_style>CAMIONETE</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>1.6 MSI Robust CS 16V</g:trim>
+      <g:vehicle_id>2306083</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2306085</g:id>
+      <g:title>Volkswagen SAVEIRO 2023</g:title>
+      <g:description>Volkswagen SAVEIRO - 1.6 MSI Robust CS 16V | Ano 2023 | 77.073 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>67790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1hN2m_uFJ4Uf1H9JBHGH-RxRtiFObE9RQ=s800</g:image_link>
+      <g:brand>Volkswagen</g:brand>
+      <g:make>Volkswagen</g:make>
+      <g:model>SAVEIRO</g:model>
+      <g:year>2023</g:year>
+      <g:mileage value="77073" unit="KM" />
+      <g:body_style>CAMIONETE</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>1.6 MSI Robust CS 16V</g:trim>
+      <g:vehicle_id>2306085</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2319054</g:id>
+      <g:title>Volkswagen SAVEIRO 2025</g:title>
+      <g:description>Volkswagen SAVEIRO - 1.6 MSI Robust CS 16V | Ano 2025 | 40.494 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>81790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1-4mSlhl4UVk57ZPsuZyyfMRmWmS0E1RF=s800</g:image_link>
+      <g:brand>Volkswagen</g:brand>
+      <g:make>Volkswagen</g:make>
+      <g:model>SAVEIRO</g:model>
+      <g:year>2025</g:year>
+      <g:mileage value="40494" unit="KM" />
+      <g:body_style>CAMIONETE</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>1.6 MSI Robust CS 16V</g:trim>
+      <g:vehicle_id>2319054</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2073548</g:id>
+      <g:title>Volkswagen T-CROSS 2021</g:title>
+      <g:description>Volkswagen T-CROSS - 1.0 200 TSI Comfortline | Ano 2021 | 128.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>97790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1I7JPm44yDNssgtq5I7NZ3MLAF9adAjtC=s800</g:image_link>
+      <g:brand>Volkswagen</g:brand>
+      <g:make>Volkswagen</g:make>
+      <g:model>T-CROSS</g:model>
+      <g:year>2021</g:year>
+      <g:mileage value="128000" unit="KM" />
+      <g:body_style>SUV</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>1.0 200 TSI Comfortline</g:trim>
+      <g:vehicle_id>2073548</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2317332</g:id>
+      <g:title>Volkswagen VIRTUS 2025</g:title>
+      <g:description>Volkswagen VIRTUS - 1.0 200 TSI Comfortline | Ano 2025 | 35.259 km | Gasolina | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>115790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1-J3tEO019gM8fOz8UYNrWJecibnxMlwk=s800</g:image_link>
+      <g:brand>Volkswagen</g:brand>
+      <g:make>Volkswagen</g:make>
+      <g:model>VIRTUS</g:model>
+      <g:year>2025</g:year>
+      <g:mileage value="35259" unit="KM" />
+      <g:body_style>Sedan</g:body_style>
+      <g:fuel_type>Gasoline</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>1.0 200 TSI Comfortline</g:trim>
+      <g:vehicle_id>2317332</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2317322</g:id>
+      <g:title>Fiat CRONOS 2025</g:title>
+      <g:description>Fiat CRONOS - 1.0 Firefly Drive | Ano 2025 | 32.989 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>82790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1s-ODmfD9QNmXChvK0Cg48-CM4QyfN6I-=s800</g:image_link>
+      <g:brand>Fiat</g:brand>
+      <g:make>Fiat</g:make>
+      <g:model>CRONOS</g:model>
+      <g:year>2025</g:year>
+      <g:mileage value="32989" unit="KM" />
+      <g:body_style>Sedan</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>1.0 Firefly Drive</g:trim>
+      <g:vehicle_id>2317322</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2305805</g:id>
+      <g:title>Fiat CRONOS 2025</g:title>
+      <g:description>Fiat CRONOS - 1.0 Firefly Drive | Ano 2025 | 37.229 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>82790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1WBo1gGcChpzyf0WH2qE0ttbQfpnvoT0J=s800</g:image_link>
+      <g:brand>Fiat</g:brand>
+      <g:make>Fiat</g:make>
+      <g:model>CRONOS</g:model>
+      <g:year>2025</g:year>
+      <g:mileage value="37229" unit="KM" />
+      <g:body_style>Sedan</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>1.0 Firefly Drive</g:trim>
+      <g:vehicle_id>2305805</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2317321</g:id>
+      <g:title>Fiat CRONOS 2022</g:title>
+      <g:description>Fiat CRONOS - 1.3 Firefly | Ano 2022 | 96.780 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>66790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1dF2vzaUVDET0_nWZubdIwTMXhfAPVsx2=s800</g:image_link>
+      <g:brand>Fiat</g:brand>
+      <g:make>Fiat</g:make>
+      <g:model>CRONOS</g:model>
+      <g:year>2022</g:year>
+      <g:mileage value="96780" unit="KM" />
+      <g:body_style>Sedan</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>1.3 Firefly</g:trim>
+      <g:vehicle_id>2317321</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2307491</g:id>
+      <g:title>Fiat MOBI 2025</g:title>
+      <g:description>Fiat MOBI - 1.0 EVO Like. | Ano 2025 | 41.299 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>64790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1MMBkxXnsmDYKS5nA0lLETcoYE05pw50G=s800</g:image_link>
+      <g:brand>Fiat</g:brand>
+      <g:make>Fiat</g:make>
+      <g:model>MOBI</g:model>
+      <g:year>2025</g:year>
+      <g:mileage value="41299" unit="KM" />
+      <g:body_style>Hatchback</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>1.0 EVO Like.</g:trim>
+      <g:vehicle_id>2307491</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2319605</g:id>
+      <g:title>Fiat MOBI 2022</g:title>
+      <g:description>Fiat MOBI - 1.0 EVO Like. | Ano 2022 | 75.380 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>54790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/17IMNyjzFxxXtItAfCu-g719UodpjmY0t=s800</g:image_link>
+      <g:brand>Fiat</g:brand>
+      <g:make>Fiat</g:make>
+      <g:model>MOBI</g:model>
+      <g:year>2022</g:year>
+      <g:mileage value="75380" unit="KM" />
+      <g:body_style>Hatchback</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>1.0 EVO Like.</g:trim>
+      <g:vehicle_id>2319605</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2305889</g:id>
+      <g:title>Fiat STRADA 2023</g:title>
+      <g:description>Fiat STRADA - 1.4 Fire Endurance CS | Ano 2023 | 99.466 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>73790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1NNBNMI0uVjdpRQGwnyUm2dhs2WUKq5-O=s800</g:image_link>
+      <g:brand>Fiat</g:brand>
+      <g:make>Fiat</g:make>
+      <g:model>STRADA</g:model>
+      <g:year>2023</g:year>
+      <g:mileage value="99466" unit="KM" />
+      <g:body_style>CAMIONETE</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>1.4 Fire Endurance CS</g:trim>
+      <g:vehicle_id>2305889</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2305896</g:id>
+      <g:title>Fiat TIPO 1995</g:title>
+      <g:description>Fiat TIPO - 2.0 IE SLX 8V | Ano 1995 | 204.000 km | Gasolina | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>38790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1sVZ732TWUnW0nWrPvSQil_c252uYd2aS=s800</g:image_link>
+      <g:brand>Fiat</g:brand>
+      <g:make>Fiat</g:make>
+      <g:model>TIPO</g:model>
+      <g:year>1995</g:year>
+      <g:mileage value="204000" unit="KM" />
+      <g:body_style>Hatchback</g:body_style>
+      <g:fuel_type>Gasoline</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>2.0 IE SLX 8V</g:trim>
+      <g:vehicle_id>2305896</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2305915</g:id>
+      <g:title>Honda CIVIC 1995</g:title>
+      <g:description>Honda CIVIC - 1.5 LX 16V | Ano 1995 | 155.000 km | Gasolina | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>43790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1WddRdHHnzE_O7p3ksJQsvknX2qDGWUSo=s800</g:image_link>
+      <g:brand>Honda</g:brand>
+      <g:make>Honda</g:make>
+      <g:model>CIVIC</g:model>
+      <g:year>1995</g:year>
+      <g:mileage value="155000" unit="KM" />
+      <g:body_style>Sedan</g:body_style>
+      <g:fuel_type>Gasoline</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>1.5 LX 16V</g:trim>
+      <g:vehicle_id>2305915</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2319606</g:id>
+      <g:title>Honda CIVIC 2016</g:title>
+      <g:description>Honda CIVIC - 1.8 LXS 16V | Ano 2016 | 113.320 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>75790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1AX2ZACN9-AyAqEinsq6Qp791Belbq9eA=s800</g:image_link>
+      <g:brand>Honda</g:brand>
+      <g:make>Honda</g:make>
+      <g:model>CIVIC</g:model>
+      <g:year>2016</g:year>
+      <g:mileage value="113320" unit="KM" />
+      <g:body_style>Sedan</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>1.8 LXS 16V</g:trim>
+      <g:vehicle_id>2319606</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2320118</g:id>
+      <g:title>Honda CIVIC 2021</g:title>
+      <g:description>Honda CIVIC - 2.0 16vone EX | Ano 2021 | 64.464 km | Flex | CVT. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>117790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1dacAlbtSsp9hm-CqF-JbIo4_YrlA0PDc=s800</g:image_link>
+      <g:brand>Honda</g:brand>
+      <g:make>Honda</g:make>
+      <g:model>CIVIC</g:model>
+      <g:year>2021</g:year>
+      <g:mileage value="64464" unit="KM" />
+      <g:body_style>Sedan</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>CVT</g:transmission>
+      <g:trim>2.0 16vone EX</g:trim>
+      <g:vehicle_id>2320118</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2307123</g:id>
+      <g:title>Honda Fit 2019</g:title>
+      <g:description>Honda Fit - 1.5 Personal 16V | Ano 2019 | 29.022 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>82790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1Otvom-Pi_e4zPDJeHkmSPUMYmHFy7YaJ=s800</g:image_link>
+      <g:brand>Honda</g:brand>
+      <g:make>Honda</g:make>
+      <g:model>Fit</g:model>
+      <g:year>2019</g:year>
+      <g:mileage value="29022" unit="KM" />
+      <g:body_style>Hatchback</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>1.5 Personal 16V</g:trim>
+      <g:vehicle_id>2307123</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2316139</g:id>
+      <g:title>Honda HR-V 2020</g:title>
+      <g:description>Honda HR-V - 1.5 16V Turbo Touring | Ano 2020 | 93.000 km | Gasolina | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>119790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1VOc96oRC97juwHvngN7eg0Lh0I8xsao3=s800</g:image_link>
+      <g:brand>Honda</g:brand>
+      <g:make>Honda</g:make>
+      <g:model>HR-V</g:model>
+      <g:year>2020</g:year>
+      <g:mileage value="93000" unit="KM" />
+      <g:body_style>SUV</g:body_style>
+      <g:fuel_type>Gasoline</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>1.5 16V Turbo Touring</g:trim>
+      <g:vehicle_id>2316139</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2308776</g:id>
+      <g:title>Honda HR-V 2018</g:title>
+      <g:description>Honda HR-V - 1.8 16V EX | Ano 2018 | 105.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>97790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1EhGdtp8T4I5i8NwYZeIgGSvqJhsUwjaz=s800</g:image_link>
+      <g:brand>Honda</g:brand>
+      <g:make>Honda</g:make>
+      <g:model>HR-V</g:model>
+      <g:year>2018</g:year>
+      <g:mileage value="105000" unit="KM" />
+      <g:body_style>SUV</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>1.8 16V EX</g:trim>
+      <g:vehicle_id>2308776</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2305957</g:id>
+      <g:title>Honda HR-V 2021</g:title>
+      <g:description>Honda HR-V - 1.8 16V EX | Ano 2021 | 107.000 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>105790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1BEPbW2IHUUf_WgWXrNXJGgMCQrHEe1MQ=s800</g:image_link>
+      <g:brand>Honda</g:brand>
+      <g:make>Honda</g:make>
+      <g:model>HR-V</g:model>
+      <g:year>2021</g:year>
+      <g:mileage value="107000" unit="KM" />
+      <g:body_style>SUV</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>1.8 16V EX</g:trim>
+      <g:vehicle_id>2305957</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2305965</g:id>
+      <g:title>Hyundai CRETA 2025</g:title>
+      <g:description>Hyundai CRETA - 1.0 Tgdi Comfort Plus | Ano 2025 | 41.691 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>119790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/13gq_oAiTNWzKddRoFrfp7zkMMfsiTihh=s800</g:image_link>
+      <g:brand>Hyundai</g:brand>
+      <g:make>Hyundai</g:make>
+      <g:model>CRETA</g:model>
+      <g:year>2025</g:year>
+      <g:mileage value="41691" unit="KM" />
+      <g:body_style>SUV</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Automatic</g:transmission>
+      <g:trim>1.0 Tgdi Comfort Plus</g:trim>
+      <g:vehicle_id>2305965</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2319465</g:id>
+      <g:title>Hyundai HB20 2026</g:title>
+      <g:description>Hyundai HB20 - 1.0 12V Comfort | Ano 2026 | 37.100 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>80790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1h6hIvW9Ux0Oaocgvu3DRlP4V2pZLrBmc=s800</g:image_link>
+      <g:brand>Hyundai</g:brand>
+      <g:make>Hyundai</g:make>
+      <g:model>HB20</g:model>
+      <g:year>2026</g:year>
+      <g:mileage value="37100" unit="KM" />
+      <g:body_style>Hatchback</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>1.0 12V Comfort</g:trim>
+      <g:vehicle_id>2319465</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2305974</g:id>
+      <g:title>Hyundai HB20 2025</g:title>
+      <g:description>Hyundai HB20 - 1.0 12V Comfort Plus | Ano 2025 | 44.808 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>76790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1mpf2haumfp0BDY0usz-g1e3ZRmQHnfL4=s800</g:image_link>
+      <g:brand>Hyundai</g:brand>
+      <g:make>Hyundai</g:make>
+      <g:model>HB20</g:model>
+      <g:year>2025</g:year>
+      <g:mileage value="44808" unit="KM" />
+      <g:body_style>Hatchback</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>1.0 12V Comfort Plus</g:trim>
+      <g:vehicle_id>2305974</g:vehicle_id>
     </item>
     <item>
       <g:id>2319042</g:id>
@@ -2061,52 +2261,12 @@
       <g:vehicle_id>2319042</g:vehicle_id>
     </item>
     <item>
-      <g:id>2319464</g:id>
-      <g:title>Chevrolet ONIX 2025</g:title>
-      <g:description>Chevrolet ONIX - 1.0 LT | Ano 2025 | 24.808 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>74790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1ENElx6z4B_LkLvDYTSPbeX-Ye7TnZau1=s800</g:image_link>
-      <g:brand>Chevrolet</g:brand>
-      <g:make>Chevrolet</g:make>
-      <g:model>ONIX</g:model>
-      <g:year>2025</g:year>
-      <g:mileage value="24808" unit="KM" />
-      <g:body_style>Hatchback</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>1.0 LT</g:trim>
-      <g:vehicle_id>2319464</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2318594</g:id>
-      <g:title>Chevrolet ONIX 2021</g:title>
-      <g:description>Chevrolet ONIX - 1.0 Turbo Plus | Ano 2021 | 55.390 km | Flex | Automático. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>69790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1YV3PHQnPrRkoQ3NQ3k4YA_cQZXwwhxDW=s800</g:image_link>
-      <g:brand>Chevrolet</g:brand>
-      <g:make>Chevrolet</g:make>
-      <g:model>ONIX</g:model>
-      <g:year>2021</g:year>
-      <g:mileage value="55390" unit="KM" />
-      <g:body_style>Hatchback</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Automatic</g:transmission>
-      <g:trim>1.0 Turbo Plus</g:trim>
-      <g:vehicle_id>2318594</g:vehicle_id>
-    </item>
-    <item>
       <g:id>2317501</g:id>
       <g:title>Chevrolet ONIX 2025</g:title>
       <g:description>Chevrolet ONIX - 1.0 Turbo Plus LT | Ano 2025 | 35.641 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
       <g:availability>in stock</g:availability>
       <g:condition>used</g:condition>
-      <g:price>82790.00 BRL</g:price>
+      <g:price>83790.00 BRL</g:price>
       <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
       <g:image_link>https://lh3.googleusercontent.com/d/1jjhEFBv7x3rOY1MfgXrY3ZJ_t8CZnHIT=s800</g:image_link>
       <g:brand>Chevrolet</g:brand>
@@ -2119,6 +2279,46 @@
       <g:transmission>Manual</g:transmission>
       <g:trim>1.0 Turbo Plus LT</g:trim>
       <g:vehicle_id>2317501</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2320407</g:id>
+      <g:title>Chevrolet ONIX 2025</g:title>
+      <g:description>Chevrolet ONIX - 1.0 Turbo Plus LT | Ano 2025 | 27.130 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>83790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1PlfJBkA5FzsC6LVDZ7r2SdNV2agd0rZI=s800</g:image_link>
+      <g:brand>Chevrolet</g:brand>
+      <g:make>Chevrolet</g:make>
+      <g:model>ONIX</g:model>
+      <g:year>2025</g:year>
+      <g:mileage value="27130" unit="KM" />
+      <g:body_style>Hatchback</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>1.0 Turbo Plus LT</g:trim>
+      <g:vehicle_id>2320407</g:vehicle_id>
+    </item>
+    <item>
+      <g:id>2317326</g:id>
+      <g:title>Chevrolet ONIX 2025</g:title>
+      <g:description>Chevrolet ONIX - 1.0 Turbo Plus LT | Ano 2025 | 39.298 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
+      <g:availability>in stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>83790.00 BRL</g:price>
+      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1bKjfM5RXeS9Kd5IIdHnzCZbKx8EQJtXC=s800</g:image_link>
+      <g:brand>Chevrolet</g:brand>
+      <g:make>Chevrolet</g:make>
+      <g:model>ONIX</g:model>
+      <g:year>2025</g:year>
+      <g:mileage value="39298" unit="KM" />
+      <g:body_style>Hatchback</g:body_style>
+      <g:fuel_type>Flex-fuel</g:fuel_type>
+      <g:transmission>Manual</g:transmission>
+      <g:trim>1.0 Turbo Plus LT</g:trim>
+      <g:vehicle_id>2317326</g:vehicle_id>
     </item>
     <item>
       <g:id>2318113</g:id>
@@ -2208,7 +2408,7 @@
       <g:condition>used</g:condition>
       <g:price>86790.00 BRL</g:price>
       <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1ymjj9WS0NHy3Nytq84rsp_XlJvaIkcoA=s800</g:image_link>
+      <g:image_link>https://lh3.googleusercontent.com/d/1KsHffENKPgLQs5n7Wyk1CjPAxcOwcIVs=s800</g:image_link>
       <g:brand>Chevrolet</g:brand>
       <g:make>Chevrolet</g:make>
       <g:model>TRACKER</g:model>
@@ -2239,186 +2439,6 @@
       <g:transmission>Manual</g:transmission>
       <g:trim>1.0 Firefly Drive</g:trim>
       <g:vehicle_id>2305800</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2317322</g:id>
-      <g:title>Fiat CRONOS 2025</g:title>
-      <g:description>Fiat CRONOS - 1.0 Firefly Drive | Ano 2025 | 32.989 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>82790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1s-ODmfD9QNmXChvK0Cg48-CM4QyfN6I-=s800</g:image_link>
-      <g:brand>Fiat</g:brand>
-      <g:make>Fiat</g:make>
-      <g:model>CRONOS</g:model>
-      <g:year>2025</g:year>
-      <g:mileage value="32989" unit="KM" />
-      <g:body_style>Sedan</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>1.0 Firefly Drive</g:trim>
-      <g:vehicle_id>2317322</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2305805</g:id>
-      <g:title>Fiat CRONOS 2025</g:title>
-      <g:description>Fiat CRONOS - 1.0 Firefly Drive | Ano 2025 | 37.229 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>82790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1G_VmijxkFbr0kCxSmTLnDSnRrlzOHKXe=s800</g:image_link>
-      <g:brand>Fiat</g:brand>
-      <g:make>Fiat</g:make>
-      <g:model>CRONOS</g:model>
-      <g:year>2025</g:year>
-      <g:mileage value="37229" unit="KM" />
-      <g:body_style>Sedan</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>1.0 Firefly Drive</g:trim>
-      <g:vehicle_id>2305805</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2317321</g:id>
-      <g:title>Fiat CRONOS 2022</g:title>
-      <g:description>Fiat CRONOS - 1.3 Firefly | Ano 2022 | 96.780 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>66790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1dF2vzaUVDET0_nWZubdIwTMXhfAPVsx2=s800</g:image_link>
-      <g:brand>Fiat</g:brand>
-      <g:make>Fiat</g:make>
-      <g:model>CRONOS</g:model>
-      <g:year>2022</g:year>
-      <g:mileage value="96780" unit="KM" />
-      <g:body_style>Sedan</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>1.3 Firefly</g:trim>
-      <g:vehicle_id>2317321</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2307491</g:id>
-      <g:title>Fiat MOBI 2025</g:title>
-      <g:description>Fiat MOBI - 1.0 EVO Like. | Ano 2025 | 41.299 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>64790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1dfsAksD1LVEL5yWTx0RheefmKv5vrYz5=s800</g:image_link>
-      <g:brand>Fiat</g:brand>
-      <g:make>Fiat</g:make>
-      <g:model>MOBI</g:model>
-      <g:year>2025</g:year>
-      <g:mileage value="41299" unit="KM" />
-      <g:body_style>Hatchback</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>1.0 EVO Like.</g:trim>
-      <g:vehicle_id>2307491</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2319605</g:id>
-      <g:title>Fiat MOBI 2022</g:title>
-      <g:description>Fiat MOBI - 1.0 EVO Like. | Ano 2022 | 75.380 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>54790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/17IMNyjzFxxXtItAfCu-g719UodpjmY0t=s800</g:image_link>
-      <g:brand>Fiat</g:brand>
-      <g:make>Fiat</g:make>
-      <g:model>MOBI</g:model>
-      <g:year>2022</g:year>
-      <g:mileage value="75380" unit="KM" />
-      <g:body_style>Hatchback</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>1.0 EVO Like.</g:trim>
-      <g:vehicle_id>2319605</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2305889</g:id>
-      <g:title>Fiat STRADA 2023</g:title>
-      <g:description>Fiat STRADA - 1.4 Fire Endurance CS | Ano 2023 | 99.466 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>74790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1NNBNMI0uVjdpRQGwnyUm2dhs2WUKq5-O=s800</g:image_link>
-      <g:brand>Fiat</g:brand>
-      <g:make>Fiat</g:make>
-      <g:model>STRADA</g:model>
-      <g:year>2023</g:year>
-      <g:mileage value="99466" unit="KM" />
-      <g:body_style>CAMIONETE</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>1.4 Fire Endurance CS</g:trim>
-      <g:vehicle_id>2305889</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2305896</g:id>
-      <g:title>Fiat TIPO 1995</g:title>
-      <g:description>Fiat TIPO - 2.0 IE SLX 8V | Ano 1995 | 204.000 km | Gasolina | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>38790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1F-Obm9-DvK5nG7jaW5CAGLZMHpqHXi4A=s800</g:image_link>
-      <g:brand>Fiat</g:brand>
-      <g:make>Fiat</g:make>
-      <g:model>TIPO</g:model>
-      <g:year>1995</g:year>
-      <g:mileage value="204000" unit="KM" />
-      <g:body_style>Hatchback</g:body_style>
-      <g:fuel_type>Gasoline</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>2.0 IE SLX 8V</g:trim>
-      <g:vehicle_id>2305896</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2319603</g:id>
-      <g:title>Ford ECOSPORT 2013</g:title>
-      <g:description>Ford ECOSPORT - 1.6 Freestyle 16V | Ano 2013 | 49.280 km | Flex | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>58790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1aHoM9K_qSGoKhmXfbnOebM_OoUg7prAY=s800</g:image_link>
-      <g:brand>Ford</g:brand>
-      <g:make>Ford</g:make>
-      <g:model>ECOSPORT</g:model>
-      <g:year>2013</g:year>
-      <g:mileage value="49280" unit="KM" />
-      <g:body_style>SUV</g:body_style>
-      <g:fuel_type>Flex-fuel</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>1.6 Freestyle 16V</g:trim>
-      <g:vehicle_id>2319603</g:vehicle_id>
-    </item>
-    <item>
-      <g:id>2305915</g:id>
-      <g:title>Honda CIVIC 1995</g:title>
-      <g:description>Honda CIVIC - 1.5 LX 16V | Ano 1995 | 155.000 km | Gasolina | Manual. Laudo cautelar aprovado, garantia de até 2 anos. Fale com O Brabo das Vendas!</g:description>
-      <g:availability>in stock</g:availability>
-      <g:condition>used</g:condition>
-      <g:price>43790.00 BRL</g:price>
-      <g:link>https://luizintrepido.github.io/brabo-landing/#estoque</g:link>
-      <g:image_link>https://lh3.googleusercontent.com/d/1PDV5PJYzxsY53KzFmHLXa3XkycZ5536C=s800</g:image_link>
-      <g:brand>Honda</g:brand>
-      <g:make>Honda</g:make>
-      <g:model>CIVIC</g:model>
-      <g:year>1995</g:year>
-      <g:mileage value="155000" unit="KM" />
-      <g:body_style>Sedan</g:body_style>
-      <g:fuel_type>Gasoline</g:fuel_type>
-      <g:transmission>Manual</g:transmission>
-      <g:trim>1.5 LX 16V</g:trim>
-      <g:vehicle_id>2305915</g:vehicle_id>
     </item>
   </channel>
 </rss>
