@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>O Brabo das Vendas | Compre seu carro do jeito certo</title>
-<meta name="description" content="Simule seu financiamento, veja o estoque e fale com o Brabo. Grupo Reauto Veículos, 41 anos de mercado, 6 lojas na Baixada Santista.">
+<meta name="description" content="Simule seu financiamento, veja o estoque e fale com o Brabo. Carmax — o máximo em qualidade. Loja no Praia AutoShopping, Praia Grande/SP.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@500;600;700;900&display=swap" rel="stylesheet">
@@ -254,6 +254,22 @@ nav{position:fixed;top:3px;left:0;right:0;z-index:900;background:rgba(10,10,10,.
 .final-cta .h2{max-width:660px;margin:0 auto 14px}
 .final-cta .lead{max-width:440px;margin:0 auto 36px}
 
+
+/* -- CREDIBILIDADE CARMAX -- */
+.cred{padding:0 24px 72px}
+.cred-box{max-width:1180px;margin:0 auto;background:var(--card,#111);border:1px solid var(--border,rgba(255,255,255,.08));border-radius:12px;padding:38px 32px;position:relative;overflow:hidden}
+.cred-box::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--orange,#FF6A00)}
+.cred-head{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:22px}
+.cred-logo{height:46px;width:auto;display:block}
+.cred-slogan{font-family:'Barlow Condensed','Bebas Neue',sans-serif;text-transform:uppercase;letter-spacing:1.5px;font-size:20px;color:var(--orange,#FF6A00);line-height:1.1}
+.cred-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:22px}
+.cred-item{border-left:2px solid var(--orange,#FF6A00);padding-left:14px}
+.cred-k{font-size:10px;text-transform:uppercase;letter-spacing:1.2px;color:var(--gray2,#777);margin-bottom:5px}
+.cred-v{font-size:14px;color:var(--white,#fff);line-height:1.6;font-weight:600}
+.cred-v span{display:block;font-weight:400;color:var(--gray,#aaa);font-size:13px}
+.cred-note{margin-top:24px;font-size:12px;color:var(--gray2,#777);line-height:1.7;border-top:1px solid var(--border,rgba(255,255,255,.08));padding-top:16px}
+@media(max-width:640px){.cred-box{padding:28px 20px}.cred-slogan{font-size:17px}}
+
 /* ── FOOTER ── */
 footer{background:#080808;border-top:1px solid rgba(255,255,255,.04);padding:32px 24px;text-align:center}
 .foot-logo{font-family:'Bebas Neue',sans-serif;font-size:22px;color:var(--white);margin-bottom:5px}
@@ -386,6 +402,7 @@ src="https://www.facebook.com/tr?id=738602160165568&ev=PageView&noscript=1"/></n
       <a href="#sobre" class="nav-link">Sobre</a>
       <a href="#estoque" class="nav-link">Estoque</a>
       <a href="#simulador" class="nav-link">Simular</a>
+      <a href="#a-loja" class="nav-link">A loja</a>
       <a href="https://wa.me/5513991575019?text=Oi+Luiz%2C+vim+pelo+site+e+quero+comprar+um+carro!" target="_blank" class="nav-wa">💬 WhatsApp</a>
     </div>
     <div class="nav-search">
@@ -403,12 +420,12 @@ src="https://www.facebook.com/tr?id=738602160165568&ev=PageView&noscript=1"/></n
         <div class="about-card">
           <img src="foto-luiz.jpg.jpeg" alt="Luiz - O Brabo das Vendas" style="width:100%;border-radius:8px;margin-bottom:22px;display:block;object-fit:cover;">
           <h3>Luiz · O Brabo das Vendas</h3>
-          <div class="sub">@luiz.obrabodasvendas · Recar Automarcas</div>
+          <div class="sub">@luiz.obrabodasvendas · Carmax</div>
           <div class="mini-stats">
             <div class="mini-s"><span class="mini-n">1M+</span><div class="mini-l">Views/mês</div></div>
-            <div class="mini-s"><span class="mini-n">41 anos</span><div class="mini-l">Grupo Reauto</div></div>
-            <div class="mini-s"><span class="mini-n">6</span><div class="mini-l">Lojas ativas</div></div>
-            <div class="mini-s"><span class="mini-n">1.000+</span><div class="mini-l">Carros/ano</div></div>
+            <div class="mini-s"><span class="mini-n">2006</span><div class="mini-l">Carmax desde</div></div>
+            <div class="mini-s"><span class="mini-n">2</span><div class="mini-l">Santos e P. Grande</div></div>
+            <div class="mini-s"><span class="mini-n">100%</span><div class="mini-l">Veículos revisados</div></div>
           </div>
         </div>
       </div>
@@ -420,13 +437,13 @@ src="https://www.facebook.com/tr?id=738602160165568&ev=PageView&noscript=1"/></n
           <p>Eu sou Luiz, o <strong>Brabo das Vendas</strong> — o personagem que virou referência no Brasil inteiro quando o assunto é comprar carro sem se dar mal.</p>
           <p>Com um estilo <strong>único: fácil, didático e divertido no formato HQ</strong>, transformei assuntos complicados como financiamento, score, aprovação de crédito e escolha de modelo em conteúdo que qualquer pessoa entende — e compartilha.</p>
           <p>São <strong>mais de 1 milhão de visualizações por mês</strong> nas redes sociais. Isso não é sorte. É consistência, autoridade e a prova de que o método funciona.</p>
-          <p>Na vida real, sou consultor de veículos na <strong>Recar Automarcas</strong>, parte do <strong>Grupo Reauto Veículos</strong> — 41 anos de mercado, 6 lojas na Baixada Santista. Quem me acompanha nas redes sabe: quando decide comprar, sabe exatamente com quem falar.</p>
+          <p>Na vida real, sou consultor de veículos na <strong>Carmax</strong> — <em>o máximo em qualidade</em> — maior multimarcas da Baixada Santista desde 2006, com unidades em Santos e no <strong>Praia AutoShopping</strong>, em Praia Grande. Quem me acompanha nas redes sabe: quando decide comprar, sabe exatamente com quem falar.</p>
         </div>
         <div class="badges">
           <div class="badge"><em>✓</em> +1M views/mês</div>
           <div class="badge"><em>✓</em> Conteúdo estilo HQ</div>
           <div class="badge"><em>✓</em> Instagram e TikTok</div>
-          <div class="badge"><em>✓</em> Grupo Reauto, 41 anos</div>
+          <div class="badge"><em>✓</em> Carmax, desde 2006</div>
           <div class="badge"><em>✓</em> Especialista em financiamento</div>
           <div class="badge"><em>✓</em> Pós-venda real e humano</div>
         </div>
@@ -449,9 +466,9 @@ src="https://www.facebook.com/tr?id=738602160165568&ev=PageView&noscript=1"/></n
   <div class="wrap" style="padding:0">
     <div class="stats">
       <div class="stat fi"><span class="stat-n">1M+</span><span class="stat-l">Views/mês</span></div>
-      <div class="stat fi d1"><span class="stat-n">41</span><span class="stat-l">Anos Grupo Reauto</span></div>
-      <div class="stat fi d2"><span class="stat-n">6</span><span class="stat-l">Lojas ativas</span></div>
-      <div class="stat fi d3"><span class="stat-n">1.000+</span><span class="stat-l">Carros/ano</span></div>
+      <div class="stat fi d1"><span class="stat-n">2006</span><span class="stat-l">Carmax desde</span></div>
+      <div class="stat fi d2"><span class="stat-n">2</span><span class="stat-l">Santos e P. Grande</span></div>
+      <div class="stat fi d3"><span class="stat-n">100%</span><span class="stat-l">Veículos revisados</span></div>
     </div>
   </div>
 </div>
@@ -523,7 +540,7 @@ src="https://www.facebook.com/tr?id=738602160165568&ev=PageView&noscript=1"/></n
     <div class="gsi"><img src="" alt="entrega"></div>
   </div>
   <div class="gallery-badge fi" style="padding:0 24px;margin-top:4px">
-    <div class="gallery-badge-inner">🔑 Mais de 1.000 entregas realizadas todo ano pelo Grupo Reauto Veículos</div>
+    <div class="gallery-badge-inner">🔑 Entregas reais, com o padrão de qualidade e respeito da Carmax</div>
   </div>
 </section>
 
@@ -567,7 +584,7 @@ src="https://www.facebook.com/tr?id=738602160165568&ev=PageView&noscript=1"/></n
         <div class="j-num">1</div>
         <span class="j-ico">🔍</span>
         <div class="j-title">Escolha o carro</div>
-        <p class="j-desc">Veja o estoque completo, filtre por tipo e valor. Mais de 130 opções disponíveis agora.</p>
+        <p class="j-desc">Veja o estoque completo da Carmax, filtre por tipo e valor. Todos revisados e prontos pra entrega.</p>
       </div>
       <div class="journey-step">
         <div class="j-num">2</div>
@@ -593,7 +610,7 @@ src="https://www.facebook.com/tr?id=738602160165568&ev=PageView&noscript=1"/></n
 
 <!-- HERO -->
 <section class="hero">
-  <div class="hero-eye">Grupo Reauto Veículos · 41 anos · 6 lojas</div>
+  <div class="hero-eye">Carmax · O máximo em qualidade · Desde 2006</div>
   <h1 class="h1 fi">Compre seu carro<span>do jeito certo.</span></h1>
   <p class="lead fi d1">Simule o financiamento, veja o estoque e fale comigo agora.<br>Mais de <strong style="color:var(--white)">1 milhão de pessoas</strong> já confiam no Brabo pra essa decisão.</p>
   <div class="hero-btns fi d2">
@@ -607,19 +624,19 @@ src="https://www.facebook.com/tr?id=738602160165568&ev=PageView&noscript=1"/></n
   <div class="strip fi d3">
     <div class="strip-track">
       <div class="strip-item"><div class="strip-dot"></div>+1 milhão de views/mês</div>
-      <div class="strip-item"><div class="strip-dot"></div>Grupo Reauto Veículos</div>
-      <div class="strip-item"><div class="strip-dot"></div>41 anos de mercado</div>
-      <div class="strip-item"><div class="strip-dot"></div>6 lojas Baixada Santista</div>
-      <div class="strip-item"><div class="strip-dot"></div>+1.000 carros/ano</div>
-      <div class="strip-item"><div class="strip-dot"></div>130+ em estoque</div>
+      <div class="strip-item"><div class="strip-dot"></div>Carmax · O máximo em qualidade</div>
+      <div class="strip-item"><div class="strip-dot"></div>Desde 2006 na Baixada</div>
+      <div class="strip-item"><div class="strip-dot"></div>Praia AutoShopping · Praia Grande</div>
+      <div class="strip-item"><div class="strip-dot"></div>Veículos revisados</div>
+      <div class="strip-item"><div class="strip-dot"></div>Santos e Praia Grande</div>
       <div class="strip-item"><div class="strip-dot"></div>Financiamento aprovado</div>
       <div class="strip-item"><div class="strip-dot"></div>Aceita troca</div>
       <div class="strip-item"><div class="strip-dot"></div>+1 milhão de views/mês</div>
-      <div class="strip-item"><div class="strip-dot"></div>Grupo Reauto Veículos</div>
-      <div class="strip-item"><div class="strip-dot"></div>41 anos de mercado</div>
-      <div class="strip-item"><div class="strip-dot"></div>6 lojas Baixada Santista</div>
-      <div class="strip-item"><div class="strip-dot"></div>+1.000 carros/ano</div>
-      <div class="strip-item"><div class="strip-dot"></div>130+ em estoque</div>
+      <div class="strip-item"><div class="strip-dot"></div>Carmax · O máximo em qualidade</div>
+      <div class="strip-item"><div class="strip-dot"></div>Desde 2006 na Baixada</div>
+      <div class="strip-item"><div class="strip-dot"></div>Praia AutoShopping · Praia Grande</div>
+      <div class="strip-item"><div class="strip-dot"></div>Veículos revisados</div>
+      <div class="strip-item"><div class="strip-dot"></div>Santos e Praia Grande</div>
       <div class="strip-item"><div class="strip-dot"></div>Financiamento aprovado</div>
       <div class="strip-item"><div class="strip-dot"></div>Aceita troca</div>
     </div>
@@ -654,7 +671,7 @@ src="https://www.facebook.com/tr?id=738602160165568&ev=PageView&noscript=1"/></n
 
     <div class="stock-cta fi">
       <a href="https://wa.me/5513991575019?text=Oi+Luiz%2C+quero+ver+todos+os+carros+disponíveis!" target="_blank" class="btn btn-catalog">🚗 Ver estoque completo</a>
-      <p class="stock-cta-note">Não achou o que procura? Me chama e eu busco pra você. 130+ veículos no estoque do Grupo Reauto.</p>
+      <p class="stock-cta-note">Não achou o que procura? Me chama e eu busco pra você, no estoque da Carmax em Santos e Praia Grande.</p>
     </div>
     <p style="font-size:11px;color:var(--gray2);text-align:center;margin-top:20px">*Estimativa de parcela calculada com base em 60 meses e 20% de entrada. Condições sujeitas a aprovação de crédito.</p>
   </div>
@@ -707,7 +724,7 @@ src="https://www.facebook.com/tr?id=738602160165568&ev=PageView&noscript=1"/></n
           </div>
           <div class="sim-check-item">
             <div class="sim-check-icon">🏦</div>
-            <div class="sim-check-text"><strong>Análise com bancos reais</strong><span>Consulto as melhores condições com os parceiros do Grupo Reauto pra você.</span></div>
+            <div class="sim-check-text"><strong>Análise com bancos reais</strong><span>Consulto as melhores condições com os bancos parceiros da Carmax pra você.</span></div>
           </div>
           <div class="sim-check-item">
             <div class="sim-check-icon">✅</div>
@@ -893,7 +910,7 @@ src="https://www.facebook.com/tr?id=738602160165568&ev=PageView&noscript=1"/></n
 
       <div class="faq-item fi d2">
         <div class="faq-q" onclick="toggleFaq(this)">Atende fora de Praia Grande?</div>
-        <div class="faq-a"><p>Sim! O Grupo Reauto tem 6 lojas espalhadas pela Baixada Santista. Atendemos Santos, São Vicente, Cubatão, Guarujá, Mongaguá, Itanhaém e toda a região. Me fala onde você está que a gente se organiza.</p></div>
+        <div class="faq-a"><p>Sim! A Carmax tem unidades em Santos e em Praia Grande (Praia AutoShopping). Atendemos Santos, São Vicente, Cubatão, Guarujá, Mongaguá, Itanhaém e toda a região. Me fala onde você está que a gente se organiza.</p></div>
       </div>
 
     </div>
@@ -928,9 +945,41 @@ src="https://www.facebook.com/tr?id=738602160165568&ev=PageView&noscript=1"/></n
   </div>
 </section>
 
+
+<!-- CREDIBILIDADE / DADOS DA LOJA -->
+<section class="cred" id="a-loja">
+  <div class="cred-box">
+    <div class="cred-head">
+      <img src="carmax-logo.png" alt="Carmax" class="cred-logo" onerror="this.style.display='none'">
+      <div class="cred-slogan">Carmax, o m&aacute;ximo em qualidade!</div>
+    </div>
+    <div class="cred-grid">
+      <div class="cred-item">
+        <div class="cred-k">Unidade Praia Grande</div>
+        <div class="cred-v">Praia AutoShopping<span>Av. Ayrton Senna da Silva, 611 &mdash; Praia Grande/SP</span></div>
+      </div>
+      <div class="cred-item">
+        <div class="cred-k">Tempo de mercado</div>
+        <div class="cred-v">Desde 2006<span>Maior multimarcas da Baixada Santista</span></div>
+      </div>
+      <div class="cred-item">
+        <div class="cred-k">Compromisso</div>
+        <div class="cred-v">Qualidade e respeito<span>Ve&iacute;culos revisados e atendimento com transpar&ecirc;ncia</span></div>
+      </div>
+      <!-- PREENCHER: descomente a linha abaixo quando tiver o CNPJ e a razao social exatos
+      <div class="cred-item">
+        <div class="cred-k">Empresa</div>
+        <div class="cred-v">RAZAO SOCIAL AQUI<span>CNPJ 00.000.000/0001-00</span></div>
+      </div>
+      -->
+    </div>
+    <div class="cred-note">Estabelecimento f&iacute;sico com loja aberta ao p&uacute;blico no Praia AutoShopping. Documenta&ccedil;&atilde;o, vistoria e transfer&ecirc;ncia conduzidas pela loja.</div>
+  </div>
+</section>
+
 <footer>
   <div class="foot-logo">O <span>BRABO</span> DAS VENDAS</div>
-  <div class="foot-sub">Recar Automarcas · Grupo Reauto Veículos · Praia Grande, SP</div>
+  <div class="foot-sub">Carmax · Praia AutoShopping · Praia Grande, SP</div>
   <div class="foot-links">
     <a href="https://www.instagram.com/luiz.obrabodasvendas" target="_blank">Instagram</a>
     <a href="https://wa.me/5513991575019" target="_blank">WhatsApp</a>
@@ -939,6 +988,7 @@ src="https://www.facebook.com/tr?id=738602160165568&ev=PageView&noscript=1"/></n
     <a href="#entregas">Entregas</a>
     <a href="#faq">Dúvidas</a>
     <a href="#sobre">Sobre</a>
+    <a href="#a-loja">A loja</a>
   </div>
   <div class="foot-copy">© 2025 O Brabo das Vendas · Todos os direitos reservados</div>
 </footer>
